@@ -1,6 +1,6 @@
 # Maiden & Miranda (Goddess of Victory: NIKKE)
 
-Extracted game assets, technical specifications, and interactive visual confirmation gallery for **Maiden** (`c181`, `c183`) and **Miranda** (`c032`) from **Goddess of Victory: NIKKE** (Build 578825). Both characters share Japanese voice acting by Horie Yui (堀江由衣).
+Extracted game assets, technical specifications, and interactive visual confirmation gallery for **Maiden** (`c181`, `c183`) and **Miranda** (`c032`) from **Goddess of Victory: NIKKE** (v153.6.10). Both characters share Japanese voice acting by Horie Yui (堀江由衣).
 
 ## Pipeline and reproduction
 
