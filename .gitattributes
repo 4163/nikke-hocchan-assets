@@ -1,0 +1,12 @@
+# Normalize line endings
+* text=auto
+
+# Binary assets
+*.png binary
+*.wav binary
+*.mp4 binary
+*.skel binary
+*.atlas binary
+*.obj binary
+*.anim binary
+*.lss binary

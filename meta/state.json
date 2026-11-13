@@ -1,0 +1,339 @@
+{
+  "pipeline_stage": "Stage 4: Presentation and visualization specification",
+  "stage_status": "Stage 4 presentation and visualization specification completed. specs/visualization-spec.md generated. Awaiting final user sign-off.",
+  "scope_specification": {
+    "target": "Maiden and Miranda",
+    "japanese_name": "\u30e1\u30a4\u30c7\u30f3 / \u30df\u30e9\u30f3\u30c0",
+    "simplified_chinese": "\u6885\u767b / \u7c73\u5170\u8fbe",
+    "korean_name": "\uba54\uc774\ub4e0 / \ubbf8\ub780\ub2e4",
+    "character_id": "c181, c183, c032",
+    "in_scope_audio": "Japanese (Horie Yui / \u5800\u6c5f\u7531\u8863)",
+    "out_of_scope_audio": "English (Megan Shipman, Ines Sherman), Korean (Kim Ha-ru, Kim Chae-ha) - Documented as out of scope",
+    "exclusion_constraint": "Characters not voiced by Horie Yui strictly ignored and omitted from documentation"
+  },
+  "identity_registry": {
+    "entity_name": "Maiden",
+    "japanese_name": "\u30e1\u30a4\u30c7\u30f3",
+    "chinese_name": "\u6885\u767b",
+    "korean_name": "\uba54\uc774\ub4e0",
+    "character_id": "c181",
+    "forms_and_costumes": {
+      "c181_00": "Default SSR Form (Shotgun: Diamond Dust)",
+      "c181_01": "Costume 1: Covert Nurse (\u6f5c\u5165\u770b\u8b77\u5a66)",
+      "c181_02": "Costume 2: Under the Sun (\u30b5\u30f3\u30b7\u30e3\u30a4\u30f3 / Swimsuit variant)",
+      "field_npc_swim_suit_maiden_001": "Summer Event Field NPC Chibi Model",
+      "c183_00": "Maiden: Ice Rose SSR Form (Rocket Launcher / Electric Defender)"
+    },
+    "divergent_forms": {
+      "c183": "Maiden: Ice Rose (Alternate seasonal form - resolved from patch store.cdb containers; 103 assets mapped)"
+    },
+    "squad": "Extrinsic (\u5916\u7f18\u90e8\u961f / \u30a8\u30af\u30b9\u30c8\u30ea\u30f3\u30b7\u30c3\u30af)",
+    "manufacturer": "Elysion (\u6781\u4e50\u51c0\u571f / \u30a8\u30ea\u30b7\u30aa\u30f3)",
+    "class": "Attacker",
+    "weapon_type": "Shotgun (SG) - Diamond Dust",
+    "element": "Electric",
+    "voice_actors": {
+      "ja": {
+        "name": "Horie Yui",
+        "native": "\u5800\u6c5f\u7531\u8863",
+        "scope": "in_scope"
+      },
+      "en": {
+        "name": "Megan Shipman",
+        "scope": "out_of_scope"
+      },
+      "ko": {
+        "name": "Kim Ha-ru",
+        "native": "\uae40\ud558\ub8e8",
+        "scope": "out_of_scope"
+      }
+    }
+  },
+  "confidence_ladder": {
+    "identity_resolution_verified": true,
+    "catalog_coverage_verified": true,
+    "reference_graph_traversal_verified": true,
+    "peripheral_domain_scan_verified": true,
+    "negative_search_boundary_verified": true,
+    "progress_gated_scope_verified": true,
+    "dialogue_vault_extracted": true
+  },
+  "verification_metrics": {
+    "total_cataloged": 315,
+    "in_scope_cataloged": 315,
+    "out_of_scope_cataloged": 5,
+    "sd_3d_models_and_weapons": 25,
+    "sd_action_animations": 61,
+    "full_card_splash_illustrations": 4,
+    "spine_standing_models": 12,
+    "spine_combat_models": 24,
+    "burst_cutscenes": 3,
+    "ui_icons_portraits": 13,
+    "field_npc_sprites": 5,
+    "skill_vfx_particles": 24,
+    "scenario_backgrounds": 2,
+    "scriptable_dialogue_tables": 23,
+    "japanese_voicelines_in_scope": 112,
+    "sound_sfx_containers": 7,
+    "unresolved_paths": 0,
+    "dangling_references": 0,
+    "negative_boundaries": {
+      "miranda_c070_excluded": true,
+      "maiden_favorite_item_absent": true,
+      "game_diorama_bundles_absent": true,
+      "static_event_banners_excluded_no_maiden": true,
+      "static_event_archives_excluded_no_maiden": true,
+      "generic_event_shells_pruned_no_maiden": true
+    }
+  },
+  "gallery": {
+    "local_url": "http://localhost:8088/gallery/index.html",
+    "port": 8088,
+    "status": "online",
+    "visual_assets_count": 104,
+    "models_count": 55,
+    "audio_tracks_count": 170,
+    "animations_count": 91
+  },
+  "publication": {
+    "repository_name": "nikke-hocchan-assets",
+    "repository_url": "https://github.com/4163/nikke-hocchan-assets",
+    "pages_url": "https://4163.github.io/nikke-hocchan-assets",
+    "upstream_catalog": "https://github.com/4163/i-asset-extraction"
+  },
+  "extraction_metrics": {
+    "total_extracted_files": 456,
+    "maiden_files_count": 317,
+    "miranda_files_count": 139,
+    "third_party_captures_count": 4,
+    "breakdown": {
+      "sd_3d_models_and_weapons": 37,
+      "sd_action_animations": 91,
+      "spine_standing_models": 18,
+      "spine_combat_models": 36,
+      "spine_favorite_item_puppets": 3,
+      "spine_favorite_item_interactive_scene": 13,
+      "full_character_cards": 6,
+      "event_background_cards": 2,
+      "field_npc_and_minigame": 5,
+      "japanese_voicelines": 151,
+      "combat_and_action_sfx": 19,
+      "skill_vfx_particles": 24,
+      "burst_cutscenes_and_portraits": 23,
+      "dialogue_tables_and_vaults": 24
+    },
+    "maiden_breakdown": {
+      "sd_3d_models_and_weapons": 25,
+      "sd_action_animations": 61,
+      "spine_standing_models": 12,
+      "spine_combat_models": 24,
+      "full_character_cards": 4,
+      "event_background_cards": 2,
+      "field_npc_and_minigame": 5,
+      "japanese_voicelines": 112,
+      "combat_sfx": 7,
+      "skill_vfx_particles": 24,
+      "burst_cutscenes_and_portraits": 14,
+      "dialogue_tables_and_vaults": 23
+    },
+    "miranda_breakdown": {
+      "sd_3d_models_and_weapons": 12,
+      "sd_action_animations": 30,
+      "spine_standing_models": 6,
+      "spine_combat_models": 12,
+      "spine_favorite_item_puppets": 3,
+      "spine_favorite_item_interactive_scene": 13,
+      "full_character_cards": 2,
+      "ui_icons_portraits": 6,
+      "burst_cutscenes": 3,
+      "japanese_voicelines": 39,
+      "combat_and_action_sfx": 12,
+      "dialogue_vault": 1
+    }
+  },
+  "divergence_records": [
+    {
+      "category": "Environment & Scenario Background (HD)",
+      "mapped_count": 43,
+      "status": "on_demand_streaming_asset",
+      "root_cause": "Historical event scenario backgrounds are served dynamically via on-demand CDN streams (HostCoreLoadURL) and are pruned from base offline client patch archives.",
+      "action": "Cataloged in specs/on-demand-cdns.md with divergence notice cards in gallery."
+    },
+    {
+      "category": "Remote Story Dialogue Audio (JA)",
+      "mapped_count": 12,
+      "status": "on_demand_streaming_asset",
+      "root_cause": "Historical narrative dialogue tracks where Maiden participates are delivered dynamically as on-demand .nab streams (IsLocal = 0) via HostSoundLoadURL.",
+      "action": "Cataloged with container hashes and recovery methodology in specs/on-demand-cdns.md."
+    },
+    {
+      "category": "High-Affinity Japanese Voice Audio (Miranda)",
+      "mapped_count": 4,
+      "status": "on_demand_streaming_asset",
+      "root_cause": "High-affinity voice tracks in 50aa2059...nab delivered dynamically via on-demand CDN audio streams (IsLocal = 0).",
+      "action": "Cataloged in specs/on-demand-cdns.md with divergence notice cards in gallery."
+    },
+    {
+      "category": "Miranda Costume 1 SD Diffuse Texture",
+      "mapped_count": 1,
+      "status": "on_demand_streaming_asset",
+      "root_cause": "c032_01 SD chibi texture resides in on-demand streaming .resS container under HostDatapackLoadURL.",
+      "action": "Cataloged in specs/on-demand-cdns.md."
+    },
+    {
+      "category": "Favorite Item System (Maiden)",
+      "mapped_count": 0,
+      "status": "absent_in_game_build",
+      "root_cause": "Maiden has not received a Favorite Item in Goddess of Victory: NIKKE as of client Build 578825. Miranda has an active Favorite Item system.",
+      "action": "Verified negative boundary."
+    },
+    {
+      "category": "Diorama Bundles",
+      "mapped_count": 0,
+      "status": "absent_in_game_build",
+      "root_cause": "Diorama bundles do not exist as asset structures in the NIKKE client.",
+      "action": "Verified negative boundary."
+    },
+    {
+      "category": "Brid (c070) Disambiguation",
+      "mapped_count": 0,
+      "status": "strictly_excluded",
+      "root_cause": "Disambiguated as an AZX squad character voiced by Ishizuka Sayori, not Horie Yui.",
+      "action": "Enforced hard exclusion filter."
+    },
+    {
+      "category": "Co-Voiced Characters (Other)",
+      "mapped_count": 0,
+      "status": "strictly_excluded",
+      "root_cause": "All characters voiced by Horie Yui outside Maiden and Miranda are omitted per user scope specification.",
+      "action": "Enforced hard exclusion filter."
+    },
+    {
+      "category": "Non-Japanese Voice Audio (English / Korean)",
+      "mapped_count": 10,
+      "status": "strictly_excluded",
+      "root_cause": "Voice scope is strictly Horie Yui (Japanese). English (Megan Shipman, Jackie Lastra) and Korean (Kim Ha-ru, Min-ah) tracks are documented out of scope.",
+      "action": "Documented in specs/mapping.md and excluded from extraction."
+    },
+    {
+      "category": "Event Collection Album Photos",
+      "mapped_count": 0,
+      "status": "strictly_excluded",
+      "root_cause": "Collection album illustrations (Coral Island Adventure) are designated out of scope per user specification.",
+      "action": "Enforced hard exclusion filter."
+    },
+    {
+      "category": "External Community Gallery (nikke-db.pages.dev/gallery)",
+      "mapped_count": 0,
+      "status": "pending_manual_audit",
+      "root_cause": "External web gallery hosts supplemental Miranda and Maiden visual assets that require manual audit and cross-referencing.",
+      "action": "Surfaced external audit notice card with direct link in gallery/index.html."
+    }
+  ],
+  "progress_gated_maiden_scope": {
+    "total_dialogue_lines": 1303,
+    "breakdown": {
+      "main_scenario_chapters": 11,
+      "outpost_brief_encounters": 23,
+      "counseling_sessions_and_bond_episodes": 886,
+      "blabla_messenger_chats": 285,
+      "event_darkhero_narrative": 65,
+      "event_miraclesnow_cameo": 4,
+      "event_beautyfullshot_summer_and_fishing": 112,
+      "event_neverland_winter": 62
+    },
+    "storage_provenance": {
+      "text_tables_on_disk": "assets/text/*.lss (Locale_MainScenario, Locale_SuddenStory, Locale_Counseling, Locale_NikkeEpisode, Locale_SuddenMessage, Locale_SubScenario, Locale_Event)",
+      "audio_on_disk": "assets/audio/ja/c181/ and assets/audio/ja/c183/",
+      "visual_assets_on_disk": "assets/cutscenes/, assets/textures/field_npc/, assets/spine/, assets/textures/backgrounds/"
+    }
+  },
+  "entity": "Maiden (\u30e1\u30a4\u30c7\u30f3) & Miranda (\u30df\u30e9\u30f3\u30c0)",
+  "character_ids": [
+    "c181",
+    "c183",
+    "c032"
+  ],
+  "miranda_identity_registry": {
+    "entity_name": "Miranda",
+    "japanese_name": "\u30df\u30e9\u30f3\u30c0",
+    "chinese_name": "\u7c73\u5170\u8fbe",
+    "korean_name": "\ubbf8\ub780\ub2e4",
+    "character_code": "c032",
+    "resource_id": 32,
+    "squad": "A.C.P.U. (Ark Central Police Unit)",
+    "manufacturer": "Elysion",
+    "class": "Supporter",
+    "weapon_type": "Submachine Gun (SMG) - Law Express",
+    "element": "Fire",
+    "forms_and_costumes": {
+      "c032_00": "Default SSR Form (Law Express SMG)",
+      "c032_01": "Costume 1 Variant"
+    },
+    "favorite_item_system": {
+      "spine_puppet": "favoriteitem_c032_00 (Chunks 226221..226226)",
+      "interactive_scene": "FavoriteItemScene_c032_00 (Chunks 70672..70722)",
+      "audioclips": [
+        "C032_00_favoriteitem_1",
+        "C032_00_favoriteitem_2",
+        "C032_00_favoriteitem_3"
+      ]
+    },
+    "voice_actors": {
+      "ja": {
+        "name": "Horie Yui",
+        "native": "\u5800\u6c5f\u7531\u8863",
+        "scope": "in_scope"
+      },
+      "en": {
+        "name": "Jackie Lastra",
+        "scope": "out_of_scope"
+      },
+      "ko": {
+        "name": "Min-ah",
+        "native": "\ubbfc\uc544",
+        "scope": "out_of_scope"
+      }
+    },
+    "negative_boundaries": {
+      "brid_c070_excluded": true,
+      "co_voiced_other_characters_omitted": true,
+      "non_ja_audio_documented_out_of_scope": true
+    }
+  },
+  "miranda_confidence_ladder": {
+    "identity_resolution_verified": true,
+    "catalog_coverage_verified": true,
+    "reference_graph_traversal_verified": true,
+    "peripheral_domain_scan_verified": true,
+    "negative_search_boundary_verified": true
+  },
+  "miranda_metrics": {
+    "spine_standing_models": 2,
+    "spine_combat_models": 4,
+    "spine_favorite_item_puppets": 1,
+    "favorite_item_interactive_scene": 1,
+    "burst_cutscenes": 1,
+    "sd_3d_models_and_weapons": 2,
+    "sd_action_animations": 30,
+    "full_card_splash_illustrations": 2,
+    "ui_icons_portraits": 5,
+    "japanese_voicelines": 38,
+    "combat_sfx_audioclips": 12,
+    "scenario_backgrounds": 2,
+    "dialogue_text_lines": 1152
+  },
+  "categorization_metrics": {
+    "total_files": 452,
+    "standalone_assets_count": 226,
+    "standalone_bytes": 202152864,
+    "compound_assets_count": 226,
+    "compound_bytes": 89036789,
+    "spine_puppet_clusters": 18,
+    "favorite_item_clusters": 2,
+    "sd_chibi_model_clusters": 6,
+    "action_animation_clusters": 3,
+    "cutscene_clusters": 3,
+    "vfx_particle_clusters": 1
+  }
+}

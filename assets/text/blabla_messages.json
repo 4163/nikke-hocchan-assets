@@ -1,0 +1,2852 @@
+[
+  {
+    "key": "m_ex_external_01_17",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンが退出しました",
+    "en": "Maiden left the group chat.",
+    "ko": "메이든 님이 퇴장하셨습니다.",
+    "zh-CN": "梅登离开了聊天室。",
+    "zh-TW": "梅登離開了聊天室。"
+  },
+  {
+    "key": "m_ex_external_01_21",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンをいじめないと\n約束するんだったら",
+    "en": "As long as you promise not to bully Maiden anymore.",
+    "ko": "메이든을 괴롭히지 않겠다고 약속한다면",
+    "zh-CN": "但你得先答应，不能再欺负梅登",
+    "zh-TW": "但你得先答應，不能再欺負梅登"
+  },
+  {
+    "key": "m_ex_external_01_27",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンが参加しました",
+    "en": "Maiden joined the group chat.",
+    "ko": "메이든 님이 입장했습니다.",
+    "zh-CN": "梅登加入了聊天室。",
+    "zh-TW": "梅登加入了聊天室。"
+  },
+  {
+    "key": "m_ex_external_01_38",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンが退出しました",
+    "en": "Maiden left the group chat.",
+    "ko": "메이든 님이 퇴장하셨습니다.",
+    "zh-CN": "梅登离开了聊天室。",
+    "zh-TW": "梅登離開了聊天室。"
+  },
+  {
+    "key": "m_ex_external_02_5",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンが我のウォーブラーの\nアカウントをアンフォローしたのだ。",
+    "en": "Maiden unfollowed me on Warbler.",
+    "ko": "메이든이 내 워블러 계정을 언팔로우했다",
+    "zh-CN": "梅登退追了我的沃布勒账号！",
+    "zh-TW": "梅登退追了我的沃布勒帳號！"
+  },
+  {
+    "key": "m_ex_external_02_32",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "しかし問題はメイデンだ。",
+    "en": "As for you Maiden,",
+    "ko": "하지만 문제는 메이든이다",
+    "zh-CN": "但是梅登就不行了",
+    "zh-TW": "但是梅登就不行了"
+  },
+  {
+    "key": "m_ex_external_02_41",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデン、お前はどこまで愚かなのだ。",
+    "en": "What a fool you are, Maiden!",
+    "ko": "어리석기 짝이 없구나 메이든이여",
+    "zh-CN": "愚不可及啊，梅登",
+    "zh-TW": "愚不可及啊，梅登"
+  },
+  {
+    "key": "m_ex_external_02_81",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "…メイデンはそれ以上\nメッセージを読まなかった",
+    "en": "... Maiden has stopped reading her messages.",
+    "ko": "…메이든은 더 이상 메시지를 읽지 않는다.",
+    "zh-CN": "……梅登不读消息了。",
+    "zh-TW": "……梅登不讀訊息了。"
+  },
+  {
+    "key": "m_ex_maiden_01_1",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官。",
+    "en": "Hello,",
+    "ko": "지휘관",
+    "zh-CN": "指挥官",
+    "zh-TW": "指揮官"
+  },
+  {
+    "key": "m_ex_maiden_01_2",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "こんにちは。",
+    "en": "Commander.",
+    "ko": "안녕하세요",
+    "zh-CN": "您好",
+    "zh-TW": "您好"
+  },
+  {
+    "key": "m_ex_maiden_01_3",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンと申します。",
+    "en": "My name is Maiden.",
+    "ko": "메이든이라고 해요",
+    "zh-CN": "我叫梅登",
+    "zh-TW": "我叫梅登"
+  },
+  {
+    "key": "m_ex_maiden_01_4",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "よろしくお願いします。",
+    "en": "Nice to meet you.",
+    "ko": "잘 부탁드려요",
+    "zh-CN": "请多多关照",
+    "zh-TW": "請多多關照"
+  },
+  {
+    "key": "m_ex_maiden_01_5",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "こちらこそよろしく",
+    "en": "I hope we can get along.",
+    "ko": "나도 잘 부탁해",
+    "zh-CN": "也请你多多关照",
+    "zh-TW": "也請你多多關照"
+  },
+  {
+    "key": "m_ex_maiden_01_6",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "うーん。",
+    "en": "Hmm...",
+    "ko": "음",
+    "zh-CN": "嗯",
+    "zh-TW": "嗯"
+  },
+  {
+    "key": "m_ex_maiden_01_7",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "何をしてましたか？",
+    "en": "What are you doing?",
+    "ko": "뭐하고 계셨나요?",
+    "zh-CN": "您在做什么呢？",
+    "zh-TW": "您在做什麼呢？"
+  },
+  {
+    "key": "m_ex_maiden_01_8",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "フィギュアの組み立て",
+    "en": "Assembling some action figures.",
+    "ko": "피규어 조립",
+    "zh-CN": "组装公仔模型",
+    "zh-TW": "組裝公仔模型"
+  },
+  {
+    "key": "m_ex_maiden_01_9",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ゲーム",
+    "en": "Playing video games.",
+    "ko": "게임",
+    "zh-CN": "打游戏",
+    "zh-TW": "打遊戲"
+  },
+  {
+    "key": "m_ex_maiden_01_10",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "！！",
+    "en": "!!",
+    "ko": "!!",
+    "zh-CN": "！！",
+    "zh-TW": "！！"
+  },
+  {
+    "key": "m_ex_maiden_01_11",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "フィギュアの",
+    "en": "Assembling",
+    "ko": "피규어",
+    "zh-CN": "公仔模型",
+    "zh-TW": "公仔模型"
+  },
+  {
+    "key": "m_ex_maiden_01_12",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "組み立てですか？",
+    "en": "action figures?",
+    "ko": "조립이요?",
+    "zh-CN": "组装吗？",
+    "zh-TW": "組裝嗎？"
+  },
+  {
+    "key": "m_ex_maiden_01_13",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "！！",
+    "en": "!!",
+    "ko": "!!",
+    "zh-CN": "！！",
+    "zh-TW": "！！"
+  },
+  {
+    "key": "m_ex_maiden_01_14",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ゲームですか？",
+    "en": "Video game?",
+    "ko": "게임이요?",
+    "zh-CN": "是游戏？",
+    "zh-TW": "是遊戲？"
+  },
+  {
+    "key": "m_ex_maiden_01_15",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官は",
+    "en": "Commander,",
+    "ko": "지휘관은",
+    "zh-CN": "原来",
+    "zh-TW": "原來"
+  },
+  {
+    "key": "m_ex_maiden_01_16",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "私と趣味が",
+    "en": "we happen to",
+    "ko": "저와 취향이",
+    "zh-CN": "我和指挥官",
+    "zh-TW": "我和指揮官"
+  },
+  {
+    "key": "m_ex_maiden_01_17",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "似ていますね。",
+    "en": "have the same hobby!",
+    "ko": "비슷한 것 같아요",
+    "zh-CN": "有相似的爱好",
+    "zh-TW": "有相似的愛好"
+  },
+  {
+    "key": "m_ex_maiden_01_18",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "じゃあ今度一緒にやろう",
+    "en": "Then let's play together some time.",
+    "ko": "그럼 다음에 같이하자",
+    "zh-CN": "那么，下次我们一起组装吧",
+    "zh-TW": "那麼，下次我們一起組裝吧"
+  },
+  {
+    "key": "m_ex_maiden_01_19",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "はい？",
+    "en": "What?",
+    "ko": "네?",
+    "zh-CN": "什么？",
+    "zh-TW": "什麼？"
+  },
+  {
+    "key": "m_ex_maiden_01_20",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "一緒にですか？",
+    "en": "together?",
+    "ko": "같이요?",
+    "zh-CN": "一起组装？",
+    "zh-TW": "一起組裝？"
+  },
+  {
+    "key": "m_ex_maiden_01_21",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "イヤか？",
+    "en": "Do you not want to?",
+    "ko": "싫어?",
+    "zh-CN": "没兴趣吗？",
+    "zh-TW": "沒興趣嗎？"
+  },
+  {
+    "key": "m_ex_maiden_01_22",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "いいえ。",
+    "en": "Not at all.",
+    "ko": "아니요",
+    "zh-CN": "不",
+    "zh-TW": "不"
+  },
+  {
+    "key": "m_ex_maiden_01_23",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "お誘いが嬉しくて。",
+    "en": "I'm just so happy!",
+    "ko": "너무 좋아서요",
+    "zh-CN": "我是太开心了",
+    "zh-TW": "我是太開心了"
+  },
+  {
+    "key": "m_ex_maiden_01_24",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "喜んで。",
+    "en": "I'm ecstatic!",
+    "ko": "좋아해요",
+    "zh-CN": "喜欢",
+    "zh-TW": "喜歡"
+  },
+  {
+    "key": "m_ex_maiden_01_25",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官。",
+    "en": "Commander...",
+    "ko": "지휘관",
+    "zh-CN": "指挥官",
+    "zh-TW": "指揮官"
+  },
+  {
+    "key": "m_ex_maiden_01_26",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "？？？",
+    "en": "???",
+    "ko": "???",
+    "zh-CN": "？？？",
+    "zh-TW": "？？？"
+  },
+  {
+    "key": "m_ex_maiden_01_27",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あっ。",
+    "en": "Um...",
+    "ko": "핫",
+    "zh-CN": "呃",
+    "zh-TW": "呃"
+  },
+  {
+    "key": "m_ex_maiden_01_28",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "すみません。",
+    "en": "nothing.",
+    "ko": "아니에요",
+    "zh-CN": "没",
+    "zh-TW": "沒"
+  },
+  {
+    "key": "m_ex_maiden_01_29",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "忘れてください。",
+    "en": "Never mind.",
+    "ko": "잊어주세요",
+    "zh-CN": "请忘记刚才的话",
+    "zh-TW": "請忘記剛才的話"
+  },
+  {
+    "key": "m_ex_maiden_01_30",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あ。",
+    "en": "Ugh!",
+    "ko": "아",
+    "zh-CN": "哦",
+    "zh-TW": "哦"
+  },
+  {
+    "key": "m_ex_maiden_01_31",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官と",
+    "en": "I'd love to",
+    "ko": "지휘관이랑",
+    "zh-CN": "我想跟指挥官",
+    "zh-TW": "我想跟指揮官"
+  },
+  {
+    "key": "m_ex_maiden_01_32",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "もう少しお話がしたいのですが",
+    "en": "talk a little longer,",
+    "ko": "조금 더 이야기하고 싶은데",
+    "zh-CN": "多聊几句",
+    "zh-TW": "多聊幾句"
+  },
+  {
+    "key": "m_ex_maiden_01_33",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "こんな時に任務だなんて。",
+    "en": "but I have to leave for a mission.",
+    "ko": "임무를 나가야 하다니",
+    "zh-CN": "但我要出任务了",
+    "zh-TW": "但我要出任務了"
+  },
+  {
+    "key": "m_ex_maiden_01_34",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "気をつけて行ってこい",
+    "en": "Take care.",
+    "ko": "조심히 잘 다녀와",
+    "zh-CN": "一路小心",
+    "zh-TW": "一路小心"
+  },
+  {
+    "key": "m_ex_maiden_01_35",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官。",
+    "en": "Commander,",
+    "ko": "지휘관",
+    "zh-CN": "指挥官",
+    "zh-TW": "指揮官"
+  },
+  {
+    "key": "m_ex_maiden_01_36",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そんな風に優しい言葉をかけてもらうと",
+    "en": "you mustn't be so kind to me.",
+    "ko": "그렇게 다정하게 말씀하시면",
+    "zh-CN": "您对我这么体贴",
+    "zh-TW": "您對我這麼體貼"
+  },
+  {
+    "key": "m_ex_maiden_01_37",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ドキドキしちゃ…",
+    "en": "I may end up falling for you.",
+    "ko": "설레는ㄷ",
+    "zh-CN": "我小鹿乱z",
+    "zh-TW": "我小鹿亂z"
+  },
+  {
+    "key": "m_ex_maiden_01_38",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あ、何でもありません。",
+    "en": "No, wait... I mean...",
+    "ko": "아 아니에요",
+    "zh-CN": "不，不是",
+    "zh-TW": "不，不是"
+  },
+  {
+    "key": "m_ex_maiden_01_39",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "いつか絶対に",
+    "en": "We can play together",
+    "ko": "다음에 저랑",
+    "zh-CN": "下次一定要跟我",
+    "zh-TW": "下次一定要跟我"
+  },
+  {
+    "key": "m_ex_maiden_01_40",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "一緒にやりましょうね。",
+    "en": "next time.",
+    "ko": "꼭 같이해요",
+    "zh-CN": "一起组装哦",
+    "zh-TW": "一起組裝哦"
+  },
+  {
+    "key": "m_ex_maiden_01_41",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "約束ですよ。",
+    "en": "Okay?",
+    "ko": "꼭이요",
+    "zh-CN": "一定要",
+    "zh-TW": "一定要"
+  },
+  {
+    "key": "m_ex_maiden_01_42",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "分かった",
+    "en": "Deal.",
+    "ko": "알겠어",
+    "zh-CN": "好的",
+    "zh-TW": "好的"
+  },
+  {
+    "key": "m_ex_maiden_02_1",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官。",
+    "en": "Commander,",
+    "ko": "지휘관",
+    "zh-CN": "指挥官",
+    "zh-TW": "指揮官"
+  },
+  {
+    "key": "m_ex_maiden_02_2",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "無気力症候群ってご存じでしょうか。",
+    "en": "have you ever heard of lethargy?",
+    "ko": "무기력증이라고 아시나요",
+    "zh-CN": "您知道什么是无力症吗",
+    "zh-TW": "您知道什麼是無力症嗎"
+  },
+  {
+    "key": "m_ex_maiden_02_3",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "知ってる",
+    "en": "I've heard of it.",
+    "ko": "알아",
+    "zh-CN": "我知道",
+    "zh-TW": "我知道"
+  },
+  {
+    "key": "m_ex_maiden_02_4",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "はい。",
+    "en": "Right.",
+    "ko": "네",
+    "zh-CN": "是呀",
+    "zh-TW": "是呀"
+  },
+  {
+    "key": "m_ex_maiden_02_5",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "私は今、その症状が出ているようです。",
+    "en": "I think I've contracted that disease.",
+    "ko": "제가 그 무기력증에 걸린 것 같아요",
+    "zh-CN": "我好像得了无力症",
+    "zh-TW": "我好像得了無力症"
+  },
+  {
+    "key": "m_ex_maiden_02_6",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "全然やる気が出なくて",
+    "en": "I don't feel like doing anything today.",
+    "ko": "아무것도 하기 싫고",
+    "zh-CN": "什么都不想做",
+    "zh-TW": "什麼都不想做"
+  },
+  {
+    "key": "m_ex_maiden_02_7",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "社長に叱られても何とも思わないし",
+    "en": "Nothing can get me off the couch.",
+    "ko": "사장님이 혼내도 그냥 그런가 보다 싶고",
+    "zh-CN": "被老板骂了也不放在心上",
+    "zh-TW": "被老闆罵了也不放在心上"
+  },
+  {
+    "key": "m_ex_maiden_02_8",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "任務に行っても何をしているのか\n分からないし",
+    "en": "I'm not even sure why I'm selected for this mission anyway.",
+    "ko": "임무도 왜 제가 나가야 하는지 모르겠고",
+    "zh-CN": "也不知道为什么要出任务",
+    "zh-TW": "也不知道為什麼要出任務"
+  },
+  {
+    "key": "m_ex_maiden_02_9",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "はあ。",
+    "en": "Sigh...",
+    "ko": "하아",
+    "zh-CN": "唉",
+    "zh-TW": "唉"
+  },
+  {
+    "key": "m_ex_maiden_02_10",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ゲームはどうだ",
+    "en": "How about playing games?",
+    "ko": "게임은 어때?",
+    "zh-CN": "连打游戏也提不起精神吗？",
+    "zh-TW": "連打遊戲也提不起精神嗎？"
+  },
+  {
+    "key": "m_ex_maiden_02_11",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ゲームもデイリークエストだけ\nやってます。",
+    "en": "I just completed some daily quests,",
+    "ko": "게임도 그냥 일퀘만 하고 있어요",
+    "zh-CN": "在游戏里，也只做一些日常任务",
+    "zh-TW": "在遊戲裡，也只做一些日常任務"
+  },
+  {
+    "key": "m_ex_maiden_02_12",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "やりたくてやるというより",
+    "en": "and it feels more like a chore",
+    "ko": "재미로 한다기보다는",
+    "zh-CN": "好像不是为了好玩、有趣",
+    "zh-TW": "好像不是為了好玩、有趣"
+  },
+  {
+    "key": "m_ex_maiden_02_13",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "義務でやっていると言いましょうか。",
+    "en": "than anything.",
+    "ko": "의무감에 하는 느낌?",
+    "zh-CN": "而像是义务、责任",
+    "zh-TW": "而像是義務、責任"
+  },
+  {
+    "key": "m_ex_maiden_02_14",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "息を吸うのも面倒くさいです。",
+    "en": "Even breathing seems cumbersome.",
+    "ko": "숨 쉬는 것도 귀찮아요",
+    "zh-CN": "连呼吸都嫌麻烦",
+    "zh-TW": "連呼吸都嫌麻煩"
+  },
+  {
+    "key": "m_ex_maiden_02_15",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "急に思春期にでもなったのでしょうか。",
+    "en": "Am I going through puberty all of sudden?",
+    "ko": "갑자기 사춘기라도 온 걸까요",
+    "zh-CN": "我是不是突然到青春期了？",
+    "zh-TW": "我是不是突然到青春期了？"
+  },
+  {
+    "key": "m_ex_maiden_02_16",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "最近忙しかったか？",
+    "en": "Have you had a lot of work to do recently?",
+    "ko": "요새 일이 많았어?",
+    "zh-CN": "最近工作忙吗？",
+    "zh-TW": "最近工作忙嗎？"
+  },
+  {
+    "key": "m_ex_maiden_02_17",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "仕事ですか？",
+    "en": "Work?",
+    "ko": "일이요?",
+    "zh-CN": "工作？",
+    "zh-TW": "工作？"
+  },
+  {
+    "key": "m_ex_maiden_02_18",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "史上最高に忙しかったです。",
+    "en": "More than ever!",
+    "ko": "역대급 많았어요",
+    "zh-CN": "从来没有这么忙过",
+    "zh-TW": "從來沒有這麼忙過"
+  },
+  {
+    "key": "m_ex_maiden_02_19",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "何が何だか思い出せないくらいに。",
+    "en": "I can't even remember what I have done!",
+    "ko": "진짜 기억도 다 안날 정도였다구요",
+    "zh-CN": "忙到我都想不起来到底有多少工作了",
+    "zh-TW": "忙到我都想不起來到底有多少工作了"
+  },
+  {
+    "key": "m_ex_maiden_02_20",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "燃え尽き症候群だな",
+    "en": "This is a classic sign of a burnout.",
+    "ko": "번아웃이 온 것 같아",
+    "zh-CN": "你这是职业倦怠症",
+    "zh-TW": "你這是職業倦怠症"
+  },
+  {
+    "key": "m_ex_maiden_02_21",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "嘘みたいです。今まで生きてきて",
+    "en": "Wow, I never thought",
+    "ko": "와 제가 살다 살다",
+    "zh-CN": "哇，没想到我有一天",
+    "zh-TW": "哇，沒想到我有一天"
+  },
+  {
+    "key": "m_ex_maiden_02_22",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "私が燃え尽き症候群になるなんて\n思ってもみませんでした。",
+    "en": "I'd get burnt out from overexerting myself.",
+    "ko": "일에 치여서 번아웃을 겪는 날이 오네요",
+    "zh-CN": "竟然在工作压力下出现倦怠",
+    "zh-TW": "竟然在工作壓力下出現倦怠"
+  },
+  {
+    "key": "m_ex_maiden_02_23",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "しばらくの間休むように",
+    "en": "You should take a break from work.",
+    "ko": "당분간 좀 쉬도록 해",
+    "zh-CN": "你需要休息一段时间",
+    "zh-TW": "你需要休息一段時間"
+  },
+  {
+    "key": "m_ex_maiden_02_24",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そうしたいところですが\n社長が許してくれるでしょうか。",
+    "en": "I'd like to, but I'm not sure if my boss will agree.",
+    "ko": "그러고 싶은데 사장님이 쉬게 해주실까요",
+    "zh-CN": "我也想休息，但是老板会同意吗",
+    "zh-TW": "我也想休息，但是老闆會同意嗎"
+  },
+  {
+    "key": "m_ex_maiden_02_25",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "私から話しておく",
+    "en": "I'll talk to her.",
+    "ko": "내가 말해볼게",
+    "zh-CN": "我帮你去说",
+    "zh-TW": "我幫你去說"
+  },
+  {
+    "key": "m_ex_maiden_02_26",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "！！",
+    "en": "!!",
+    "ko": "!!",
+    "zh-CN": "！！",
+    "zh-TW": "！！"
+  },
+  {
+    "key": "m_ex_maiden_02_27",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "本当ですか？",
+    "en": "Really?",
+    "ko": "정말인가요?",
+    "zh-CN": "是真的吗？",
+    "zh-TW": "是真的嗎？"
+  },
+  {
+    "key": "m_ex_maiden_02_28",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官、私、急に心臓がドキドキ\nしてきました。",
+    "en": "My heart... it's beating so fast!",
+    "ko": "지휘관 저 갑자기 심장이 막 두근거려요",
+    "zh-CN": "指挥官，我的心突然跳得好快",
+    "zh-TW": "指揮官，我的心突然跳得好快"
+  },
+  {
+    "key": "m_ex_maiden_02_29",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "仕事をしなくていいからなのか",
+    "en": "I don't know if it's the excitement of being able to take a break",
+    "ko": "일 안 할 생각에 그런 건지",
+    "zh-CN": "不知道是因为想到能休假真是太期待了",
+    "zh-TW": "不知道是因為想到能休假真是太期待了"
+  },
+  {
+    "key": "m_ex_maiden_02_30",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "それとも指揮官のせいなのかは\n分かりませんが",
+    "en": "or because of you.",
+    "ko": "아니면 지휘관 때문에 그런 건지 잘 모르겠지만",
+    "zh-CN": "还是因为指挥官的关系……",
+    "zh-TW": "還是因為指揮官的關係……"
+  },
+  {
+    "key": "m_ex_maiden_02_31",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "何だか元気が出てきた気がします。",
+    "en": "Either way, I feel much more energetic now.",
+    "ko": "어쨌든 벌써 기운이 나는 것 같아요",
+    "zh-CN": "反正，我已经觉得整个人又开始有力量了",
+    "zh-TW": "反正，我已經覺得整個人又開始有力量了"
+  },
+  {
+    "key": "m_ex_maiden_02_32",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ありがとうございます。",
+    "en": "Thanks.",
+    "ko": "고마워요",
+    "zh-CN": "谢谢您",
+    "zh-TW": "謝謝您"
+  },
+  {
+    "key": "m_ex_maiden_02_33",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ゆっくり休め",
+    "en": "Just take it easy.",
+    "ko": "푹 쉬어",
+    "zh-CN": "好好休息",
+    "zh-TW": "好好休息"
+  },
+  {
+    "key": "m_ex_maiden_02_34",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "はい！",
+    "en": "Yes!",
+    "ko": "네!",
+    "zh-CN": "是！",
+    "zh-TW": "是！"
+  },
+  {
+    "key": "m_ex_maiden_03_1",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官。",
+    "en": "Commander,",
+    "ko": "지휘관",
+    "zh-CN": "指挥官",
+    "zh-TW": "指揮官"
+  },
+  {
+    "key": "m_ex_maiden_03_2",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ゲームをしていて思ったのですが",
+    "en": "Why do so many nasty people",
+    "ko": "게임을 하다가 느낀 건데",
+    "zh-CN": "我在玩游戏的时候发现",
+    "zh-TW": "我在玩遊戲的時候發現"
+  },
+  {
+    "key": "m_ex_maiden_03_3",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "匿名をいいことに暴言を好き放題吐く",
+    "en": "hide behind their online screen names",
+    "ko": "익명 뒤에 숨어서 나쁜 말만 해대는",
+    "zh-CN": "喜欢躲在「匿名」背后，发表恶意言论的",
+    "zh-TW": "喜歡躲在「匿名」背後，發表惡意言論的"
+  },
+  {
+    "key": "m_ex_maiden_03_4",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "よろしくない人が\n本当に多いと知りました。",
+    "en": "and hurl insults with such impunity?",
+    "ko": "못 된 사람들이 참 많은 것 같아요",
+    "zh-CN": "坏人真的好多",
+    "zh-TW": "壞人真的好多"
+  },
+  {
+    "key": "m_ex_maiden_03_5",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "何かあったのか？",
+    "en": "Did something happen?",
+    "ko": "무슨 일 있었어?",
+    "zh-CN": "发生什么事了？",
+    "zh-TW": "發生什麼事了？"
+  },
+  {
+    "key": "m_ex_maiden_03_6",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "私のメインキャラはタンカーなのですが",
+    "en": "My character is a tank in this game I'm playing.",
+    "ko": "제가 탱커가 주캐인데",
+    "zh-CN": "我的主号职业是个「坦克」",
+    "zh-TW": "我的主號職業是個「坦克」"
+  },
+  {
+    "key": "m_ex_maiden_03_7",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "最近、ゲームで一緒になる\nアタッカーにいつも",
+    "en": "But nearly every player I meet",
+    "ko": "요새 만나는 딜러들마다",
+    "zh-CN": "但是最近遇到的每个输出职业",
+    "zh-TW": "但是最近遇到的每個輸出職業"
+  },
+  {
+    "key": "m_ex_maiden_03_8",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "何でこんなにタンクが下手なんだとか",
+    "en": "just says that I stink at it",
+    "ko": "왜 이렇게 탱을 못하냐",
+    "zh-CN": "都骂我玩得太烂",
+    "zh-TW": "都罵我玩得太爛"
+  },
+  {
+    "key": "m_ex_maiden_03_9",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そんなんだったらやめろとか",
+    "en": "and should quit playing.",
+    "ko": "그딴 식으로 할 거면 접어라",
+    "zh-CN": "叫我干脆删账号算了",
+    "zh-TW": "叫我乾脆刪帳號算了"
+  },
+  {
+    "key": "m_ex_maiden_03_10",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "しまいには名誉毀損的な\n発言までしてきます。",
+    "en": "They even drag my parents into it!",
+    "ko": "하다 하다 부모님 안부까지 묻는다니까요?",
+    "zh-CN": "有人甚至还会骂脏话问候我爸妈欸！",
+    "zh-TW": "有人甚至還會罵髒話問候我爸媽欸！"
+  },
+  {
+    "key": "m_ex_maiden_03_11",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ひどいな",
+    "en": "That's too much.",
+    "ko": "너무 하네",
+    "zh-CN": "太过分了",
+    "zh-TW": "太過分了"
+  },
+  {
+    "key": "m_ex_maiden_03_12",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そうですよね。",
+    "en": "I know, right?",
+    "ko": "그쵸?",
+    "zh-CN": "就是说嘛",
+    "zh-TW": "就是說嘛"
+  },
+  {
+    "key": "m_ex_maiden_03_13",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "この前一緒になったアタッカーは",
+    "en": "One time, another player got carried away.",
+    "ko": "최근에 만난 딜러는",
+    "zh-CN": "我最近遇到的输出职业队友",
+    "zh-TW": "我最近遇到的輸出職業隊友"
+  },
+  {
+    "key": "m_ex_maiden_03_14",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "自分が勝手に先走ったせいで\n死んでおいて",
+    "en": "He somehow separated from the rest of us and died.",
+    "ko": "혼자 앞에서 나대다가 죽어놓고는",
+    "zh-CN": "明明是他自己一个人跑去前面送死",
+    "zh-TW": "明明是他自己一個人跑去前面送死"
+  },
+  {
+    "key": "m_ex_maiden_03_15",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "タンクが下手だから死んだんだって",
+    "en": "Yet, he blamed me for not doing my job!",
+    "ko": "탱을 제대로 안 해주니까 죽은 거라면서",
+    "zh-CN": "还怪我没有拉好怪",
+    "zh-TW": "還怪我沒有拉好怪"
+  },
+  {
+    "key": "m_ex_maiden_03_16",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "これでもかと暴言を吐いて\n出て行きました。",
+    "en": "He cursed me out and eventually rage quit.",
+    "ko": "욕이란 욕은 다 하고 나가는 거 있죠",
+    "zh-CN": "离开时用各种脏话骂我",
+    "zh-TW": "離開時用各種髒話罵我"
+  },
+  {
+    "key": "m_ex_maiden_03_17",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンもアタッカーになれ",
+    "en": "Why don't you switch classes?",
+    "ko": "메이든도 딜러로 넘어가자",
+    "zh-CN": "梅登改练输出吧",
+    "zh-TW": "梅登改練輸出吧"
+  },
+  {
+    "key": "m_ex_maiden_03_18",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンはヒーラーになれ",
+    "en": "Ever thought about switching to a healer?",
+    "ko": "메이든은 힐러로 넘어가자",
+    "zh-CN": "梅登改练补师吧",
+    "zh-TW": "梅登改練補師吧"
+  },
+  {
+    "key": "m_ex_maiden_03_19",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そうしましょうかね。",
+    "en": "Do I have to?",
+    "ko": "그럴까요",
+    "zh-CN": "要不我试试？",
+    "zh-TW": "要不我試試？"
+  },
+  {
+    "key": "m_ex_maiden_03_20",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "好きなだけ暴れて死んだら、他人のせいにすればいいですもんね。",
+    "en": "I mean it's not my responsibility to keep players alive when they get carried away.",
+    "ko": "신나게 날뛰다가 죽으면 남 탓하면 되잖아요",
+    "zh-CN": "明明是他自己走位太离谱，被打死了还要怪别人",
+    "zh-TW": "明明是他自己走位太離譜，被打死了還要怪別人"
+  },
+  {
+    "key": "m_ex_maiden_03_21",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ヒーラーだってすごい色々言われるんです。",
+    "en": "Being a healer is stressful too.",
+    "ko": "힐러도 스트레스 장난 아니에요",
+    "zh-CN": "补师的压力也不是开玩笑的",
+    "zh-TW": "補師的壓力也不是開玩笑的"
+  },
+  {
+    "key": "m_ex_maiden_03_22",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "回復量がちょっとでも足りないと速攻非難の嵐ですから。",
+    "en": "People are always on your case if the HPS is too low.",
+    "ko": "힐량 조금만 딸려도 엄청 뭐라고 하거든요",
+    "zh-CN": "补得稍微低一点就会被抱怨",
+    "zh-TW": "補得稍微低一點就會被抱怨"
+  },
+  {
+    "key": "m_ex_maiden_03_23",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "すべてのアタッカーが\nそういうわけではありませんが",
+    "en": "There are definitely some good players in the game,",
+    "ko": "뭐 모든 딜러들이 그러는 건 아니지만",
+    "zh-CN": "虽然不是所有输出角色都这么恶劣",
+    "zh-TW": "雖然不是所有輸出角色都這麼惡劣"
+  },
+  {
+    "key": "m_ex_maiden_03_24",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "こんな状態だからどんどんヒーラーと\nタンカーがやめていくんでしょうね。",
+    "en": "but it's all gotten so toxic that fewer people want to be a tank or healer.",
+    "ko": "어쨌든 이러니까 점점 힐탱 유저가 줄어드는 거겠죠",
+    "zh-CN": "但也是因为这样才越来越少人玩补师",
+    "zh-TW": "但也是因為這樣才越來越少人玩補師"
+  },
+  {
+    "key": "m_ex_maiden_03_25",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "よくしてあげても\nまず悪口から言ってきますので。",
+    "en": "Especially when all you experience is getting blamed for everything.",
+    "ko": "해줘도 욕부터 박으니까요",
+    "zh-CN": "因为不管补得好不好都会挨骂",
+    "zh-TW": "因為不管補得好不好都會挨罵"
+  },
+  {
+    "key": "m_ex_maiden_03_26",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あ、次のレイドの時間になりました。",
+    "en": "Oh, it's time for the next raid!",
+    "ko": "아 다음 레이드 시간 다 됐네요",
+    "zh-CN": "啊，下一个突击的时间到了",
+    "zh-TW": "啊，下一個突擊的時間到了"
+  },
+  {
+    "key": "m_ex_maiden_03_27",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "愚痴を聞いてくださって\nありがとうございました。",
+    "en": "Thanks for letting me blow off some steam.",
+    "ko": "한탄 들어주셔서 감사해요",
+    "zh-CN": "谢谢你听我唠叨这么久",
+    "zh-TW": "謝謝你聽我嘮叨這麼久"
+  },
+  {
+    "key": "m_ex_maiden_03_28",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "大丈夫だ。レイド頑張ってくるんだ",
+    "en": "No worries, hope the raid goes well.",
+    "ko": "ㅇㅇ 레이드 무사히 돌고 와",
+    "zh-CN": "嗯嗯 祝你凯旋归来",
+    "zh-TW": "嗯嗯 祝你凱旋歸來"
+  },
+  {
+    "key": "m_ex_rapi_03_10",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンから話を\n聞いたような気もします。",
+    "en": "Yes, I believe Maiden told me",
+    "ko": "메이든한테 들었던 거 같기도 합니다.",
+    "zh-CN": "我好像也听梅登提过。",
+    "zh-TW": "我好像也聽梅登提過。"
+  },
+  {
+    "key": "m_ex_maiden_04_1",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官",
+    "en": "Commander,",
+    "ko": "지휘관",
+    "zh-CN": "指挥官",
+    "zh-TW": "指揮官"
+  },
+  {
+    "key": "m_ex_maiden_04_2",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "今すぐに欲しいものはありますか？",
+    "en": "is there anything that you long to obtain?",
+    "ko": "지금 당장 갖고 싶은 것이 있으신가요?",
+    "zh-CN": "您有现在就想立刻拥有的东西吗？",
+    "zh-TW": "您有現在就想立刻擁有的東西嗎？"
+  },
+  {
+    "key": "m_ex_maiden_04_3",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "特にない",
+    "en": "Not really.",
+    "ko": "딱히 없어",
+    "zh-CN": "没有",
+    "zh-TW": "沒有"
+  },
+  {
+    "key": "m_ex_maiden_04_4",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "たくさんある",
+    "en": "Loads.",
+    "ko": "많지",
+    "zh-CN": "很多啊",
+    "zh-TW": "很多啊"
+  },
+  {
+    "key": "m_ex_maiden_04_5",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官は物欲がないんですね。",
+    "en": "It would appear material objects hold no sway over you.",
+    "ko": "지휘관은 물욕이 없으시군요",
+    "zh-CN": "原来指挥官没有物欲啊",
+    "zh-TW": "原來指揮官沒有物欲啊"
+  },
+  {
+    "key": "m_ex_maiden_04_6",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "では、私のことを\n分かってはくれないでしょうね…",
+    "en": "If that's the case, you probably won't grasp what I'm getting at...",
+    "ko": "그럼 저를 이해할 수 없으시겠어요…",
+    "zh-CN": "那您应该无法理解我……",
+    "zh-TW": "那您應該無法理解我……"
+  },
+  {
+    "key": "m_ex_maiden_04_7",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "いや、私も欲しいものは\nたくさんある",
+    "en": "Oh, no. There're loads of things I want to have as well.",
+    "ko": "아 아니야 나도 갖고 싶은 거 많지",
+    "zh-CN": "啊，不是，我也有很多想要的东西",
+    "zh-TW": "啊，不是，我也有很多想要的東西"
+  },
+  {
+    "key": "m_ex_maiden_04_8",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そうですよね！",
+    "en": "Really?",
+    "ko": "그렇죠!",
+    "zh-CN": "对吧！",
+    "zh-TW": "對吧！"
+  },
+  {
+    "key": "m_ex_maiden_04_9",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "では、それが高いものだとしても",
+    "en": "What if it's prohibitively expensive?",
+    "ko": "그럼 그게 비싸더라도",
+    "zh-CN": "那么，就算那个东西很贵",
+    "zh-TW": "那麼，就算那個東西很貴"
+  },
+  {
+    "key": "m_ex_maiden_04_10",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "手に入れようとするタイプですか？",
+    "en": "Would you still lust after it?",
+    "ko": "손에 넣으려고 하시는 편인가요?",
+    "zh-CN": "您也会想拥有它吗？",
+    "zh-TW": "您也會想擁有它嗎？"
+  },
+  {
+    "key": "m_ex_maiden_04_11",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "高価なものなら悩むな",
+    "en": "If it's that pricey, I might have to think twice about it.",
+    "ko": "비싸면 고민할 것 같은데",
+    "zh-CN": "太贵的话，我就要考虑一下了",
+    "zh-TW": "太貴的話，我就要考慮一下了"
+  },
+  {
+    "key": "m_ex_maiden_04_12",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "うーん。",
+    "en": "Hmmm...",
+    "ko": "음",
+    "zh-CN": "嗯...",
+    "zh-TW": "嗯"
+  },
+  {
+    "key": "m_ex_maiden_04_13",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "本当にすごく欲しくて",
+    "en": "What if you wanted it so badly",
+    "ko": "정말 정말 너무 갖고 싶어서",
+    "zh-CN": "如果是真的真的非常想要",
+    "zh-TW": "如果是真的真的非常想要"
+  },
+  {
+    "key": "m_ex_maiden_04_14",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "食事も喉を通らず",
+    "en": "that you couldn't eat",
+    "ko": "밥도 넘어가지 않고",
+    "zh-CN": "想得吃不下饭",
+    "zh-TW": "想得吃不下飯"
+  },
+  {
+    "key": "m_ex_maiden_04_15",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "眠れなくてもですか？",
+    "en": "or sleep?",
+    "ko": "잠도 오지 않아도요?",
+    "zh-CN": "也睡不着觉呢？",
+    "zh-TW": "也睡不著覺呢？"
+  },
+  {
+    "key": "m_ex_maiden_04_16",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そこまでなら買う",
+    "en": "If it was that bad, then I would bite the bullet and buy it.",
+    "ko": "그 정도면 사야지",
+    "zh-CN": "那肯定要买啊",
+    "zh-TW": "那肯定要買啊"
+  },
+  {
+    "key": "m_ex_maiden_04_17",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そうですよね。",
+    "en": "Very good.",
+    "ko": "그렇죠",
+    "zh-CN": "对吧",
+    "zh-TW": "對吧"
+  },
+  {
+    "key": "m_ex_maiden_04_18",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "やはり私の判断は\n間違っていませんでした。",
+    "en": "I believe I made the right decision.",
+    "ko": "역시 제 판단이 맞았어요",
+    "zh-CN": "果然我的想法是对的",
+    "zh-TW": "果然我的想法是對的"
+  },
+  {
+    "key": "m_ex_maiden_04_19",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "何を買ったんだ？",
+    "en": "What did you buy?",
+    "ko": "뭘 샀길래 그래?",
+    "zh-CN": "你到底买了什么？",
+    "zh-TW": "你到底買了什麼？"
+  },
+  {
+    "key": "m_ex_maiden_04_20",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "！！",
+    "en": "!!",
+    "ko": "!!",
+    "zh-CN": "！！",
+    "zh-TW": "！！"
+  },
+  {
+    "key": "m_ex_maiden_04_21",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "その",
+    "en": "Um...",
+    "ko": "그게",
+    "zh-CN": "那个",
+    "zh-TW": "那個"
+  },
+  {
+    "key": "m_ex_maiden_04_22",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "盾を1つ",
+    "en": "A shield?",
+    "ko": "방패를 하나",
+    "zh-CN": "我买了块盾牌",
+    "zh-TW": "我買了塊盾牌"
+  },
+  {
+    "key": "m_ex_maiden_04_23",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "盾？あ、ゲームの話か",
+    "en": "A shield? Oh, you're talking about a game?",
+    "ko": "방패? 아 게임 얘기구나",
+    "zh-CN": "盾牌？哦，游戏里的啊",
+    "zh-TW": "盾牌？哦，遊戲裡的啊"
+  },
+  {
+    "key": "m_ex_maiden_04_24",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "はい。",
+    "en": "Yes.",
+    "ko": "네",
+    "zh-CN": "是的",
+    "zh-TW": "是的"
+  },
+  {
+    "key": "m_ex_maiden_04_25",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "私のメインキャラがタンカーなのは\nご存じでしょう？",
+    "en": "My main character is a tank.",
+    "ko": "제 주캐가 탱커인 건 아시죠?",
+    "zh-CN": "您知道我玩的角色是坦克吧？",
+    "zh-TW": "您知道我玩的角色是坦克吧？"
+  },
+  {
+    "key": "m_ex_maiden_04_26",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "最低限の動きで最大限の力を出すために",
+    "en": "In order to maximize my efficiency while minimizing movement,",
+    "ko": "최소한의 움직임으로 최대 효율을 내기 위해",
+    "zh-CN": "为了用最少的动作发挥出最大的效果",
+    "zh-TW": "為了用最少的動作發揮出最大的效果"
+  },
+  {
+    "key": "m_ex_maiden_04_27",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "今回の盾は、外せませんでした。",
+    "en": "this purchase was essential.",
+    "ko": "이번 구매는 필수적이었어요",
+    "zh-CN": "这次消费是必须的",
+    "zh-TW": "這次消費是必須的"
+  },
+  {
+    "key": "m_ex_maiden_04_28",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "オークションにもあまり出品されない\nレアアイテムで",
+    "en": "It's a rare item that doesn't often appear on auction.",
+    "ko": "옥션에도 잘 올라오지 않는 레어템이고",
+    "zh-CN": "而且这个盾是几乎不拍卖的稀有道具",
+    "zh-TW": "而且這個盾是幾乎不拍賣的稀有道具"
+  },
+  {
+    "key": "m_ex_maiden_04_29",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "この盾があれば、\nギルドは最強になります。",
+    "en": "With this shield, our guild's bound to become unstoppable,",
+    "ko": "이 방패라면 저희 길드는 최강이 될 거예요",
+    "zh-CN": "有了它，我们公会就是最强的了",
+    "zh-TW": "有了它，我們公會就是最強的了"
+  },
+  {
+    "key": "m_ex_maiden_04_30",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そうすれば、チームワークも\n高まるでしょう！",
+    "en": "and I'll serve an even more vital role amongst the team!",
+    "ko": "그럼 소속감도 더 높아지겠죠!",
+    "zh-CN": "那么，我也会更有归属感！",
+    "zh-TW": "那麼，我也會更有歸屬感！"
+  },
+  {
+    "key": "m_ex_maiden_04_31",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そんなに高かったのか？\n言い訳が長いな",
+    "en": "You're going to extreme lengths to justify this purchase. Just how expensive was it?",
+    "ko": "많이 비쌌어? 자기 합리화가 긴데",
+    "zh-CN": "这么贵吗？让你花这么多时间合理这项花费",
+    "zh-TW": "這麼貴嗎？讓你花這麼多時間合理這項花費"
+  },
+  {
+    "key": "m_ex_maiden_04_32",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あっ",
+    "en": "Er...",
+    "ko": "아",
+    "zh-CN": "啊",
+    "zh-TW": "啊"
+  },
+  {
+    "key": "m_ex_maiden_04_33",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "まあ、アイテムだから\n高いといっても\n知れているだろう",
+    "en": "How bad could it be?",
+    "ko": "뭐 아이템이 비싸면 얼마나 비싸겠어",
+    "zh-CN": "不过就是一个道具，再贵又能贵到哪里去",
+    "zh-TW": "不過就是一個道具，再貴又能貴到哪裡去"
+  },
+  {
+    "key": "m_ex_maiden_04_34",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "えっと…",
+    "en": "...",
+    "ko": "음…",
+    "zh-CN": "嗯……",
+    "zh-TW": "嗯……"
+  },
+  {
+    "key": "m_ex_maiden_04_35",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "趣味にお金を使うのは\n悪いことではない",
+    "en": "Well, there's nothing necessarily wrong with spending money on something you like.",
+    "ko": "취미에 돈을 쓰는 건 나쁘지 않아",
+    "zh-CN": "为自己的爱好买单不是坏事",
+    "zh-TW": "為自己的愛好買單不是壞事"
+  },
+  {
+    "key": "m_ex_maiden_04_36",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "本当ですか…？",
+    "en": "Really?",
+    "ko": "정말요…?",
+    "zh-CN": "真的吗……？",
+    "zh-TW": "真的嗎……？"
+  },
+  {
+    "key": "m_ex_maiden_04_37",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "盾を買ったら",
+    "en": "After buying this shield,",
+    "ko": "방패를 사고 났더니",
+    "zh-CN": "可是我买了盾牌之后",
+    "zh-TW": "可是我買了盾牌之後"
+  },
+  {
+    "key": "m_ex_maiden_04_38",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "残りのクレジットがなくなって",
+    "en": "I don't have any Credits left.",
+    "ko": "남은 크레딧이 없어서",
+    "zh-CN": "就没有信用点了",
+    "zh-TW": "就沒有信用點了"
+  },
+  {
+    "key": "m_ex_maiden_04_39",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "電気と水道が止まったとしても？",
+    "en": "My electricity and water have been cut too.",
+    "ko": "전기와 수도 공급이 끊겼는데도요?",
+    "zh-CN": "水电都断了，那也没关系吗？",
+    "zh-TW": "水電都斷了，那也沒關係嗎？"
+  },
+  {
+    "key": "m_ex_maiden_04_40",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "？？",
+    "en": "??",
+    "ko": "??",
+    "zh-CN": "？？",
+    "zh-TW": "？？"
+  },
+  {
+    "key": "m_ex_maiden_04_41",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "それから、部隊の共用費も\n全部使ってしまい",
+    "en": "I even had to",
+    "ko": "그리고 스쿼드 공용 회비도 다 써서",
+    "zh-CN": "而且我把部队的公费也花完了",
+    "zh-TW": "而且我把部隊的公費也花完了"
+  },
+  {
+    "key": "m_ex_maiden_04_42",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ギロチンが自分のアカウントに",
+    "en": "dip into our squad's petty cash.",
+    "ko": "길로틴이 자기 계정에",
+    "zh-CN": "吉萝婷在自己的账号上",
+    "zh-TW": "吉蘿婷在自己的帳號上"
+  },
+  {
+    "key": "m_ex_maiden_04_43",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "「堕落したバラは地獄に落ちろ」",
+    "en": "I'm positive Guillotine even posted something about me online:",
+    "ko": "[타락한 장미는 지옥에 떨어져라]",
+    "zh-CN": "发了一条动态",
+    "zh-TW": "發了一條動態"
+  },
+  {
+    "key": "m_ex_maiden_04_44",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "と投稿してもですか？",
+    "en": "Corrupted roses should be left to wither.",
+    "ko": "라고 올렸는데도요?",
+    "zh-CN": "说「堕落的玫瑰就下地狱吧」",
+    "zh-TW": "說「墮落的玫瑰就下地獄吧」"
+  },
+  {
+    "key": "m_ex_maiden_04_45",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "待ってくれ、それはちょっと…",
+    "en": "You may have gone too far in a few places...",
+    "ko": "잠깐만 그건 좀;",
+    "zh-CN": "等一下，这就有点夸张了-_-||",
+    "zh-TW": "等一下，這就有點誇張了-_-||"
+  },
+  {
+    "key": "m_ex_maiden_04_46",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "チームワークを高めるためには",
+    "en": "I simply wanted to contribute more to the team.",
+    "ko": "소속감을 높이기 위해선",
+    "zh-CN": "我认为，只要能提升归属感",
+    "zh-TW": "我認為，只要能提升歸屬感"
+  },
+  {
+    "key": "m_ex_maiden_04_47",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "これくらい安いものだと思ったんです。",
+    "en": "To make that happen, I figured the money wasn't even a concern.",
+    "ko": "이 정도는 싸다고 생각했어요",
+    "zh-CN": "这都不算贵",
+    "zh-TW": "這都不算貴"
+  },
+  {
+    "key": "m_ex_maiden_04_48",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "これからどう生活するんだ？",
+    "en": "How are you going to get by now?",
+    "ko": "앞으로 뭐 먹고살려고",
+    "zh-CN": "那你接下来要怎么生活",
+    "zh-TW": "那你接下來要吃什麼"
+  },
+  {
+    "key": "m_ex_maiden_04_49",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そこでなんですが",
+    "en": "Well,",
+    "ko": "그래서 말인데",
+    "zh-CN": "所以我想说",
+    "zh-TW": "所以我想說"
+  },
+  {
+    "key": "m_ex_maiden_04_50",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官",
+    "en": "now that you brought it up...",
+    "ko": "지휘관",
+    "zh-CN": "指挥官",
+    "zh-TW": "指揮官"
+  },
+  {
+    "key": "m_ex_maiden_04_51",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "クレジットを貸してください(T_T)",
+    "en": "could you lend me some Credits by any chance?",
+    "ko": "크레딧 좀 꿔주세요 ㅠㅠ",
+    "zh-CN": "借我一些信用点吧T_T",
+    "zh-TW": "借我一些信用點吧T_T"
+  },
+  {
+    "key": "m_ex_maiden_04_52",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あれ、急に文字が\n表示されなくなった",
+    "en": "Maiden? Your messages aren't showing up for some reason.",
+    "ko": "어 잠깐 갑자기 텍스트가 안 보여",
+    "zh-CN": "欸，等一下，突然看不清楚消息了",
+    "zh-TW": "欸，等一下，突然看不清楚訊息了"
+  },
+  {
+    "key": "m_ex_maiden_04_53",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官？",
+    "en": "Commander?",
+    "ko": "지휘관?",
+    "zh-CN": "指挥官？",
+    "zh-TW": "指揮官？"
+  },
+  {
+    "key": "m_ex_maiden_04_54",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官？？？？",
+    "en": "Commander????",
+    "ko": "지휘관????",
+    "zh-CN": "指挥官？？？？",
+    "zh-TW": "指揮官？？？？"
+  },
+  {
+    "key": "m_ex_maiden_04_55",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "しばらくメイデンからの連絡は\n無視しよう",
+    "en": "I think I should avoid Maiden for a while.",
+    "ko": "당분간 메이든의 연락을 피해야 할 것 같다",
+    "zh-CN": "看来最近不能和梅登联络了",
+    "zh-TW": "看來最近不能和梅登聯絡了"
+  },
+  {
+    "key": "m_ex_maiden_05_1",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官",
+    "en": "Thanks for all your hard work today,",
+    "ko": "지휘관",
+    "zh-CN": "指挥官",
+    "zh-TW": "指揮官"
+  },
+  {
+    "key": "m_ex_maiden_05_2",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "今日もお疲れ様でした。",
+    "en": "Commander.",
+    "ko": "오늘도 고생하셨습니다",
+    "zh-CN": "今天也辛苦您了",
+    "zh-TW": "今天也辛苦您了"
+  },
+  {
+    "key": "m_ex_maiden_05_3",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンもお疲れ様",
+    "en": "You too, Maiden.",
+    "ko": "메이든도 고생했어",
+    "zh-CN": "梅登也辛苦了",
+    "zh-TW": "梅登也辛苦了"
+  },
+  {
+    "key": "m_ex_maiden_05_4",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "はい。",
+    "en": "Hehe.",
+    "ko": "네",
+    "zh-CN": "是",
+    "zh-TW": "是"
+  },
+  {
+    "key": "m_ex_maiden_05_5",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "最近はゲームをするのも大変で。",
+    "en": "I must confess, even playing games has been a challenge as of late.",
+    "ko": "요즘은 게임하는 것도 힘드네요",
+    "zh-CN": "最近连打电动都好累啊",
+    "zh-TW": "最近連打電動都好累啊"
+  },
+  {
+    "key": "m_ex_maiden_05_6",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "何か悩みがあるのか？",
+    "en": "Do you have something on your mind?",
+    "ko": "무슨 고민 있어?",
+    "zh-CN": "你有什么烦恼吗？",
+    "zh-TW": "你有什麼煩惱嗎？"
+  },
+  {
+    "key": "m_ex_maiden_05_7",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "マスクのせいなんです。",
+    "en": "Speaking honestly? Yes, it's the mask.",
+    "ko": "사실은 마스크 때문에요",
+    "zh-CN": "其实是因为面具",
+    "zh-TW": "其實是因為面具"
+  },
+  {
+    "key": "m_ex_maiden_05_8",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "マスク？",
+    "en": "What about it?",
+    "ko": "마스크가 왜?",
+    "zh-CN": "面具怎么了？",
+    "zh-TW": "面具怎麼了？"
+  },
+  {
+    "key": "m_ex_maiden_05_9",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "その…常にマスクをしているので",
+    "en": "I have to wear it all the time.",
+    "ko": "그게… 항상 쓰고 있다 보니",
+    "zh-CN": "那个……因为我一直戴着它",
+    "zh-TW": "那個……因為我一直戴著它"
+  },
+  {
+    "key": "m_ex_maiden_05_10",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "表情が隠れてしまうせいか",
+    "en": "Maybe it's because they can't see my expression,",
+    "ko": "표정이 잘 보이지 않아서 그런지",
+    "zh-CN": "别人就看不到我的表情，可能是因为这个原因",
+    "zh-TW": "別人就看不到我的表情，可能是因為這個原因"
+  },
+  {
+    "key": "m_ex_maiden_05_11",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "知らない人と付き合うのが",
+    "en": "but it seems exceedingly difficult",
+    "ko": "새로운 사람을 사귀는 게",
+    "zh-CN": "我想交新朋友",
+    "zh-TW": "我想交新朋友"
+  },
+  {
+    "key": "m_ex_maiden_05_12",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "大変なんです。",
+    "en": "to get to know new people.",
+    "ko": "힘든 것 같아요",
+    "zh-CN": "会有点困难",
+    "zh-TW": "會有點困難"
+  },
+  {
+    "key": "m_ex_maiden_05_13",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ゲームのオフ会に行っても",
+    "en": "Even when I go to game meetups,",
+    "ko": "게임 정모에 나가도",
+    "zh-CN": "就连参加定期的游戏聚会",
+    "zh-TW": "就連參加定期的遊戲聚會"
+  },
+  {
+    "key": "m_ex_maiden_05_14",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "みんなから微妙に\n距離を置かれてるみたいで。",
+    "en": "it feels like everyone is keeping their distance.",
+    "ko": "다들 미묘하게 거리를 두는 것 같고",
+    "zh-CN": "也感觉大家有意无意地和我保持距离",
+    "zh-TW": "也感覺大家有意無意地和我保持距離"
+  },
+  {
+    "key": "m_ex_maiden_05_15",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "大変そうだな",
+    "en": "That must be difficult.",
+    "ko": "힘들겠네",
+    "zh-CN": "真累人啊",
+    "zh-TW": "真累人啊"
+  },
+  {
+    "key": "m_ex_maiden_05_16",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "はい。",
+    "en": "It is.",
+    "ko": "네",
+    "zh-CN": "是啊",
+    "zh-TW": "是啊"
+  },
+  {
+    "key": "m_ex_maiden_05_17",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "マスクのせいで誤解されている気がして",
+    "en": "Because of the mask, I feel like people get the wrong impression about me.",
+    "ko": "마스크 때문에 오해를 받고 있는 것 같아서",
+    "zh-CN": "我觉得自己老是因为面具被误会",
+    "zh-TW": "我覺得自己老是因為面具被誤會"
+  },
+  {
+    "key": "m_ex_maiden_05_18",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "すごく悲しくなります。",
+    "en": "It can really get you down sometimes, you know?",
+    "ko": "가끔은 너무 슬퍼요",
+    "zh-CN": "偶尔会感到很伤心",
+    "zh-TW": "偶爾會感到很傷心"
+  },
+  {
+    "key": "m_ex_maiden_05_19",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "「鉄仮面の少女」という\n小説は知ってるか？",
+    "en": "Have you ever heard of the story, The Girl Behind the Iron Mask?",
+    "ko": "혹시 [철가면 소녀]라는 소설 알아?",
+    "zh-CN": "你知道「铁面具少女」这部小说吗？",
+    "zh-TW": "你知道「鐵面具少女」這部小說嗎？"
+  },
+  {
+    "key": "m_ex_maiden_05_20",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "いいえ、初めて聞きました。",
+    "en": "No, I've never heard of it.",
+    "ko": "아뇨 처음 들어봤어요",
+    "zh-CN": "不知道，第一次听说",
+    "zh-TW": "不知道，第一次聽說"
+  },
+  {
+    "key": "m_ex_maiden_05_21",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "いつも仮面をつけている\n女の子が出てくるんだ",
+    "en": "The protagonist is a girl who is forced to perpetually wear a mask.",
+    "ko": "항상 가면을 쓰고 사는 여자아이가 나오는데",
+    "zh-CN": "里面有位总是戴着面具的女孩",
+    "zh-TW": "裡面有位總是戴著面具的女孩"
+  },
+  {
+    "key": "m_ex_maiden_05_22",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あっ",
+    "en": "I see.",
+    "ko": "아",
+    "zh-CN": "啊",
+    "zh-TW": "啊"
+  },
+  {
+    "key": "m_ex_maiden_05_23",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "みんな顔が醜いから\n仮面をつけているんだ、と\n根拠のない噂で彼女をからかった",
+    "en": "Baseless rumors spread about how she hides her face because it's disfigured, and people taunt her.",
+    "ko": "사람들은 얼굴이 추해서 그렇다는 둥\n근거 없는 소문으로 여자애를 놀려댔지",
+    "zh-CN": "人们都说她戴面具是因为相貌丑陋\n还用一些毫无根据的流言取笑她",
+    "zh-TW": "人們都說她戴面具是因為相貌醜陋\n還用一些毫無根據的流言取笑她"
+  },
+  {
+    "key": "m_ex_maiden_05_24",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "可哀想ですね。",
+    "en": "Poor thing...",
+    "ko": "가엽네요",
+    "zh-CN": "真可怜",
+    "zh-TW": "真可憐"
+  },
+  {
+    "key": "m_ex_maiden_05_25",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そんなある日、誰かがイタズラで\n仮面を取ってしまうんだ",
+    "en": "One day, someone rips off her mask, intending it to be a cruel joke.",
+    "ko": "그러던 어느 날 누가 장난으로 가면을 벗겨버려",
+    "zh-CN": "后来有一天，有人捉弄她，把她的面具摘掉了",
+    "zh-TW": "後來有一天，有人捉弄她，把她的面具摘掉了"
+  },
+  {
+    "key": "m_ex_maiden_05_26",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "なんてひどいことを！",
+    "en": "How could someone do something so horrible?!",
+    "ko": "그런 심한 짓을!",
+    "zh-CN": "太过分了！",
+    "zh-TW": "太過分了！"
+  },
+  {
+    "key": "m_ex_maiden_05_27",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ところが、仮面の下には驚くほど\n美しい女性の顔が隠れていたんだ",
+    "en": "However, behind the mask lay the face of a strikingly beautiful girl.",
+    "ko": "그런데 가면 뒤엔 숨 막히게 아름다운 여성이 있었지",
+    "zh-CN": "然后人们发现，面具后面藏着一张美到让人窒息的女孩的脸",
+    "zh-TW": "然後人們發現，面具後面藏著一張美到讓人窒息的女孩的臉"
+  },
+  {
+    "key": "m_ex_maiden_05_28",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "！！",
+    "en": "!!",
+    "ko": "!!",
+    "zh-CN": "！！",
+    "zh-TW": "！！"
+  },
+  {
+    "key": "m_ex_maiden_05_29",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "とても興味深いですね。",
+    "en": "This is quite interesting.",
+    "ko": "꽤 흥미롭네요",
+    "zh-CN": "很有趣的故事",
+    "zh-TW": "很有趣的故事"
+  },
+  {
+    "key": "m_ex_maiden_05_30",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "何というか…\n私に似ている気がします。",
+    "en": "I feel like there are many parallels between this story and myself.",
+    "ko": "뭐랄까… 이야기가 저랑 좀 닮은 것 같아요",
+    "zh-CN": "怎么说呢……感觉这个故事和我有点相像",
+    "zh-TW": "怎麼說呢……感覺這個故事和我有點相像"
+  },
+  {
+    "key": "m_ex_maiden_05_31",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "私もそう思った",
+    "en": "I think so too.",
+    "ko": "나도 그렇게 생각했어",
+    "zh-CN": "我也是这样想的",
+    "zh-TW": "我也是這樣想的"
+  },
+  {
+    "key": "m_ex_maiden_05_32",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンをモデルに\nしたんじゃないか",
+    "en": "Perhaps the story was modeled after you.",
+    "ko": "메이든을 모델로 한 거 아닐까",
+    "zh-CN": "是不是以梅登为原型写的？",
+    "zh-TW": "是不是以梅登為原型寫的？"
+  },
+  {
+    "key": "m_ex_maiden_05_33",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "やっぱりそうですよね。",
+    "en": "Truly...",
+    "ko": "역시 그렇죠",
+    "zh-CN": "果然如此",
+    "zh-TW": "果然如此"
+  },
+  {
+    "key": "m_ex_maiden_05_34",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "まさか…？",
+    "en": "You really think so?",
+    "ko": "설마… 요?",
+    "zh-CN": "不会……吧？",
+    "zh-TW": "不會……吧？"
+  },
+  {
+    "key": "m_ex_maiden_05_35",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あ、でも",
+    "en": "Ah,",
+    "ko": "아 하지만",
+    "zh-CN": "啊，不过",
+    "zh-TW": "啊，不過"
+  },
+  {
+    "key": "m_ex_maiden_05_36",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "大きな違いがあります。",
+    "en": "but there's a big difference, though.",
+    "ko": "큰 차이가 있어요",
+    "zh-CN": "有一个很大的区别",
+    "zh-TW": "有一個很大的區別"
+  },
+  {
+    "key": "m_ex_maiden_05_37",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "その方は驚くほど",
+    "en": "The story painted her",
+    "ko": "그분은 숨이 막힐 정도로",
+    "zh-CN": "您刚才说那个女孩",
+    "zh-TW": "您剛才說那個女孩"
+  },
+  {
+    "key": "m_ex_maiden_05_38",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "美しいそうですが",
+    "en": "as breathtakingly beautiful,",
+    "ko": "아름답다고 했는데",
+    "zh-CN": "美得让人窒息",
+    "zh-TW": "美得讓人窒息"
+  },
+  {
+    "key": "m_ex_maiden_05_39",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "私はそこまでではないので。",
+    "en": "but that's not exactly me.",
+    "ko": "저는 그 정도는 아니라서",
+    "zh-CN": "我可没有那么美",
+    "zh-TW": "我可沒有那麼美"
+  },
+  {
+    "key": "m_ex_maiden_05_40",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そうか？",
+    "en": "I disagree.",
+    "ko": "그런가?",
+    "zh-CN": "是吗？",
+    "zh-TW": "是嗎？"
+  },
+  {
+    "key": "m_ex_maiden_05_41",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "えっ？",
+    "en": "What?",
+    "ko": "예?",
+    "zh-CN": "欸？",
+    "zh-TW": "欸？"
+  },
+  {
+    "key": "m_ex_maiden_05_42",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "私はそこも似ていると思った",
+    "en": "When I say you and the story are similar, that was one of the key similarities in my mind.",
+    "ko": "나는 그것까지 포함해서 닮았다고 생각했어",
+    "zh-CN": "我说觉得像的地方，包含了这一点",
+    "zh-TW": "我說覺得像的地方，包含了這一點"
+  },
+  {
+    "key": "m_ex_maiden_05_43",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "しきけん",
+    "en": "Commander,",
+    "ko": "지휘괸",
+    "zh-CN": "指挥官",
+    "zh-TW": "指揮官"
+  },
+  {
+    "key": "m_ex_maiden_05_44",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "式はいつ挙げましょうか？",
+    "en": "will you marry me?",
+    "ko": "식은 언제 올릴까요?",
+    "zh-CN": "我们什么时候举行婚礼？",
+    "zh-TW": "我們什麼時候舉行婚禮？"
+  },
+  {
+    "key": "m_ex_maiden_05_45",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "何だって？",
+    "en": "Excuse me?",
+    "ko": "뭐?",
+    "zh-CN": "什么？",
+    "zh-TW": "什麼？"
+  },
+  {
+    "key": "m_ex_maiden_05_46",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "プロポーズ、嬉しいです。",
+    "en": "I'm honored that you would propose to me in such a romantic fashion,",
+    "ko": "프러포즈해 주셔서 기뻐요",
+    "zh-CN": "您能向我求婚，我很开心",
+    "zh-TW": "您能向我求婚，我很開心"
+  },
+  {
+    "key": "m_ex_maiden_05_47",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "返事は…",
+    "en": "and my answer...",
+    "ko": "대답은…",
+    "zh-CN": "我的回答是……",
+    "zh-TW": "我的回答是……"
+  },
+  {
+    "key": "m_ex_maiden_05_48",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "YESです！",
+    "en": "is yes!",
+    "ko": "YES예요!",
+    "zh-CN": "YES！",
+    "zh-TW": "YES！"
+  },
+  {
+    "key": "m_ex_maiden_05_49",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そんなつもりではなかった",
+    "en": "Um... I didn't mean it that way...",
+    "ko": "그런 의도는 아니었는데",
+    "zh-CN": "我不是那个意思",
+    "zh-TW": "我不是那個意思"
+  },
+  {
+    "key": "m_ex_maiden_05_50",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "顔がとても熱いです。",
+    "en": "Omg, I'm blushing!",
+    "ko": "저 얼굴이 너무 뜨거워요",
+    "zh-CN": "我的脸好烫啊",
+    "zh-TW": "我的臉好燙啊"
+  },
+  {
+    "key": "m_ex_maiden_05_51",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "今は顔を隠してくれるマスクがあって",
+    "en": "For once,",
+    "ko": "지금은 얼굴을 가려주는 마스크가 있어",
+    "zh-CN": "我现在很庆幸",
+    "zh-TW": "我現在很慶幸"
+  },
+  {
+    "key": "m_ex_maiden_05_52",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "本当によかったです。",
+    "en": "I'm glad I'm wearing a mask.",
+    "ko": "너무 다행이에요",
+    "zh-CN": "还好有面具遮住了我的脸",
+    "zh-TW": "還好有面具遮住了我的臉"
+  },
+  {
+    "key": "m_ex_maiden_05_53",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "待ってくれ、メイデン",
+    "en": "Wait, I...",
+    "ko": "잠깐만 메이든",
+    "zh-CN": "等一下，梅登",
+    "zh-TW": "等一下，梅登"
+  },
+  {
+    "key": "m_ex_maiden_05_54",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "まずは式場を調べますね。",
+    "en": "First thing first, we need to find a venue for the wedding.",
+    "ko": "우선은 식장부터 알아봐야겠어요",
+    "zh-CN": "首先得去打听打听婚礼场地吧",
+    "zh-TW": "首先得去打聽打聽婚禮場地吧"
+  },
+  {
+    "key": "m_ex_maiden_06_1",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官",
+    "en": "Commander,",
+    "ko": "지휘관",
+    "zh-CN": "指挥官",
+    "zh-TW": "指揮官"
+  },
+  {
+    "key": "m_ex_maiden_06_2",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あの",
+    "en": "I...",
+    "ko": "저기",
+    "zh-CN": "那个",
+    "zh-TW": "那個"
+  },
+  {
+    "key": "m_ex_maiden_06_3",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "その",
+    "en": "Um...",
+    "ko": "저",
+    "zh-CN": "我",
+    "zh-TW": "我"
+  },
+  {
+    "key": "m_ex_maiden_06_4",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "えっと",
+    "en": "...",
+    "ko": "그게",
+    "zh-CN": "那个",
+    "zh-TW": "那個"
+  },
+  {
+    "key": "m_ex_maiden_06_5",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "だから",
+    "en": "Ugh,",
+    "ko": "그러니까",
+    "zh-CN": "我想说",
+    "zh-TW": "我想說"
+  },
+  {
+    "key": "m_ex_maiden_06_6",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ああ、無理です、言えません。",
+    "en": "I can't say it.",
+    "ko": "아아 도저히 말 못 하겠어요",
+    "zh-CN": "哎呀，我实在说不出口",
+    "zh-TW": "哎呀，我實在說不出口"
+  },
+  {
+    "key": "m_ex_maiden_06_7",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "どうしたんだ？",
+    "en": "What is it?",
+    "ko": "뭔데 그래?",
+    "zh-CN": "到底怎么了？",
+    "zh-TW": "到底怎麼了？"
+  },
+  {
+    "key": "m_ex_maiden_06_8",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "無理をするな",
+    "en": "You don't have to force yourself to say anything.",
+    "ko": "무리해서까지 말할 필요는 없어",
+    "zh-CN": "说不出口就别勉强",
+    "zh-TW": "說不出口就別勉強"
+  },
+  {
+    "key": "m_ex_maiden_06_9",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "その、ですから…",
+    "en": "Well...",
+    "ko": "그게 그러니까",
+    "zh-CN": "那个，是这样的",
+    "zh-TW": "那個，是這樣的"
+  },
+  {
+    "key": "m_ex_maiden_06_10",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "！！",
+    "en": "!!",
+    "ko": "!!",
+    "zh-CN": "！！",
+    "zh-TW": "！！"
+  },
+  {
+    "key": "m_ex_maiden_06_11",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "最近、不整脈があるみたいです。",
+    "en": "I think there's something wrong with my heart.",
+    "ko": "요즘 부정맥이 있는 것 같아요",
+    "zh-CN": "我最近好像有点心律不整",
+    "zh-TW": "我最近好像有點心律不整"
+  },
+  {
+    "key": "m_ex_maiden_06_12",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "不整脈？",
+    "en": "Are you all right?",
+    "ko": "부정맥?",
+    "zh-CN": "心律不整？",
+    "zh-TW": "心律不整？"
+  },
+  {
+    "key": "m_ex_maiden_06_13",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "はい。ドキドキが止まらないというか",
+    "en": "My heart keeps pounding constantly.",
+    "ko": "네 두근거림이 멈추지 않는달까",
+    "zh-CN": "是的，我感觉自己总是心跳不止",
+    "zh-TW": "是的，我感覺自己總是心跳不止"
+  },
+  {
+    "key": "m_ex_maiden_06_14",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メアリーを呼ぼう",
+    "en": "We better call Mary.",
+    "ko": "메어리를 부르자",
+    "zh-CN": "呼叫梅里吧",
+    "zh-TW": "呼叫梅里吧"
+  },
+  {
+    "key": "m_ex_maiden_06_15",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ギロチンを呼ぼう",
+    "en": "We better call Guillotine.",
+    "ko": "길로틴을 부르자",
+    "zh-CN": "呼叫吉萝婷吧",
+    "zh-TW": "呼叫吉蘿婷吧"
+  },
+  {
+    "key": "m_ex_maiden_06_16",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メアリーはすぐに注射をしそうなので",
+    "en": "I'd rather not.",
+    "ko": "메어리는 바로 주사를 놓을 것 같아서",
+    "zh-CN": "梅里会直接替我打针的",
+    "zh-TW": "梅里會直接替我打針的"
+  },
+  {
+    "key": "m_ex_maiden_06_17",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メアリーには言いたくありません。",
+    "en": "She'd just jab me with a needle.",
+    "ko": "알리고 싶지 않아요",
+    "zh-CN": "所以我不想告诉她",
+    "zh-TW": "所以我不想告訴她"
+  },
+  {
+    "key": "m_ex_maiden_06_18",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "症状が余計ひどくなりそうです。",
+    "en": "If we do that, I think my symptoms might get worse.",
+    "ko": "증상이 더 심각해질 것 같은데요",
+    "zh-CN": "那样感觉症状会更严重",
+    "zh-TW": "那樣感覺症狀會更嚴重"
+  },
+  {
+    "key": "m_ex_maiden_06_19",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "どうすればいいでしょうか？",
+    "en": "What should I do?",
+    "ko": "저는 어쩌면 좋죠?",
+    "zh-CN": "我该怎么办啊？",
+    "zh-TW": "我該怎麼辦啊？"
+  },
+  {
+    "key": "m_ex_maiden_06_20",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "いつ症状が現れるんだ？",
+    "en": "When do the symptoms tend to appear?",
+    "ko": "언제 증상이 나타나는데?",
+    "zh-CN": "这个症状通常是什么时候出现？",
+    "zh-TW": "這個症狀通常是什麼時候出現？"
+  },
+  {
+    "key": "m_ex_maiden_06_21",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "えっと…",
+    "en": "Um...",
+    "ko": "그러니까",
+    "zh-CN": "就是",
+    "zh-TW": "就是"
+  },
+  {
+    "key": "m_ex_maiden_06_22",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あるものを思い浮かべると",
+    "en": "Whenever I think of a certain someone,",
+    "ko": "어떤 것을 떠올리면",
+    "zh-CN": "在我想起某件事的时候",
+    "zh-TW": "在我想起某件事的時候"
+  },
+  {
+    "key": "m_ex_maiden_06_23",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "心臓がバクバクします。",
+    "en": "my heart starts racing, and won't let up.",
+    "ko": "심장이 멈추지 않아요",
+    "zh-CN": "就会心跳不止",
+    "zh-TW": "就會心跳不止"
+  },
+  {
+    "key": "m_ex_maiden_06_24",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あるもの？",
+    "en": "And who is this \"certain someone\"?",
+    "ko": "어떤 것?",
+    "zh-CN": "某件事？",
+    "zh-TW": "某件事？"
+  },
+  {
+    "key": "m_ex_maiden_06_25",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "まるで勲章のような\n右の鎖骨にある小さな傷跡",
+    "en": "He has a small scar on his right collarbone that almost resembles a medal.",
+    "ko": "마치 훈장 같은 오른쪽 쇄골의 작은 흉터",
+    "zh-CN": "右边锁骨上的一块小伤疤，就好像勋章一样",
+    "zh-TW": "右邊鎖骨上的一塊小傷疤，就好像勳章一樣"
+  },
+  {
+    "key": "m_ex_maiden_06_26",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "スナイパーライフルのグリップを\n連想させる上腕",
+    "en": "His forearms are as solid as the grip of a sniper rifle,",
+    "ko": "스나이퍼 라이플의 그립을 연상시키는 상완",
+    "zh-CN": "粗壮如狙击步枪枪杆的上臂",
+    "zh-TW": "粗壯如狙擊步槍槍桿的上臂"
+  },
+  {
+    "key": "m_ex_maiden_06_27",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "キレイに分かれたシックスパック",
+    "en": "and he's got a perfectly chiseled six-pack.",
+    "ko": "쫙쫙 갈라진 식스팩",
+    "zh-CN": "线条分明的六块腹肌",
+    "zh-TW": "線條分明的六塊腹肌"
+  },
+  {
+    "key": "m_ex_maiden_06_28",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "そして…",
+    "en": "And...",
+    "ko": "그리고…",
+    "zh-CN": "还有……",
+    "zh-TW": "還有……"
+  },
+  {
+    "key": "m_ex_maiden_06_29",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "骨盤にある繋がった3つの\n小さなホクロ！",
+    "en": "he has three moles on his pelvis!",
+    "ko": "골반에 있는 3개의 이어진 작은 점!",
+    "zh-CN": "盆骨上三颗连在一起的小痣！",
+    "zh-TW": "盆骨上三顆連在一起的小痣！"
+  },
+  {
+    "key": "m_ex_maiden_06_30",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "待ってくれ",
+    "en": "Hold on...",
+    "ko": "잠깐만",
+    "zh-CN": "等一下",
+    "zh-TW": "等一下"
+  },
+  {
+    "key": "m_ex_maiden_06_31",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "指揮官のことを考えるたびに",
+    "en": "It's whenever I think of you, Commander.",
+    "ko": "지휘관이 생각날 때마다",
+    "zh-CN": "每次一想到指挥官",
+    "zh-TW": "每次一想到指揮官"
+  },
+  {
+    "key": "m_ex_maiden_06_32",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ドキドキが！",
+    "en": "That's when my heart starts to beat out of control.",
+    "ko": "그때의 두근거림이!",
+    "zh-CN": "我的心就狂跳不止！",
+    "zh-TW": "我的心就狂跳不止！"
+  },
+  {
+    "key": "m_ex_maiden_06_33",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "どうしてホクロの位置と形まで\n知っているんだ？",
+    "en": "How did you know about those moles of mine?",
+    "ko": "어째서 그 점의 위치와 형태까지 알고 있는 거야?",
+    "zh-CN": "那些痣的位置和形状，你怎么知道得这么清楚？",
+    "zh-TW": "那些痣的位置和形狀，你怎麼知道得這麼清楚？"
+  },
+  {
+    "key": "m_ex_maiden_06_34",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あら。",
+    "en": "Don't tell me you forgot?",
+    "ko": "어머",
+    "zh-CN": "哎呀",
+    "zh-TW": "哎呀"
+  },
+  {
+    "key": "m_ex_maiden_06_35",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "数日前、指揮官室で",
+    "en": "A few days ago,",
+    "ko": "며칠 전 지휘관실에서",
+    "zh-CN": "几天前，在指挥官室里",
+    "zh-TW": "幾天前，在指揮官室裡"
+  },
+  {
+    "key": "m_ex_maiden_06_36",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "夜遅くまで絆を深めた時の記憶を",
+    "en": "we were hanging out",
+    "ko": "밤늦게까지 소속감을 다졌던 기억을",
+    "zh-CN": "我们一起培养归属感到深夜的事",
+    "zh-TW": "我們一起培養歸屬感到深夜的事"
+  },
+  {
+    "key": "m_ex_maiden_06_37",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "忘れてしまったのですか？",
+    "en": "in your room late at night.",
+    "ko": "잃어버리신 건 아니겠죠?",
+    "zh-CN": "您不会忘记了吧？",
+    "zh-TW": "您不會忘記了吧？"
+  },
+  {
+    "key": "m_ex_maiden_06_38",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ゲームをしたと言ってくれ",
+    "en": "All we did was playing video games together...",
+    "ko": "그냥 게임을 했다고 말해",
+    "zh-CN": "你就直接说打电动",
+    "zh-TW": "你就直接說打電動"
+  },
+  {
+    "key": "m_ex_maiden_06_39",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あの時、指揮官が制服を着たまま\n寝落ちしてしまって",
+    "en": "You ended up falling asleep in your uniform,",
+    "ko": "그때 지휘관이 제복 차림으로 곯아떨어져서",
+    "zh-CN": "那时，指挥官穿着制服睡着了",
+    "zh-TW": "那時，指揮官穿著制服睡著了"
+  },
+  {
+    "key": "m_ex_maiden_06_40",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "仕方なくパジャマに\n着替えさせたんです。",
+    "en": "so I had no choice but to change you into your pajamas.",
+    "ko": "어쩔 수 없이 파자마로 갈아입혔거든요",
+    "zh-CN": "不得已，我只能帮您换了睡衣",
+    "zh-TW": "不得已，我只能幫您換了睡衣"
+  },
+  {
+    "key": "m_ex_maiden_06_41",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "わざわざ？",
+    "en": "You \"had to\"?",
+    "ko": "굳이?",
+    "zh-CN": "没有必要吧？",
+    "zh-TW": "沒有必要吧？"
+  },
+  {
+    "key": "m_ex_maiden_06_42",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "大切な制服にシワができては\nいけませんから。",
+    "en": "I couldn't let your precious uniform get wrinkled.",
+    "ko": "소중한 제복에 주름이 지면 안되니까요",
+    "zh-CN": "因为不能让珍贵的制服起褶皱",
+    "zh-TW": "因為不能讓珍貴的制服起褶皺"
+  },
+  {
+    "key": "m_ex_maiden_06_43",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "待ってくれ、メイデン",
+    "en": "Wait...",
+    "ko": "잠깐만 메이든",
+    "zh-CN": "等一下，梅登",
+    "zh-TW": "等一下，梅登"
+  },
+  {
+    "key": "m_ex_maiden_06_44",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "お礼は結構です。",
+    "en": "You don't need to thank me.",
+    "ko": "고맙다는 말은 괜찮아요",
+    "zh-CN": "您不用道谢",
+    "zh-TW": "您不用道謝"
+  },
+  {
+    "key": "m_ex_maiden_06_45",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "おかげで素敵なものを\nたくさん見られたので。",
+    "en": "I got to see a lot of amazing things that day.",
+    "ko": "덕분에 멋진 걸 잔뜩 봤으니까",
+    "zh-CN": "托您的福，我也大饱眼福了一番",
+    "zh-TW": "託您的福，我也大飽眼福了一番"
+  },
+  {
+    "key": "m_ex_maiden_06_46",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ああ、今もあの日のことを想像すると",
+    "en": "Even now,",
+    "ko": "아 지금도 그날을 상상했더니",
+    "zh-CN": "啊，现在又想起那天的情景了",
+    "zh-TW": "啊，現在又想起那天的情景了"
+  },
+  {
+    "key": "m_ex_maiden_06_47",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "激しくドキドキします。",
+    "en": "just thinking about it sends my heart into a tailspin.",
+    "ko": "미친 듯이 두근거리기 시작했어요",
+    "zh-CN": "我的心又开始狂跳不止了",
+    "zh-TW": "我的心又開始狂跳不止了"
+  },
+  {
+    "key": "m_ex_maiden_06_48",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "やっぱりダメですね。",
+    "en": "That's it!",
+    "ko": "아무래도 안 되겠어요",
+    "zh-CN": "这样下去不行",
+    "zh-TW": "這樣下去不行"
+  },
+  {
+    "key": "m_ex_maiden_06_49",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メアリーのところに行ってきます。",
+    "en": "I need to go see Mary.",
+    "ko": "메어리를 찾아가야겠어요",
+    "zh-CN": "我得去找梅里",
+    "zh-TW": "我得去找梅里"
+  },
+  {
+    "key": "m_ex_maiden_06_50",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "では、またお会いしましょう。指揮官。",
+    "en": "I'll see you later, Commander.",
+    "ko": "그럼 나중에 봬요 지휘관",
+    "zh-CN": "那么指挥官，回头见哦",
+    "zh-TW": "那麼指揮官，回頭見哦"
+  },
+  {
+    "key": "m_ex_maiden_06_51",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデン、まっまった",
+    "en": "Maiden, waaaait!",
+    "ko": "메이든 잠까ㅏㄴ",
+    "zh-CN": "梅登，等一xia",
+    "zh-TW": "梅登，等一ㄒㄧㄚ"
+  },
+  {
+    "key": "m_ex_maiden_06_52",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "…メイデンから返事は来なかった",
+    "en": "There is no response from Maiden.",
+    "ko": "…메이든에게 답장이 오질 않는다",
+    "zh-CN": "……梅登没有再回复我",
+    "zh-TW": "……梅登沒有再回覆我"
+  },
+  {
+    "key": "m_ex_external_03_79",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンはギロチンの分析を\n信頼しているのか？",
+    "en": "Do you at least respect her analysis?",
+    "ko": "메이든은 길로틴의 분석을 신뢰해?",
+    "zh-CN": "梅登，你相信吉萝婷的分析吗？",
+    "zh-TW": "梅登，你相信吉蘿婷的分析嗎？"
+  },
+  {
+    "key": "m_ex_external_04_80",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンが\nいなくなってもいいのか？",
+    "en": "If you keep it up, Maiden is going to leave you.",
+    "ko": "메이든이 없어도 괜찮아?",
+    "zh-CN": "失去梅登你也无所谓吗？",
+    "zh-TW": "失去梅登你也無所謂嗎？"
+  },
+  {
+    "key": "m_ex_external_04_92",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデン、これで解決だ",
+    "en": "I think we've managed to resolve everything, Maiden.",
+    "ko": "메이든 잘 해결된 것 같아",
+    "zh-CN": "梅登，这下应该解决了",
+    "zh-TW": "梅登，這下應該解決了"
+  },
+  {
+    "key": "m_ex_external_05_12",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデン！お前だ。",
+    "en": "Yes, Maiden, you!",
+    "ko": "메이든! 너니까",
+    "zh-CN": "梅登！就是你",
+    "zh-TW": "梅登！就是你"
+  },
+  {
+    "key": "m_ex_external_05_32",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンの声を聞いたのか？",
+    "en": "Are you saying you heard Maiden's voice?",
+    "ko": "메이든의 목소리를 들었다는 거야?",
+    "zh-CN": "你是说听到梅登的声音了吗？",
+    "zh-TW": "你是說聽到梅登的聲音了嗎？"
+  },
+  {
+    "key": "m_ex_external_05_86",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンが退出しました",
+    "en": "Maiden left the chat.",
+    "ko": "메이든 님이 퇴장하셨습니다.",
+    "zh-CN": "梅登离开了群聊。",
+    "zh-TW": "梅登離開了群聊。"
+  },
+  {
+    "key": "m_ex_trony_02_9",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メンバーは私、エレグ、エクシア、\nそれからメイデン。",
+    "en": "There are four members: me, Elegg, Exia, and Maiden.",
+    "ko": "멤버는 나, 일레그, 엑시아, 그리고 메이든",
+    "zh-CN": "成员除了我，伊莱格、艾可希雅，还有梅登",
+    "zh-TW": "成員除了我，伊萊格、艾可希雅，還有梅登"
+  },
+  {
+    "key": "m_ex_darkhero_01_4",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "エクシアがメイデンを招待しました",
+    "en": "Exia has invited Maiden to join the group.",
+    "ko": "엑시아님이 메이든님을 초대하였습니다.",
+    "zh-CN": "艾可希雅邀请梅登加入了聊天室。",
+    "zh-TW": "艾可希雅邀請梅登加入了聊天室。"
+  },
+  {
+    "key": "m_ex_darkhero_02_24",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "メイデンは心配なしー…",
+    "en": "I have full faith in you, Maiden.",
+    "ko": "메이든은 별로 걱정 안 됨",
+    "zh-CN": "我不担心梅登",
+    "zh-TW": "我不擔心梅登"
+  },
+  {
+    "key": "m_ex_darkhero_02_25",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "ああ、メイデンは上手かった",
+    "en": "Yeah, we know we can always count on you.",
+    "ko": "ㅇㅇ메이든 진짜 잘하더라",
+    "zh-CN": "因为梅登确实表现得很棒",
+    "zh-TW": "因為梅登確實表現得很棒"
+  },
+  {
+    "key": "m_ex_darkhero_02_54",
+    "character": "Maiden (c181)",
+    "category": "BlaBla Messenger",
+    "ja": "あ…メイデン。\nイングリッド社長はなんとー？",
+    "en": "Right, I nearly forgot. Maiden, why did Boss call you?",
+    "ko": "맞다 메이든 근데 사장님이 왜 부른 거?",
+    "zh-CN": "没错！对了，梅登，老板找你干嘛？",
+    "zh-TW": "沒錯！對了，梅登，老闆找你幹嘛？"
+  }
+]

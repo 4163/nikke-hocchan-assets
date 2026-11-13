@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goddess of Victory: NIKKE - Maiden & Miranda Consolidated Asset Extraction | Visual Confirmation Gallery</title>
+  <link rel="icon" id="gallery-favicon" href="assets/textures/c181/si_c181_00_s.png">
+
+  <!-- 0-flicker pre-paint theme initialization -->
+  <script>
+    (function() {
+      try {
+        var pref = localStorage.getItem('rea-gallery-theme') || 'dark';
+        var isDark = pref === 'dark' || (pref === 'auto' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+      } catch (e) {}
+    })();
+  </script>
+
+  <style>
+    /* System font stack with zero external network requests for fast LCP */
+    :root {
+      color-scheme: light dark;
+
+      /* Light theme design tokens */
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --surface-alt: #f1f5f9;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --border-light: #f1f5f9;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --text-dim: #94a3b8;
+      --accent: #deb76c;
+      --accent-hover: #ebd095;
+      --warning: #cfa052;
+      --success: #5ca685;
+      --info: #6497b5;
+      --badge-bg: #f1f5f9;
+      --badge-text: #deb76c;
+      --badge-border: transparent;
+      --badge-video-bg: rgba(15, 23, 42, 0.85);
+      --badge-video-text: #ffffff;
+      --badge-video-border: rgba(255, 255, 255, 0.2);
+
+      /* Transparency checkerboard tokens */
+      --checker-a: #f1f5f9;
+      --checker-b: #e2e8f0;
+      --checker-size: 16px;
+      --modal-overlay: rgba(15, 23, 42, 0.75);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #1b1d24;
+        --surface: #20232b;
+        --surface-alt: #2c2f38;
+        --card-bg: #2c2f38;
+        --border: #404356;
+        --border-light: #353846;
+        --text: #ffffff;
+        --text-muted: #d3d3d3;
+        --text-dim: #9aa0ac;
+        --accent: #deb76c;
+        --accent-hover: #ebd095;
+        --warning: #cfa052;
+        --success: #5ca685;
+        --info: #6497b5;
+        --badge-bg: #353848;
+        --badge-text: #deb76c;
+        --badge-border: rgba(222, 183, 108, 0.25);
+        --badge-video-bg: rgba(27, 29, 36, 0.9);
+        --badge-video-text: #deb76c;
+        --badge-video-border: rgba(222, 183, 108, 0.4);
+
+        --checker-a: #2c2f38;
+        --checker-b: #1b1d24;
+        --modal-overlay: rgba(15, 17, 23, 0.88);
+      }
+    }
+
+    :root[data-theme="dark"] {
+      --bg: #1b1d24;
+      --surface: #20232b;
+      --surface-alt: #2c2f38;
+      --card-bg: #2c2f38;
+      --border: #404356;
+      --border-light: #353846;
+      --text: #ffffff;
+      --text-muted: #d3d3d3;
+      --text-dim: #9aa0ac;
+      --accent: #deb76c;
+      --accent-hover: #ebd095;
+      --warning: #cfa052;
+      --success: #5ca685;
+      --info: #6497b5;
+      --badge-bg: #353848;
+      --badge-text: #deb76c;
+      --badge-border: rgba(222, 183, 108, 0.25);
+      --badge-video-bg: rgba(27, 29, 36, 0.9);
+      --badge-video-text: #deb76c;
+      --badge-video-border: rgba(222, 183, 108, 0.4);
+
+      --checker-a: #2c2f38;
+      --checker-b: #1b1d24;
+      --modal-overlay: rgba(15, 17, 23, 0.88);
+    }
+
+    :root[data-theme="light"] {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --surface-alt: #f1f5f9;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --border-light: #f1f5f9;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --text-dim: #94a3b8;
+      --accent: #deb76c;
+      --accent-hover: #ebd095;
+      --warning: #cfa052;
+      --success: #5ca685;
+      --info: #6497b5;
+      --badge-bg: #f1f5f9;
+      --badge-text: #deb76c;
+      --badge-border: transparent;
+      --badge-video-bg: rgba(15, 23, 42, 0.85);
+      --badge-video-text: #ffffff;
+      --badge-video-border: rgba(255, 255, 255, 0.2);
+
+      --checker-a: #f1f5f9;
+      --checker-b: #e2e8f0;
+      --modal-overlay: rgba(15, 23, 42, 0.75);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+    }
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .brand-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+    .brand-subtitle {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .stats-bar {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .stat-chip {
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      padding: 0.3rem 0.7rem;
+      border-radius: 0.25rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+    .stat-chip span {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .theme-switch {
+      display: inline-flex;
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 0.25rem;
+      padding: 2px;
+    }
+    .theme-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.3rem 0.65rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: 0.2rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .theme-btn:hover { color: var(--text); }
+    .theme-btn.active {
+      background: var(--surface);
+      color: var(--accent);
+    }
+
+    .btn-github {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 0.3rem 0.65rem;
+      border-radius: 0.25rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.15s ease;
+    }
+    .btn-github:hover {
+      color: var(--text);
+      border-color: var(--border-light);
+      background: var(--surface);
+    }
+    .btn-github svg {
+      flex-shrink: 0;
+    }
+
+    .gallery-footer {
+      margin-top: auto;
+      padding: 1.25rem 2rem;
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+      color: var(--text-dim);
+    }
+    .gallery-footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+    .gallery-footer a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    nav.tabs-nav {
+      display: flex;
+      gap: 0.5rem;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      overflow-x: auto;
+      position: sticky;
+      top: 0;
+      z-index: 40;
+    }
+    .tab-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.8rem 1.2rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      position: relative;
+      white-space: nowrap;
+      transition: color 0.15s;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--accent); }
+    .tab-btn.active::after {
+      content: "";
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--accent);
+    }
+
+    main.content-area {
+      max-width: 1600px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2rem;
+      flex: 1;
+    }
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .filter-group {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .filter-pill {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 0.35rem 0.85rem;
+      border-radius: 0.25rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .filter-pill:hover {
+      background: var(--surface-alt);
+      color: var(--text);
+    }
+    .filter-pill.active {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+
+    .search-input {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.45rem 0.9rem;
+      border-radius: 0.25rem;
+      font-size: 0.85rem;
+      min-width: 260px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .search-input:focus { border-color: var(--accent); }
+
+    .asset-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 0.25rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.15s ease;
+      cursor: pointer;
+    }
+    .card:hover {
+      border-color: var(--accent);
+    }
+    .card-thumb {
+      width: 100%;
+      height: 200px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--checker-b);
+      background-image: 
+        linear-gradient(45deg, var(--checker-a) 25%, transparent 25%), 
+        linear-gradient(-45deg, var(--checker-a) 25%, transparent 25%), 
+        linear-gradient(45deg, transparent 75%, var(--checker-a) 75%), 
+        linear-gradient(-45deg, transparent 75%, var(--checker-a) 75%);
+      background-size: var(--checker-size) var(--checker-size);
+      background-position: 0 0, 0 calc(var(--checker-size) / 2), calc(var(--checker-size) / 2) calc(-1 * var(--checker-size) / 2), calc(-1 * var(--checker-size) / 2) 0px;
+      overflow: hidden;
+    }
+    .card-thumb img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+      transition: transform 0.2s ease;
+    }
+    .card:hover .card-thumb img {
+      transform: scale(1.04);
+    }
+    .badge-video {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      background: var(--badge-video-bg);
+      color: var(--badge-video-text);
+      padding: 2px 6px;
+      border-radius: 0.2rem;
+      font-size: 11px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      border: 1px solid var(--badge-video-border);
+      pointer-events: none;
+    }
+    .card-content {
+      padding: 0.9rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+      flex: 1;
+    }
+    .badges-row {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+    .badge {
+      font-size: 0.7rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 0.15rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+    .badge-primary { background: var(--badge-bg); color: var(--badge-text); border: 1px solid var(--badge-border); }
+    .badge-meta { background: var(--surface-alt); color: var(--text-muted); border: 1px solid var(--border); }
+    .badge-warning { background: color-mix(in srgb, var(--warning) 14%, transparent); color: var(--warning); border: 1px solid color-mix(in srgb, var(--warning) 28%, transparent); }
+    .badge-success { background: color-mix(in srgb, var(--success) 14%, transparent); color: var(--success); border: 1px solid color-mix(in srgb, var(--success) 28%, transparent); }
+    .badge-info { background: color-mix(in srgb, var(--info) 14%, transparent); color: var(--info); border: 1px solid color-mix(in srgb, var(--info) 28%, transparent); }
+
+    .notices-container {
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .notice-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: 0.25rem;
+      padding: 0.85rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      font-size: 0.82rem;
+    }
+    .notice-card.warning { border-left-color: var(--warning); }
+    .notice-card.success { border-left-color: var(--success); }
+    .notice-card.info { border-left-color: var(--info); }
+    .notice-header {
+      font-weight: 700;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .notice-message {
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    .card-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+      word-break: break-all;
+      line-height: 1.35;
+    }
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--border-light);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+    .btn-action {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.2rem;
+      font-size: 0.72rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .btn-action:hover {
+      background: var(--surface-alt);
+      color: var(--text);
+    }
+
+    /* Safe Audio Controls (Zero Volume Sliders, Pre-scan dB, Auto-Normalization) */
+    @keyframes lucide-spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .lucide-spin {
+      animation: lucide-spin 0.8s linear infinite;
+    }
+    .btn-play {
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.28rem 0.45rem;
+      border-radius: 0.25rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.35rem;
+      width: 88px;
+      min-width: 88px;
+      max-width: 88px;
+      box-sizing: border-box;
+      transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+      user-select: none;
+      line-height: 1;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .btn-play svg {
+      width: 13px;
+      height: 13px;
+      flex-shrink: 0;
+    }
+    .btn-play span {
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .col-playback {
+      width: 104px;
+      min-width: 104px;
+      max-width: 104px;
+      text-align: center;
+    }
+    .btn-play:hover {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+    }
+    .btn-play.is-playing {
+      background: var(--warning);
+      color: #0b0f19;
+      border-color: var(--warning);
+    }
+    .btn-play.is-loading {
+      opacity: 0.75;
+      cursor: wait;
+    }
+    .btn-play.is-error {
+      border-color: #ef4444;
+      color: #ef4444;
+    }
+
+    /* Table styles for non-image assets */
+    .table-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0.25rem;
+      overflow: hidden;
+    }
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.82rem;
+    }
+    table.data-table th {
+      background: var(--surface-alt);
+      color: var(--text-muted);
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+    }
+    table.data-table td {
+      padding: 0.7rem 1rem;
+      border-bottom: 1px solid var(--border-light);
+      color: var(--text);
+    }
+    table.data-table tr:hover td {
+      background: var(--surface-alt);
+    }
+
+    /* Lightbox Modal */
+    .modal-backdrop {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--modal-overlay);
+      z-index: 50;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .modal-backdrop.is-open { display: flex; }
+    .modal-window {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0.375rem;
+      max-width: 1200px;
+      width: 100%;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .modal-header {
+      padding: 0.9rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .modal-title { font-size: 0.95rem; font-weight: 600; color: var(--text); }
+    .close-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.4rem;
+      cursor: pointer;
+      line-height: 1;
+    }
+    .close-btn:hover { color: var(--text); }
+    .modal-view {
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      overflow: auto;
+      background-color: var(--checker-b);
+      background-image: 
+        linear-gradient(45deg, var(--checker-a) 25%, transparent 25%), 
+        linear-gradient(-45deg, var(--checker-a) 25%, transparent 25%), 
+        linear-gradient(45deg, transparent 75%, var(--checker-a) 75%), 
+        linear-gradient(-45deg, transparent 75%, var(--checker-a) 75%);
+      background-size: 20px 20px;
+      background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    }
+    .modal-view img,
+    .modal-view video {
+      max-width: 100%;
+      max-height: 65vh;
+      object-fit: contain;
+      border-radius: 0.2rem;
+    }
+    .modal-details {
+      padding: 0.85rem 1.25rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <div>
+        <div class="brand-title">
+          <span>Maiden (メイデン) & Miranda (ミランダ)</span>
+          <small style="font-size:0.8rem;color:var(--text-muted);font-weight:400;">(nikke-hocchan-assets)</small>
+        </div>
+        <div class="brand-subtitle">Consolidated Target-Mirrored Asset Extraction & Verification Gallery</div>
+      </div>
+      <div class="header-controls">
+        <div class="stats-bar" id="stats-container"></div>
+        <div class="theme-switch">
+          <button class="theme-btn" id="theme-auto" onclick="setTheme('auto')">Auto</button>
+          <button class="theme-btn" id="theme-light" onclick="setTheme('light')">Light</button>
+          <button class="theme-btn" id="theme-dark" onclick="setTheme('dark')">Dark</button>
+        </div>
+        <a id="repo-link" class="btn-github" href="https://github.com/4163/nikke-hocchan-assets" target="_blank" rel="noopener noreferrer" title="View repository on GitHub">
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs-nav" id="tabs-bar"></nav>
+
+  <main class="content-area">
+    <div class="notices-container" id="notices-container" style="display:none;"></div>
+
+    <div id="tab-visual" class="tab-pane">
+      <div class="toolbar">
+        <div class="filter-group" id="category-filters"></div>
+        <input type="text" class="search-input" id="search-box" placeholder="Filter visual assets..." oninput="handleSearch(this.value)">
+      </div>
+      <div class="asset-grid" id="visual-grid"></div>
+    </div>
+
+    <div id="tab-models" class="tab-pane" style="display:none;">
+      <div class="toolbar">
+        <input type="text" class="search-input" placeholder="Search 3D models..." oninput="renderModels(this.value)">
+      </div>
+      <div class="table-card">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Model Name</th>
+              <th>Format</th>
+              <th>Size</th>
+              <th>Virtual Path</th>
+            </tr>
+          </thead>
+          <tbody id="models-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="tab-audio" class="tab-pane" style="display:none;">
+      <div class="toolbar">
+        <input type="text" class="search-input" placeholder="Search audio clips..." oninput="renderAudio(this.value)">
+      </div>
+      <div class="table-card">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Clip Name</th>
+              <th>Group</th>
+              <th>Size</th>
+              <th class="col-playback">Playback</th>
+              <th>Virtual Path</th>
+            </tr>
+          </thead>
+          <tbody id="audio-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="tab-animations" class="tab-pane" style="display:none;">
+      <div class="toolbar">
+        <input type="text" class="search-input" placeholder="Search animations..." oninput="renderAnimations(this.value)">
+      </div>
+      <div class="table-card">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Clip Name</th>
+              <th>Size</th>
+              <th>Virtual Path</th>
+            </tr>
+          </thead>
+          <tbody id="animations-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer class="gallery-footer">
+    <span>Iterative Asset Extraction · x4163#8170</span>
+  </footer>
+
+  <!-- Modal Lightbox -->
+  <div class="modal-backdrop" id="modal-box" onclick="closeModal(event)">
+    <div class="modal-window" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <span class="modal-title" id="modal-title">Inspection</span>
+        <button class="close-btn" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-view">
+        <img id="modal-img" src="" alt="">
+        <video id="modal-video" controls autoplay loop style="display:none; max-width:100%; max-height:65vh; border-radius:0.2rem; background:#000;"></video>
+      </div>
+      <div class="modal-details">
+        <span id="modal-info">Dimensions: -</span>
+        <button class="btn-action" id="modal-copy-btn" onclick="copyModalPath()">Copy Path</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* Injected project payload */
+    const PAYLOAD = {"projectName": "nikke-hocchan-assets", "projectTitle": "Goddess of Victory: NIKKE - Maiden & Miranda Consolidated Asset Extraction", "entityName": "Maiden (メイデン) & Miranda (ミランダ)", "faviconUrl": "assets/textures/c181/si_c181_00_s.png", "repoUrl": "https://github.com/4163/nikke-hocchan-assets", "notices": [{"title": "Consolidated Character Scope: Maiden & Miranda", "message": "All verified Maiden variants (c181 Base, c181_01 Nurse, c181_02 Swimsuit, c183 Ice Rose) and Miranda variants (c032 Base Uniform, c032_01 Cheerleader) are fully extracted and segregated on disk.", "type": "success"}, {"title": "Voice Constraint Scope (Horie Yui / 堀江由衣)", "message": "Character voice is strictly restricted to Japanese audio voiced by Horie Yui (151 total WAV tracks: 112 Maiden, 39 Miranda). Non-Japanese tracks (English, Korean) and other client characters are excluded.", "type": "info"}, {"title": "Favorite Item System (Miranda Exclusive)", "message": "Miranda features an active Favorite Item system with dedicated 2D Spine puppet, interactive Cinemachine Live2D scene (13 extracted assets), and 3 dedicated AudioClips. Maiden has no Favorite Item.", "type": "info"}, {"title": "On-Demand CDN & Streaming Assets Cataloged", "message": "Historical event scenario backgrounds (43 bundles) and narrative audio packs (12 .nab containers) delivered on-demand via Shift Up CDNs are cataloged in specs/on-demand-cdns.md with reproducible recovery procedures.", "type": "info"}, {"title": "Third-Party Community Burst Cutscene Captures Included", "message": "Maiden's animated burst cutscenes (c181 Base and c183 Ice Rose), which reside on Shift Up's remote Addressables CDN in the PC build, have been supplemented with clean 1080p community video captures and marked with third-party provenance.", "type": "warning"}, {"badge": "External Audit", "title": "Community Gallery Manual Audit Required", "message": "External community gallery <a href=\"https://nikke-db.pages.dev/gallery\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--primary); text-decoration: underline; word-break: break-all;\">https://nikke-db.pages.dev/gallery</a> hosts additional Miranda and Maiden visual assets that require manual auditing and review.", "type": "warning"}], "visualAssets": [{"name": "c032_00_skillcut.png", "category": "Skill Cutscenes (Miranda)", "url": "assets/cutscenes/c032/c032_00_skillcut.png?v=1794552957", "relPath": "assets/cutscenes/c032/c032_00_skillcut.png", "sizeBytes": 2890479, "format": "PNG", "width": 2048, "height": 2048}, {"name": "EventScene_c181_cutscene_mi.png", "category": "Skill Cutscenes (Maiden)", "url": "assets/cutscenes/c181/EventScene_c181_cutscene_mi.png?v=1793752703", "relPath": "assets/cutscenes/c181/EventScene_c181_cutscene_mi.png", "sizeBytes": 210237, "format": "PNG", "width": 256, "height": 512}, {"name": "SDToon_Tex_RimDefault.png", "category": "3D SD Chibi & Weapon (Miranda)", "url": "assets/models/sd/c032_00/SDToon_Tex_RimDefault.png?v=1794543402", "relPath": "assets/models/sd/c032_00/SDToon_Tex_RimDefault.png", "sizeBytes": 310, "format": "PNG", "width": 256, "height": 2}, {"name": "c032_00.png", "category": "3D SD Chibi & Weapon (Miranda)", "url": "assets/models/sd/c032_00/c032_00.png?v=1794543402", "relPath": "assets/models/sd/c032_00/c032_00.png", "sizeBytes": 324474, "format": "PNG", "width": 512, "height": 512}, {"name": "c032_00_weapon.png", "category": "3D SD Chibi & Weapon (Miranda)", "url": "assets/models/sd/c032_00/c032_00_weapon.png?v=1794543402", "relPath": "assets/models/sd/c032_00/c032_00_weapon.png", "sizeBytes": 77713, "format": "PNG", "width": 256, "height": 256}, {"name": "SDToon_Tex_RimDefault.png", "category": "3D SD Chibi & Weapon (Miranda)", "url": "assets/models/sd/c032_01/SDToon_Tex_RimDefault.png?v=1794551011", "relPath": "assets/models/sd/c032_01/SDToon_Tex_RimDefault.png", "sizeBytes": 310, "format": "PNG", "width": 256, "height": 2}, {"name": "c032_01.png", "category": "3D SD Chibi & Weapon (Miranda)", "url": "assets/models/sd/c032_01/c032_01.png?v=1794552956", "relPath": "assets/models/sd/c032_01/c032_01.png", "sizeBytes": 351423, "format": "PNG", "width": 512, "height": 512}, {"name": "c032_01_weapon.png", "category": "3D SD Chibi & Weapon (Miranda)", "url": "assets/models/sd/c032_01/c032_01_weapon.png?v=1794552956", "relPath": "assets/models/sd/c032_01/c032_01_weapon.png", "sizeBytes": 96177, "format": "PNG", "width": 256, "height": 256}, {"name": "SDToon_Tex_RimDefault.png", "category": "3D SD Chibi & Weapon (Maiden)", "url": "assets/models/sd/c181_00/SDToon_Tex_RimDefault.png?v=1793755248", "relPath": "assets/models/sd/c181_00/SDToon_Tex_RimDefault.png", "sizeBytes": 310, "format": "PNG", "width": 256, "height": 2}, {"name": "c181_00.png", "category": "3D SD Chibi & Weapon (Maiden)", "url": "assets/models/sd/c181_00/c181_00.png?v=1793755248", "relPath": "assets/models/sd/c181_00/c181_00.png", "sizeBytes": 262052, "format": "PNG", "width": 512, "height": 512}, {"name": "c181_00_weapon.png", "category": "3D SD Chibi & Weapon (Maiden)", "url": "assets/models/sd/c181_00/c181_00_weapon.png?v=1793755248", "relPath": "assets/models/sd/c181_00/c181_00_weapon.png", "sizeBytes": 155815, "format": "PNG", "width": 512, "height": 512}, {"name": "SDToon_Tex_RimDefault.png", "category": "3D SD Chibi & Weapon (Maiden)", "url": "assets/models/sd/c181_01/SDToon_Tex_RimDefault.png?v=1793842065", "relPath": "assets/models/sd/c181_01/SDToon_Tex_RimDefault.png", "sizeBytes": 310, "format": "PNG", "width": 256, "height": 2}, {"name": "c181_00_weapon.png", "category": "3D SD Chibi & Weapon (Maiden)", "url": "assets/models/sd/c181_01/c181_00_weapon.png?v=1793760224", "relPath": "assets/models/sd/c181_01/c181_00_weapon.png", "sizeBytes": 155815, "format": "PNG", "width": 512, "height": 512}, {"name": "c181_01.png", "category": "3D SD Chibi & Weapon (Maiden)", "url": "assets/models/sd/c181_01/c181_01.png?v=1793755249", "relPath": "assets/models/sd/c181_01/c181_01.png", "sizeBytes": 310666, "format": "PNG", "width": 512, "height": 512}, {"name": "SDToon_Tex_RimDefault.png", "category": "3D SD Chibi & Weapon (Maiden)", "url": "assets/models/sd/c181_02/SDToon_Tex_RimDefault.png?v=1793842065", "relPath": "assets/models/sd/c181_02/SDToon_Tex_RimDefault.png", "sizeBytes": 310, "format": "PNG", "width": 256, "height": 2}, {"name": "c181_02.png", "category": "3D SD Chibi & Weapon (Maiden)", "url": "assets/models/sd/c181_02/c181_02.png?v=1793760224", "relPath": "assets/models/sd/c181_02/c181_02.png", "sizeBytes": 272029, "format": "PNG", "width": 512, "height": 512}, {"name": "c181_02_weapon.png", "category": "3D SD Chibi & Weapon (Maiden)", "url": "assets/models/sd/c181_02/c181_02_weapon.png?v=1793760224", "relPath": "assets/models/sd/c181_02/c181_02_weapon.png", "sizeBytes": 86868, "format": "PNG", "width": 256, "height": 256}, {"name": "SDToon_Tex_RimDefault.png", "category": "3D SD Chibi & Weapon (Maiden Ice Rose)", "url": "assets/models/sd/c183_00/SDToon_Tex_RimDefault.png?v=1793842065", "relPath": "assets/models/sd/c183_00/SDToon_Tex_RimDefault.png", "sizeBytes": 310, "format": "PNG", "width": 256, "height": 2}, {"name": "c183_00.png", "category": "3D SD Chibi & Weapon (Maiden Ice Rose)", "url": "assets/models/sd/c183_00/c183_00.png?v=1793760224", "relPath": "assets/models/sd/c183_00/c183_00.png", "sizeBytes": 322409, "format": "PNG", "width": 512, "height": 512}, {"name": "c183_00_weapon.png", "category": "3D SD Chibi & Weapon (Maiden Ice Rose)", "url": "assets/models/sd/c183_00/c183_00_weapon.png?v=1793760224", "relPath": "assets/models/sd/c183_00/c183_00_weapon.png", "sizeBytes": 2890829, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c032_aim_00.png", "category": "Live2D Spine Combat Atlas (Miranda)", "url": "assets/spine/combat/c032/00/aim/c032_aim_00.png?v=1794543399", "relPath": "assets/spine/combat/c032/00/aim/c032_aim_00.png", "sizeBytes": 2709663, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c032_cover_00.png", "category": "Live2D Spine Combat Atlas (Miranda)", "url": "assets/spine/combat/c032/00/cover/c032_cover_00.png?v=1794543400", "relPath": "assets/spine/combat/c032/00/cover/c032_cover_00.png", "sizeBytes": 3215363, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c032_aim_01.png", "category": "Live2D Spine Combat Atlas (Miranda)", "url": "assets/spine/combat/c032/01/aim/c032_aim_01.png?v=1794543400", "relPath": "assets/spine/combat/c032/01/aim/c032_aim_01.png", "sizeBytes": 2788678, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c032_cover_01.png", "category": "Live2D Spine Combat Atlas (Miranda)", "url": "assets/spine/combat/c032/01/cover/c032_cover_01.png?v=1794543401", "relPath": "assets/spine/combat/c032/01/cover/c032_cover_01.png", "sizeBytes": 3255936, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c181_aim_00.png", "category": "Live2D Spine Combat Atlas (Maiden)", "url": "assets/spine/combat/c181/00/aim/c181_aim_00.png?v=1793752419", "relPath": "assets/spine/combat/c181/00/aim/c181_aim_00.png", "sizeBytes": 2206781, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c181_cover_00.png", "category": "Live2D Spine Combat Atlas (Maiden)", "url": "assets/spine/combat/c181/00/cover/c181_cover_00.png?v=1793752419", "relPath": "assets/spine/combat/c181/00/cover/c181_cover_00.png", "sizeBytes": 3203822, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c181_aim_01.png", "category": "Live2D Spine Combat Atlas (Maiden)", "url": "assets/spine/combat/c181/01/aim/c181_aim_01.png?v=1793752420", "relPath": "assets/spine/combat/c181/01/aim/c181_aim_01.png", "sizeBytes": 2328816, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c181_cover_01.png", "category": "Live2D Spine Combat Atlas (Maiden)", "url": "assets/spine/combat/c181/01/cover/c181_cover_01.png?v=1793752421", "relPath": "assets/spine/combat/c181/01/cover/c181_cover_01.png", "sizeBytes": 3260089, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c181_aim_02.png", "category": "Live2D Spine Combat Atlas (Maiden)", "url": "assets/spine/combat/c181/02/aim/c181_aim_02.png?v=1793752421", "relPath": "assets/spine/combat/c181/02/aim/c181_aim_02.png", "sizeBytes": 2176359, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c181_cover_02.png", "category": "Live2D Spine Combat Atlas (Maiden)", "url": "assets/spine/combat/c181/02/cover/c181_cover_02.png?v=1793752422", "relPath": "assets/spine/combat/c181/02/cover/c181_cover_02.png", "sizeBytes": 3119145, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c183_aim_00.png", "category": "Live2D Spine Combat Atlas (Maiden Ice Rose)", "url": "assets/spine/combat/c183/00/aim/c183_aim_00.png?v=1793752422", "relPath": "assets/spine/combat/c183/00/aim/c183_aim_00.png", "sizeBytes": 3084784, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c183_cover_00.png", "category": "Live2D Spine Combat Atlas (Maiden Ice Rose)", "url": "assets/spine/combat/c183/00/cover/c183_cover_00.png?v=1793752423", "relPath": "assets/spine/combat/c183/00/cover/c183_cover_00.png", "sizeBytes": 3314132, "format": "PNG", "width": 2048, "height": 2048}, {"name": "favoriteitem_c032_00.png", "category": "Live2D Spine Favorite Item (Miranda)", "url": "assets/spine/favoriteitem/c032/00/favoriteitem_c032_00.png?v=1794543401", "relPath": "assets/spine/favoriteitem/c032/00/favoriteitem_c032_00.png", "sizeBytes": 543852, "format": "PNG", "width": 1024, "height": 1024}, {"name": "FavoriteItemScene_c032_00.png", "category": "Favorite Item Scene Assets (Miranda)", "url": "assets/spine/favoriteitem_scene/c032/FavoriteItemScene_c032_00.png?v=1794552957", "relPath": "assets/spine/favoriteitem_scene/c032/FavoriteItemScene_c032_00.png", "sizeBytes": 2947192, "format": "PNG", "width": 2048, "height": 2048}, {"name": "FavoriteItem_bg_solid.png", "category": "Favorite Item Scene Assets (Miranda)", "url": "assets/spine/favoriteitem_scene/c032/FavoriteItem_bg_solid.png?v=1794549558", "relPath": "assets/spine/favoriteitem_scene/c032/FavoriteItem_bg_solid.png", "sizeBytes": 181, "format": "PNG", "width": 64, "height": 64}, {"name": "fx_c032_FavoriteItemScene_atlas.png", "category": "Favorite Item Scene Assets (Miranda)", "url": "assets/spine/favoriteitem_scene/c032/fx_c032_FavoriteItemScene_atlas.png?v=1794552958", "relPath": "assets/spine/favoriteitem_scene/c032/fx_c032_FavoriteItemScene_atlas.png", "sizeBytes": 133488, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_c032_FavoriteItemScene_uv.png", "category": "Favorite Item Scene Assets (Miranda)", "url": "assets/spine/favoriteitem_scene/c032/fx_c032_FavoriteItemScene_uv.png?v=1794549558", "relPath": "assets/spine/favoriteitem_scene/c032/fx_c032_FavoriteItemScene_uv.png", "sizeBytes": 5675, "format": "PNG", "width": 128, "height": 128}, {"name": "fx_c032_FavoriteItemScene_uv1.png", "category": "Favorite Item Scene Assets (Miranda)", "url": "assets/spine/favoriteitem_scene/c032/fx_c032_FavoriteItemScene_uv1.png?v=1794549558", "relPath": "assets/spine/favoriteitem_scene/c032/fx_c032_FavoriteItemScene_uv1.png", "sizeBytes": 7698, "format": "PNG", "width": 128, "height": 128}, {"name": "fx_gra_02.png", "category": "Favorite Item Scene Assets (Miranda)", "url": "assets/spine/favoriteitem_scene/c032/fx_gra_02.png?v=1794549558", "relPath": "assets/spine/favoriteitem_scene/c032/fx_gra_02.png", "sizeBytes": 1101, "format": "PNG", "width": 256, "height": 256}, {"name": "fx_jh_pattern_01_color.png", "category": "Favorite Item Scene Assets (Miranda)", "url": "assets/spine/favoriteitem_scene/c032/fx_jh_pattern_01_color.png?v=1794549558", "relPath": "assets/spine/favoriteitem_scene/c032/fx_jh_pattern_01_color.png", "sizeBytes": 59994, "format": "PNG", "width": 256, "height": 256}, {"name": "fx_nimph_light_01.png", "category": "Favorite Item Scene Assets (Miranda)", "url": "assets/spine/favoriteitem_scene/c032/fx_nimph_light_01.png?v=1794552958", "relPath": "assets/spine/favoriteitem_scene/c032/fx_nimph_light_01.png", "sizeBytes": 72702, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_npc_c5010_summer_item_gun_atlas_dis.png", "category": "Favorite Item Scene Assets (Miranda)", "url": "assets/spine/favoriteitem_scene/c032/fx_npc_c5010_summer_item_gun_atlas_dis.png?v=1794549558", "relPath": "assets/spine/favoriteitem_scene/c032/fx_npc_c5010_summer_item_gun_atlas_dis.png", "sizeBytes": 14595, "format": "PNG", "width": 128, "height": 128}, {"name": "fx_pattern_03_blur.png", "category": "Favorite Item Scene Assets (Miranda)", "url": "assets/spine/favoriteitem_scene/c032/fx_pattern_03_blur.png?v=1794549558", "relPath": "assets/spine/favoriteitem_scene/c032/fx_pattern_03_blur.png", "sizeBytes": 52189, "format": "PNG", "width": 256, "height": 256}, {"name": "c032_00.png", "category": "Live2D Spine Standing Atlas (Miranda)", "url": "assets/spine/standing/c032/00/c032_00.png?v=1794543397", "relPath": "assets/spine/standing/c032/00/c032_00.png", "sizeBytes": 3371094, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c032_01.png", "category": "Live2D Spine Standing Atlas (Miranda)", "url": "assets/spine/standing/c032/01/c032_01.png?v=1794543398", "relPath": "assets/spine/standing/c032/01/c032_01.png", "sizeBytes": 3496299, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c181_00.png", "category": "Live2D Spine Standing Atlas (Maiden)", "url": "assets/spine/standing/c181/00/c181_00.png?v=1793750098", "relPath": "assets/spine/standing/c181/00/c181_00.png", "sizeBytes": 3428781, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c181_01.png", "category": "Live2D Spine Standing Atlas (Maiden)", "url": "assets/spine/standing/c181/01/c181_01.png?v=1793773404", "relPath": "assets/spine/standing/c181/01/c181_01.png", "sizeBytes": 3307881, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c181_02.png", "category": "Live2D Spine Standing Atlas (Maiden)", "url": "assets/spine/standing/c181/02/c181_02.png?v=1793773428", "relPath": "assets/spine/standing/c181/02/c181_02.png", "sizeBytes": 3108729, "format": "PNG", "width": 2048, "height": 2048}, {"name": "c183_00.png", "category": "Live2D Spine Standing Atlas (Maiden Ice Rose)", "url": "assets/spine/standing/c183/00/c183_00.png?v=1793749577", "relPath": "assets/spine/standing/c183/00/c183_00.png", "sizeBytes": 4266384, "format": "PNG", "width": 2048, "height": 2048}, {"name": "ui_event_bg_acpufreeze.png", "category": "Scenario Backgrounds", "url": "assets/textures/backgrounds/ui_event_bg_acpufreeze.png?v=1793811654", "relPath": "assets/textures/backgrounds/ui_event_bg_acpufreeze.png", "sizeBytes": 349459, "format": "PNG", "width": 980, "height": 220}, {"name": "ui_event_bg_phantomthiefvsdetective.png", "category": "Scenario Backgrounds", "url": "assets/textures/backgrounds/ui_event_bg_phantomthiefvsdetective.png?v=1793811656", "relPath": "assets/textures/backgrounds/ui_event_bg_phantomthiefvsdetective.png", "sizeBytes": 406367, "format": "PNG", "width": 980, "height": 220}, {"name": "fi_c032_00_badge.png", "category": "UI Portraits & Icons (Miranda)", "url": "assets/textures/c032/fi_c032_00_badge.png?v=1794543402", "relPath": "assets/textures/c032/fi_c032_00_badge.png", "sizeBytes": 20638, "format": "PNG", "width": 128, "height": 128}, {"name": "icn_skill_c032_ult.png", "category": "UI Portraits & Icons (Miranda)", "url": "assets/textures/c032/icn_skill_c032_ult.png?v=1794544125", "relPath": "assets/textures/c032/icn_skill_c032_ult.png", "sizeBytes": 4049, "format": "PNG", "width": 128, "height": 128}, {"name": "mi_c032_00_s.png", "category": "UI Portraits & Icons (Miranda)", "url": "assets/textures/c032/mi_c032_00_s.png?v=1794543402", "relPath": "assets/textures/c032/mi_c032_00_s.png", "sizeBytes": 231127, "format": "PNG", "width": 256, "height": 512}, {"name": "mi_c032_01_s.png", "category": "UI Portraits & Icons (Miranda)", "url": "assets/textures/c032/mi_c032_01_s.png?v=1794543402", "relPath": "assets/textures/c032/mi_c032_01_s.png", "sizeBytes": 219855, "format": "PNG", "width": 256, "height": 512}, {"name": "si_c032_00_s.png", "category": "UI Portraits & Icons (Miranda)", "url": "assets/textures/c032/si_c032_00_s.png?v=1794544060", "relPath": "assets/textures/c032/si_c032_00_s.png", "sizeBytes": 30400, "format": "PNG", "width": 128, "height": 128}, {"name": "si_c032_01_s.png", "category": "UI Portraits & Icons (Miranda)", "url": "assets/textures/c032/si_c032_01_s.png?v=1794544060", "relPath": "assets/textures/c032/si_c032_01_s.png", "sizeBytes": 28683, "format": "PNG", "width": 128, "height": 128}, {"name": "icn_skill_c181_ult.png", "category": "UI Portraits & Icons (Maiden)", "url": "assets/textures/c181/icn_skill_c181_ult.png?v=1793762413", "relPath": "assets/textures/c181/icn_skill_c181_ult.png", "sizeBytes": 9336, "format": "PNG", "width": 128, "height": 128}, {"name": "mi_c181_00_s.png", "category": "UI Portraits & Icons (Maiden)", "url": "assets/textures/c181/mi_c181_00_s.png?v=1793750235", "relPath": "assets/textures/c181/mi_c181_00_s.png", "sizeBytes": 230118, "format": "PNG", "width": 256, "height": 512}, {"name": "mi_c181_01_s.png", "category": "UI Portraits & Icons (Maiden)", "url": "assets/textures/c181/mi_c181_01_s.png?v=1793750235", "relPath": "assets/textures/c181/mi_c181_01_s.png", "sizeBytes": 212975, "format": "PNG", "width": 256, "height": 512}, {"name": "mi_c181_02_s.png", "category": "UI Portraits & Icons (Maiden)", "url": "assets/textures/c181/mi_c181_02_s.png?v=1793750235", "relPath": "assets/textures/c181/mi_c181_02_s.png", "sizeBytes": 196895, "format": "PNG", "width": 256, "height": 512}, {"name": "si_c181_00_s.png", "category": "UI Portraits & Icons (Maiden)", "url": "assets/textures/c181/si_c181_00_s.png?v=1793750207", "relPath": "assets/textures/c181/si_c181_00_s.png", "sizeBytes": 33635, "format": "PNG", "width": 128, "height": 128}, {"name": "si_c181_01_s.png", "category": "UI Portraits & Icons (Maiden)", "url": "assets/textures/c181/si_c181_01_s.png?v=1793750207", "relPath": "assets/textures/c181/si_c181_01_s.png", "sizeBytes": 32748, "format": "PNG", "width": 128, "height": 128}, {"name": "si_c181_02_s.png", "category": "UI Portraits & Icons (Maiden)", "url": "assets/textures/c181/si_c181_02_s.png?v=1793750207", "relPath": "assets/textures/c181/si_c181_02_s.png", "sizeBytes": 31242, "format": "PNG", "width": 121, "height": 128}, {"name": "ele_gacha_btn_c183_01.png", "category": "UI Portraits & Icons (Maiden Ice Rose)", "url": "assets/textures/c183/ele_gacha_btn_c183_01.png?v=1793763380", "relPath": "assets/textures/c183/ele_gacha_btn_c183_01.png", "sizeBytes": 111008, "format": "PNG", "width": 500, "height": 153}, {"name": "ele_gacha_btn_c183_02.png", "category": "UI Portraits & Icons (Maiden Ice Rose)", "url": "assets/textures/c183/ele_gacha_btn_c183_02.png?v=1793763380", "relPath": "assets/textures/c183/ele_gacha_btn_c183_02.png", "sizeBytes": 91406, "format": "PNG", "width": 512, "height": 164}, {"name": "ele_gacha_title_c183_re.png", "category": "UI Portraits & Icons (Maiden Ice Rose)", "url": "assets/textures/c183/ele_gacha_title_c183_re.png?v=1793763380", "relPath": "assets/textures/c183/ele_gacha_title_c183_re.png", "sizeBytes": 143888, "format": "PNG", "width": 450, "height": 256}, {"name": "icn_skill_c183_ult.png", "category": "UI Portraits & Icons (Maiden Ice Rose)", "url": "assets/textures/c183/icn_skill_c183_ult.png?v=1793749627", "relPath": "assets/textures/c183/icn_skill_c183_ult.png", "sizeBytes": 7759, "format": "PNG", "width": 128, "height": 128}, {"name": "mi_c183_00_s.png", "category": "UI Portraits & Icons (Maiden Ice Rose)", "url": "assets/textures/c183/mi_c183_00_s.png?v=1793749627", "relPath": "assets/textures/c183/mi_c183_00_s.png", "sizeBytes": 239017, "format": "PNG", "width": 256, "height": 512}, {"name": "si_c183_00_s.png", "category": "UI Portraits & Icons (Maiden Ice Rose)", "url": "assets/textures/c183/si_c183_00_s.png?v=1793749628", "relPath": "assets/textures/c183/si_c183_00_s.png", "sizeBytes": 38996, "format": "PNG", "width": 128, "height": 128}, {"name": "SDToon_Tex_RimDefault.png", "category": "Field NPC Sprites (Maiden)", "url": "assets/textures/field_npc/SDToon_Tex_RimDefault.png?v=1793751827", "relPath": "assets/textures/field_npc/SDToon_Tex_RimDefault.png", "sizeBytes": 310, "format": "PNG", "width": 256, "height": 2}, {"name": "c181_02.png", "category": "Field NPC Sprites (Maiden)", "url": "assets/textures/field_npc/c181_02.png?v=1793751827", "relPath": "assets/textures/field_npc/c181_02.png", "sizeBytes": 272029, "format": "PNG", "width": 512, "height": 512}, {"name": "febg_tropical_003_ani_01.png", "category": "Field NPC Sprites (Maiden)", "url": "assets/textures/field_npc/febg_tropical_003_ani_01.png?v=1793751827", "relPath": "assets/textures/field_npc/febg_tropical_003_ani_01.png", "sizeBytes": 964489, "format": "PNG", "width": 1024, "height": 1024}, {"name": "fx_fishing_spot_atlas.png", "category": "Field NPC Sprites (Maiden)", "url": "assets/textures/field_npc/fx_fishing_spot_atlas.png?v=1793751827", "relPath": "assets/textures/field_npc/fx_fishing_spot_atlas.png", "sizeBytes": 45381, "format": "PNG", "width": 256, "height": 256}, {"name": "fx_sb_fieldmap_flowmap_03.png", "category": "Field NPC Sprites (Maiden)", "url": "assets/textures/field_npc/fx_sb_fieldmap_flowmap_03.png?v=1793751827", "relPath": "assets/textures/field_npc/fx_sb_fieldmap_flowmap_03.png", "sizeBytes": 53727, "format": "PNG", "width": 256, "height": 256}, {"name": "c032_00.png", "category": "Full Character Card Splash Art", "url": "assets/textures/full_cards/c032_00.png?v=1794543402", "relPath": "assets/textures/full_cards/c032_00.png", "sizeBytes": 304414, "format": "PNG", "width": 1024, "height": 1024}, {"name": "c032_01.png", "category": "Full Character Card Splash Art", "url": "assets/textures/full_cards/c032_01.png?v=1794543402", "relPath": "assets/textures/full_cards/c032_01.png", "sizeBytes": 327220, "format": "PNG", "width": 1024, "height": 1024}, {"name": "c181_00_full.png", "category": "Full Character Card Splash Art", "url": "assets/textures/full_cards/c181_00_full.png?v=1793751809", "relPath": "assets/textures/full_cards/c181_00_full.png", "sizeBytes": 521025, "format": "PNG", "width": 1024, "height": 1024}, {"name": "c181_01_full.png", "category": "Full Character Card Splash Art", "url": "assets/textures/full_cards/c181_01_full.png?v=1793751809", "relPath": "assets/textures/full_cards/c181_01_full.png", "sizeBytes": 550875, "format": "PNG", "width": 1024, "height": 1024}, {"name": "c181_02_full.png", "category": "Full Character Card Splash Art", "url": "assets/textures/full_cards/c181_02_full.png?v=1793751809", "relPath": "assets/textures/full_cards/c181_02_full.png", "sizeBytes": 431308, "format": "PNG", "width": 1024, "height": 1024}, {"name": "c183_00_full.png", "category": "Full Character Card Splash Art", "url": "assets/textures/full_cards/c183_00_full.png?v=1793751809", "relPath": "assets/textures/full_cards/c183_00_full.png", "sizeBytes": 382331, "format": "PNG", "width": 1024, "height": 1024}, {"name": "fx_c181_sk1_symbol_01.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_c181_sk1_symbol_01.png?v=1793763377", "relPath": "assets/vfx/fx_c181_sk1_symbol_01.png", "sizeBytes": 12440, "format": "PNG", "width": 256, "height": 256}, {"name": "fx_c181_sk2_altas_04.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_c181_sk2_altas_04.png?v=1793763377", "relPath": "assets/vfx/fx_c181_sk2_altas_04.png", "sizeBytes": 267136, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_c181_ult_atlas_04.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_c181_ult_atlas_04.png?v=1793763377", "relPath": "assets/vfx/fx_c181_ult_atlas_04.png", "sizeBytes": 35775, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_c181_ult_hit_altas_01.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_c181_ult_hit_altas_01.png?v=1793763377", "relPath": "assets/vfx/fx_c181_ult_hit_altas_01.png", "sizeBytes": 264262, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_c183_sk1_altas.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_c183_sk1_altas.png?v=1794403921", "relPath": "assets/vfx/fx_c183_sk1_altas.png", "sizeBytes": 97867, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_c183_sk2_hit.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_c183_sk2_hit.png?v=1793763378", "relPath": "assets/vfx/fx_c183_sk2_hit.png", "sizeBytes": 166156, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_dh_gra_03_blur_remap.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_dh_gra_03_blur_remap.png?v=1793763379", "relPath": "assets/vfx/fx_dh_gra_03_blur_remap.png", "sizeBytes": 32263, "format": "PNG", "width": 256, "height": 256}, {"name": "fx_dh_pattern_08_reremap.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_dh_pattern_08_reremap.png?v=1793774605", "relPath": "assets/vfx/fx_dh_pattern_08_reremap.png", "sizeBytes": 381167, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_hs_flowmap_01.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_hs_flowmap_01.png?v=1793763376", "relPath": "assets/vfx/fx_hs_flowmap_01.png", "sizeBytes": 28161, "format": "PNG", "width": 128, "height": 128}, {"name": "fx_hs_pattern_33.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_hs_pattern_33.png?v=1794403817", "relPath": "assets/vfx/fx_hs_pattern_33.png", "sizeBytes": 160871, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_jh_line_pattern_37.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_jh_line_pattern_37.png?v=1793763377", "relPath": "assets/vfx/fx_jh_line_pattern_37.png", "sizeBytes": 166176, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_jh_line_pattern_49.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_jh_line_pattern_49.png?v=1794409038", "relPath": "assets/vfx/fx_jh_line_pattern_49.png", "sizeBytes": 88215, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_jh_line_pattern_70.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_jh_line_pattern_70.png?v=1793850283", "relPath": "assets/vfx/fx_jh_line_pattern_70.png", "sizeBytes": 175938, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_jh_ring_ani_07.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_jh_ring_ani_07.png?v=1793763378", "relPath": "assets/vfx/fx_jh_ring_ani_07.png", "sizeBytes": 59750, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_lens_01.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_lens_01.png?v=1793763376", "relPath": "assets/vfx/fx_lens_01.png", "sizeBytes": 19175, "format": "PNG", "width": 128, "height": 128}, {"name": "fx_pattern_01.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_pattern_01.png?v=1793774563", "relPath": "assets/vfx/fx_pattern_01.png", "sizeBytes": 53156, "format": "PNG", "width": 256, "height": 256}, {"name": "fx_pattern_03.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_pattern_03.png?v=1793763377", "relPath": "assets/vfx/fx_pattern_03.png", "sizeBytes": 69872, "format": "PNG", "width": 256, "height": 256}, {"name": "fx_pattern_03_blur.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_pattern_03_blur.png?v=1793763376", "relPath": "assets/vfx/fx_pattern_03_blur.png", "sizeBytes": 52202, "format": "PNG", "width": 256, "height": 256}, {"name": "fx_sb_smoke_06.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_sb_smoke_06.png?v=1793763376", "relPath": "assets/vfx/fx_sb_smoke_06.png", "sizeBytes": 80160, "format": "PNG", "width": 256, "height": 256}, {"name": "fx_story_event_neverland_pattern_02.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_story_event_neverland_pattern_02.png?v=1794408718", "relPath": "assets/vfx/fx_story_event_neverland_pattern_02.png", "sizeBytes": 228090, "format": "PNG", "width": 512, "height": 512}, {"name": "fx_story_event_neverland_smoke_01.png", "category": "Combat VFX Particle Textures", "url": "assets/vfx/fx_story_event_neverland_smoke_01.png?v=1793763378", "relPath": "assets/vfx/fx_story_event_neverland_smoke_01.png", "sizeBytes": 54918, "format": "PNG", "width": 256, "height": 256}, {"name": "Maiden Base (c181) Burst Cutscene [Third-Party]", "category": "Skill Cutscenes (Third-Party Capture)", "url": "assets/videos/c181_00_burst_cutscene_community_thumb.png?v=1794556914", "videoUrl": "assets/videos/c181_00_burst_cutscene_community.mp4?v=1794556914", "relPath": "assets/videos/c181_00_burst_cutscene_community.mp4", "sizeBytes": 844607, "format": "MP4_VIDEO", "width": 888, "height": 1920}, {"name": "Maiden Ice Rose (c183) Burst Cutscene [Third-Party]", "category": "Skill Cutscenes (Third-Party Capture)", "url": "assets/videos/c183_00_burst_cutscene_community_thumb.png?v=1794556930", "videoUrl": "assets/videos/c183_00_burst_cutscene_community.mp4?v=1794556930", "relPath": "assets/videos/c183_00_burst_cutscene_community.mp4", "sizeBytes": 10656482, "format": "MP4_VIDEO", "width": 1920, "height": 1080}], "models": [{"name": "c032_aim_00.atlas", "format": "SPINE_ATLAS", "sizeBytes": 1208, "relPath": "assets/spine/combat/c032/00/aim/c032_aim_00.atlas"}, {"name": "c032_aim_00.skel", "format": "SPINE_SKEL", "sizeBytes": 47204, "relPath": "assets/spine/combat/c032/00/aim/c032_aim_00.skel"}, {"name": "c032_cover_00.atlas", "format": "SPINE_ATLAS", "sizeBytes": 3601, "relPath": "assets/spine/combat/c032/00/cover/c032_cover_00.atlas"}, {"name": "c032_cover_00.skel", "format": "SPINE_SKEL", "sizeBytes": 114228, "relPath": "assets/spine/combat/c032/00/cover/c032_cover_00.skel"}, {"name": "c032_aim_01.atlas", "format": "SPINE_ATLAS", "sizeBytes": 912, "relPath": "assets/spine/combat/c032/01/aim/c032_aim_01.atlas"}, {"name": "c032_aim_01.skel", "format": "SPINE_SKEL", "sizeBytes": 49391, "relPath": "assets/spine/combat/c032/01/aim/c032_aim_01.skel"}, {"name": "c032_cover_01.atlas", "format": "SPINE_ATLAS", "sizeBytes": 3702, "relPath": "assets/spine/combat/c032/01/cover/c032_cover_01.atlas"}, {"name": "c032_cover_01.skel", "format": "SPINE_SKEL", "sizeBytes": 108821, "relPath": "assets/spine/combat/c032/01/cover/c032_cover_01.skel"}, {"name": "c181_aim_00.atlas", "format": "SPINE_ATLAS", "sizeBytes": 1324, "relPath": "assets/spine/combat/c181/00/aim/c181_aim_00.atlas"}, {"name": "c181_aim_00.skel", "format": "SPINE_SKEL", "sizeBytes": 149618, "relPath": "assets/spine/combat/c181/00/aim/c181_aim_00.skel"}, {"name": "c181_cover_00.atlas", "format": "SPINE_ATLAS", "sizeBytes": 3449, "relPath": "assets/spine/combat/c181/00/cover/c181_cover_00.atlas"}, {"name": "c181_cover_00.skel", "format": "SPINE_SKEL", "sizeBytes": 411108, "relPath": "assets/spine/combat/c181/00/cover/c181_cover_00.skel"}, {"name": "c181_aim_01.atlas", "format": "SPINE_ATLAS", "sizeBytes": 1171, "relPath": "assets/spine/combat/c181/01/aim/c181_aim_01.atlas"}, {"name": "c181_aim_01.skel", "format": "SPINE_SKEL", "sizeBytes": 116477, "relPath": "assets/spine/combat/c181/01/aim/c181_aim_01.skel"}, {"name": "c181_cover_01.atlas", "format": "SPINE_ATLAS", "sizeBytes": 3340, "relPath": "assets/spine/combat/c181/01/cover/c181_cover_01.atlas"}, {"name": "c181_cover_01.skel", "format": "SPINE_SKEL", "sizeBytes": 460929, "relPath": "assets/spine/combat/c181/01/cover/c181_cover_01.skel"}, {"name": "c181_aim_02.atlas", "format": "SPINE_ATLAS", "sizeBytes": 1337, "relPath": "assets/spine/combat/c181/02/aim/c181_aim_02.atlas"}, {"name": "c181_aim_02.skel", "format": "SPINE_SKEL", "sizeBytes": 89286, "relPath": "assets/spine/combat/c181/02/aim/c181_aim_02.skel"}, {"name": "c181_cover_02.atlas", "format": "SPINE_ATLAS", "sizeBytes": 3078, "relPath": "assets/spine/combat/c181/02/cover/c181_cover_02.atlas"}, {"name": "c181_cover_02.skel", "format": "SPINE_SKEL", "sizeBytes": 409514, "relPath": "assets/spine/combat/c181/02/cover/c181_cover_02.skel"}, {"name": "c183_aim_00.atlas", "format": "SPINE_ATLAS", "sizeBytes": 2332, "relPath": "assets/spine/combat/c183/00/aim/c183_aim_00.atlas"}, {"name": "c183_aim_00.skel", "format": "SPINE_SKEL", "sizeBytes": 67563, "relPath": "assets/spine/combat/c183/00/aim/c183_aim_00.skel"}, {"name": "c183_cover_00.atlas", "format": "SPINE_ATLAS", "sizeBytes": 3952, "relPath": "assets/spine/combat/c183/00/cover/c183_cover_00.atlas"}, {"name": "c183_cover_00.skel", "format": "SPINE_SKEL", "sizeBytes": 134610, "relPath": "assets/spine/combat/c183/00/cover/c183_cover_00.skel"}, {"name": "favoriteitem_c032_00.atlas", "format": "SPINE_ATLAS", "sizeBytes": 295, "relPath": "assets/spine/favoriteitem/c032/00/favoriteitem_c032_00.atlas"}, {"name": "favoriteitem_c032_00.skel", "format": "SPINE_SKEL", "sizeBytes": 6034, "relPath": "assets/spine/favoriteitem/c032/00/favoriteitem_c032_00.skel"}, {"name": "FavoriteItemScene_c032_00.atlas", "format": "SPINE_ATLAS", "sizeBytes": 4969, "relPath": "assets/spine/favoriteitem_scene/c032/FavoriteItemScene_c032_00.atlas"}, {"name": "FavoriteItemScene_c032_00.skel", "format": "SPINE_SKEL", "sizeBytes": 413489, "relPath": "assets/spine/favoriteitem_scene/c032/FavoriteItemScene_c032_00.skel"}, {"name": "c032_00.atlas", "format": "SPINE_ATLAS", "sizeBytes": 5163, "relPath": "assets/spine/standing/c032/00/c032_00.atlas"}, {"name": "c032_00.skel", "format": "SPINE_SKEL", "sizeBytes": 1135782, "relPath": "assets/spine/standing/c032/00/c032_00.skel"}, {"name": "c032_01.atlas", "format": "SPINE_ATLAS", "sizeBytes": 8660, "relPath": "assets/spine/standing/c032/01/c032_01.atlas"}, {"name": "c032_01.skel", "format": "SPINE_SKEL", "sizeBytes": 1065817, "relPath": "assets/spine/standing/c032/01/c032_01.skel"}, {"name": "c181_00.atlas", "format": "SPINE_ATLAS", "sizeBytes": 7245, "relPath": "assets/spine/standing/c181/00/c181_00.atlas"}, {"name": "c181_00.skel", "format": "SPINE_SKEL", "sizeBytes": 1113113, "relPath": "assets/spine/standing/c181/00/c181_00.skel"}, {"name": "c181_01.atlas", "format": "SPINE_ATLAS", "sizeBytes": 6722, "relPath": "assets/spine/standing/c181/01/c181_01.atlas"}, {"name": "c181_01.skel", "format": "SPINE_SKEL", "sizeBytes": 1337266, "relPath": "assets/spine/standing/c181/01/c181_01.skel"}, {"name": "c181_02.atlas", "format": "SPINE_ATLAS", "sizeBytes": 6748, "relPath": "assets/spine/standing/c181/02/c181_02.atlas"}, {"name": "c181_02.skel", "format": "SPINE_SKEL", "sizeBytes": 1260045, "relPath": "assets/spine/standing/c181/02/c181_02.skel"}, {"name": "c183_00.atlas", "format": "SPINE_ATLAS", "sizeBytes": 5588, "relPath": "assets/spine/standing/c183/00/c183_00.atlas"}, {"name": "c183_00.skel", "format": "SPINE_SKEL", "sizeBytes": 754451, "relPath": "assets/spine/standing/c183/00/c183_00.skel"}, {"name": "c032_00_skin.obj", "format": "OBJ_3D", "sizeBytes": 281617, "relPath": "assets/models/sd/c032_00/c032_00_skin.obj"}, {"name": "c032_00_weapon_skin.obj", "format": "OBJ_3D", "sizeBytes": 71011, "relPath": "assets/models/sd/c032_00/c032_00_weapon_skin.obj"}, {"name": "c032_01_skin.obj", "format": "OBJ_3D", "sizeBytes": 466836, "relPath": "assets/models/sd/c032_01/c032_01_skin.obj"}, {"name": "c032_01_weapon_skin.obj", "format": "OBJ_3D", "sizeBytes": 73147, "relPath": "assets/models/sd/c032_01/c032_01_weapon_skin.obj"}, {"name": "c181_00_skin.obj", "format": "OBJ_3D", "sizeBytes": 270334, "relPath": "assets/models/sd/c181_00/c181_00_skin.obj"}, {"name": "c181_00_weapon_skin.obj", "format": "OBJ_3D", "sizeBytes": 78118, "relPath": "assets/models/sd/c181_00/c181_00_weapon_skin.obj"}, {"name": "c181_01_skin.obj", "format": "OBJ_3D", "sizeBytes": 242659, "relPath": "assets/models/sd/c181_01/c181_01_skin.obj"}, {"name": "c181_01_weapon_skin.obj", "format": "OBJ_3D", "sizeBytes": 78121, "relPath": "assets/models/sd/c181_01/c181_01_weapon_skin.obj"}, {"name": "c181_02 _weapon_skin.obj", "format": "OBJ_3D", "sizeBytes": 93335, "relPath": "assets/models/sd/c181_02/c181_02 _weapon_skin.obj"}, {"name": "c181_02_skin.obj", "format": "OBJ_3D", "sizeBytes": 291609, "relPath": "assets/models/sd/c181_02/c181_02_skin.obj"}, {"name": "c183_00_broom.obj", "format": "OBJ_3D", "sizeBytes": 67290, "relPath": "assets/models/sd/c183_00/c183_00_broom.obj"}, {"name": "c183_00_skin.obj", "format": "OBJ_3D", "sizeBytes": 370545, "relPath": "assets/models/sd/c183_00/c183_00_skin.obj"}, {"name": "c183_00_weapon_skin.obj", "format": "OBJ_3D", "sizeBytes": 106930, "relPath": "assets/models/sd/c183_00/c183_00_weapon_skin.obj"}, {"name": "c032_00_skillcut.atlas", "format": "SPINE_ATLAS", "sizeBytes": 2832, "relPath": "assets/cutscenes/c032/c032_00_skillcut.atlas"}, {"name": "c032_00_skillcut.skel", "format": "SPINE_SKEL", "sizeBytes": 118229, "relPath": "assets/cutscenes/c032/c032_00_skillcut.skel"}], "audio": [{"name": "c032_Attractive_Up_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Attractive_Up_1.wav", "url": "assets/audio/ja/c032/c032_Attractive_Up_1.wav", "relPath": "assets/audio/ja/c032/c032_Attractive_Up_1.wav", "format": "WAV", "sizeBytes": 475876, "playable": true}, {"name": "c032_Attractive_Up_2.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Attractive_Up_2.wav", "url": "assets/audio/ja/c032/c032_Attractive_Up_2.wav", "relPath": "assets/audio/ja/c032/c032_Attractive_Up_2.wav", "format": "WAV", "sizeBytes": 485456, "playable": true}, {"name": "c032_Attractive_Up_3.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Attractive_Up_3.wav", "url": "assets/audio/ja/c032/c032_Attractive_Up_3.wav", "relPath": "assets/audio/ja/c032/c032_Attractive_Up_3.wav", "format": "WAV", "sizeBytes": 525238, "playable": true}, {"name": "c032_Battle_Enter_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Battle_Enter_1.wav", "url": "assets/audio/ja/c032/c032_Battle_Enter_1.wav", "relPath": "assets/audio/ja/c032/c032_Battle_Enter_1.wav", "format": "WAV", "sizeBytes": 180524, "playable": true}, {"name": "c032_Battle_Ready_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Battle_Ready_1.wav", "url": "assets/audio/ja/c032/c032_Battle_Ready_1.wav", "relPath": "assets/audio/ja/c032/c032_Battle_Ready_1.wav", "format": "WAV", "sizeBytes": 209602, "playable": true}, {"name": "c032_Battle_Ready_2.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Battle_Ready_2.wav", "url": "assets/audio/ja/c032/c032_Battle_Ready_2.wav", "relPath": "assets/audio/ja/c032/c032_Battle_Ready_2.wav", "format": "WAV", "sizeBytes": 187120, "playable": true}, {"name": "c032_Battle_Ready_3.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Battle_Ready_3.wav", "url": "assets/audio/ja/c032/c032_Battle_Ready_3.wav", "relPath": "assets/audio/ja/c032/c032_Battle_Ready_3.wav", "format": "WAV", "sizeBytes": 161046, "playable": true}, {"name": "c032_Damage_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Damage_1.wav", "url": "assets/audio/ja/c032/c032_Damage_1.wav", "relPath": "assets/audio/ja/c032/c032_Damage_1.wav", "format": "WAV", "sizeBytes": 67360, "playable": true}, {"name": "c032_Damage_2.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Damage_2.wav", "url": "assets/audio/ja/c032/c032_Damage_2.wav", "relPath": "assets/audio/ja/c032/c032_Damage_2.wav", "format": "WAV", "sizeBytes": 48900, "playable": true}, {"name": "c032_Damage_3.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Damage_3.wav", "url": "assets/audio/ja/c032/c032_Damage_3.wav", "relPath": "assets/audio/ja/c032/c032_Damage_3.wav", "format": "WAV", "sizeBytes": 87740, "playable": true}, {"name": "c032_Die_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Die_1.wav", "url": "assets/audio/ja/c032/c032_Die_1.wav", "relPath": "assets/audio/ja/c032/c032_Die_1.wav", "format": "WAV", "sizeBytes": 354044, "playable": true}, {"name": "c032_Field_Go_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Field_Go_1.wav", "url": "assets/audio/ja/c032/c032_Field_Go_1.wav", "relPath": "assets/audio/ja/c032/c032_Field_Go_1.wav", "format": "WAV", "sizeBytes": 245840, "playable": true}, {"name": "c032_Field_Touch_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Field_Touch_1.wav", "url": "assets/audio/ja/c032/c032_Field_Touch_1.wav", "relPath": "assets/audio/ja/c032/c032_Field_Touch_1.wav", "format": "WAV", "sizeBytes": 218510, "playable": true}, {"name": "c032_FullBurst_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_FullBurst_1.wav", "url": "assets/audio/ja/c032/c032_FullBurst_1.wav", "relPath": "assets/audio/ja/c032/c032_FullBurst_1.wav", "format": "WAV", "sizeBytes": 236072, "playable": true}, {"name": "c032_Gacha_Get_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Gacha_Get_1.wav", "url": "assets/audio/ja/c032/c032_Gacha_Get_1.wav", "relPath": "assets/audio/ja/c032/c032_Gacha_Get_1.wav", "format": "WAV", "sizeBytes": 350730, "playable": true}, {"name": "c032_Gift_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Gift_1.wav", "url": "assets/audio/ja/c032/c032_Gift_1.wav", "relPath": "assets/audio/ja/c032/c032_Gift_1.wav", "format": "WAV", "sizeBytes": 248950, "playable": true}, {"name": "c032_Gift_2.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Gift_2.wav", "url": "assets/audio/ja/c032/c032_Gift_2.wav", "relPath": "assets/audio/ja/c032/c032_Gift_2.wav", "format": "WAV", "sizeBytes": 518166, "playable": true}, {"name": "c032_Gift_3.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Gift_3.wav", "url": "assets/audio/ja/c032/c032_Gift_3.wav", "relPath": "assets/audio/ja/c032/c032_Gift_3.wav", "format": "WAV", "sizeBytes": 325364, "playable": true}, {"name": "c032_Kill_Monster_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Kill_Monster_1.wav", "url": "assets/audio/ja/c032/c032_Kill_Monster_1.wav", "relPath": "assets/audio/ja/c032/c032_Kill_Monster_1.wav", "format": "WAV", "sizeBytes": 132208, "playable": true}, {"name": "c032_Kill_Monster_2.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Kill_Monster_2.wav", "url": "assets/audio/ja/c032/c032_Kill_Monster_2.wav", "relPath": "assets/audio/ja/c032/c032_Kill_Monster_2.wav", "format": "WAV", "sizeBytes": 119978, "playable": true}, {"name": "c032_Kill_Monster_3.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Kill_Monster_3.wav", "url": "assets/audio/ja/c032/c032_Kill_Monster_3.wav", "relPath": "assets/audio/ja/c032/c032_Kill_Monster_3.wav", "format": "WAV", "sizeBytes": 201392, "playable": true}, {"name": "c032_Lobby_Stay_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Lobby_Stay_1.wav", "url": "assets/audio/ja/c032/c032_Lobby_Stay_1.wav", "relPath": "assets/audio/ja/c032/c032_Lobby_Stay_1.wav", "format": "WAV", "sizeBytes": 355312, "playable": true}, {"name": "c032_Lobby_Touch_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Lobby_Touch_1.wav", "url": "assets/audio/ja/c032/c032_Lobby_Touch_1.wav", "relPath": "assets/audio/ja/c032/c032_Lobby_Touch_1.wav", "format": "WAV", "sizeBytes": 377586, "playable": true}, {"name": "c032_Lobby_Touch_2.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Lobby_Touch_2.wav", "url": "assets/audio/ja/c032/c032_Lobby_Touch_2.wav", "relPath": "assets/audio/ja/c032/c032_Lobby_Touch_2.wav", "format": "WAV", "sizeBytes": 341938, "playable": true}, {"name": "c032_Lobby_Touch_3.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Lobby_Touch_3.wav", "url": "assets/audio/ja/c032/c032_Lobby_Touch_3.wav", "relPath": "assets/audio/ja/c032/c032_Lobby_Touch_3.wav", "format": "WAV", "sizeBytes": 559100, "playable": true}, {"name": "c032_Outpost_Touch_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Outpost_Touch_1.wav", "url": "assets/audio/ja/c032/c032_Outpost_Touch_1.wav", "relPath": "assets/audio/ja/c032/c032_Outpost_Touch_1.wav", "format": "WAV", "sizeBytes": 519424, "playable": true}, {"name": "c032_Outpost_Touch_2.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Outpost_Touch_2.wav", "url": "assets/audio/ja/c032/c032_Outpost_Touch_2.wav", "relPath": "assets/audio/ja/c032/c032_Outpost_Touch_2.wav", "format": "WAV", "sizeBytes": 386814, "playable": true}, {"name": "c032_Outpost_Touch_3.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Outpost_Touch_3.wav", "url": "assets/audio/ja/c032/c032_Outpost_Touch_3.wav", "relPath": "assets/audio/ja/c032/c032_Outpost_Touch_3.wav", "format": "WAV", "sizeBytes": 626682, "playable": true}, {"name": "c032_Party_Deploy_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Party_Deploy_1.wav", "url": "assets/audio/ja/c032/c032_Party_Deploy_1.wav", "relPath": "assets/audio/ja/c032/c032_Party_Deploy_1.wav", "format": "WAV", "sizeBytes": 200274, "playable": true}, {"name": "c032_Reinforce_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Reinforce_1.wav", "url": "assets/audio/ja/c032/c032_Reinforce_1.wav", "relPath": "assets/audio/ja/c032/c032_Reinforce_1.wav", "format": "WAV", "sizeBytes": 335820, "playable": true}, {"name": "c032_Reinforce_2.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Reinforce_2.wav", "url": "assets/audio/ja/c032/c032_Reinforce_2.wav", "relPath": "assets/audio/ja/c032/c032_Reinforce_2.wav", "format": "WAV", "sizeBytes": 286324, "playable": true}, {"name": "c032_Reinforce_3.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Reinforce_3.wav", "url": "assets/audio/ja/c032/c032_Reinforce_3.wav", "relPath": "assets/audio/ja/c032/c032_Reinforce_3.wav", "format": "WAV", "sizeBytes": 208594, "playable": true}, {"name": "c032_Reload_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Reload_1.wav", "url": "assets/audio/ja/c032/c032_Reload_1.wav", "relPath": "assets/audio/ja/c032/c032_Reload_1.wav", "format": "WAV", "sizeBytes": 267792, "playable": true}, {"name": "c032_Reload_2.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Reload_2.wav", "url": "assets/audio/ja/c032/c032_Reload_2.wav", "relPath": "assets/audio/ja/c032/c032_Reload_2.wav", "format": "WAV", "sizeBytes": 173684, "playable": true}, {"name": "c032_Reload_3.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Reload_3.wav", "url": "assets/audio/ja/c032/c032_Reload_3.wav", "relPath": "assets/audio/ja/c032/c032_Reload_3.wav", "format": "WAV", "sizeBytes": 136926, "playable": true}, {"name": "c032_Ult_Skill_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Ult_Skill_1.wav", "url": "assets/audio/ja/c032/c032_Ult_Skill_1.wav", "relPath": "assets/audio/ja/c032/c032_Ult_Skill_1.wav", "format": "WAV", "sizeBytes": 342032, "playable": true}, {"name": "c032_Ult_Skill_Ready_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Ult_Skill_Ready_1.wav", "url": "assets/audio/ja/c032/c032_Ult_Skill_Ready_1.wav", "relPath": "assets/audio/ja/c032/c032_Ult_Skill_Ready_1.wav", "format": "WAV", "sizeBytes": 158904, "playable": true}, {"name": "c032_Win_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_Win_1.wav", "url": "assets/audio/ja/c032/c032_Win_1.wav", "relPath": "assets/audio/ja/c032/c032_Win_1.wav", "format": "WAV", "sizeBytes": 431120, "playable": true}, {"name": "c032_titlecall_1.wav", "group": "Miranda (c032) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c032/c032_titlecall_1.wav", "url": "assets/audio/ja/c032/c032_titlecall_1.wav", "relPath": "assets/audio/ja/c032/c032_titlecall_1.wav", "format": "WAV", "sizeBytes": 234178, "playable": true}, {"name": "c181_02_EVENT_Casting_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Casting_1.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Casting_1.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Casting_1.wav", "format": "WAV", "sizeBytes": 73194, "playable": true}, {"name": "c181_02_EVENT_Casting_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Casting_2.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Casting_2.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Casting_2.wav", "format": "WAV", "sizeBytes": 220686, "playable": true}, {"name": "c181_02_EVENT_Casting_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Casting_3.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Casting_3.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Casting_3.wav", "format": "WAV", "sizeBytes": 160048, "playable": true}, {"name": "c181_02_EVENT_Enter_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Enter_1.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Enter_1.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Enter_1.wav", "format": "WAV", "sizeBytes": 150326, "playable": true}, {"name": "c181_02_EVENT_Enter_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Enter_2.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Enter_2.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Enter_2.wav", "format": "WAV", "sizeBytes": 351584, "playable": true}, {"name": "c181_02_EVENT_Enter_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Enter_3.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Enter_3.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Enter_3.wav", "format": "WAV", "sizeBytes": 292656, "playable": true}, {"name": "c181_02_EVENT_Failure_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Failure_1.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Failure_1.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Failure_1.wav", "format": "WAV", "sizeBytes": 373724, "playable": true}, {"name": "c181_02_EVENT_Failure_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Failure_2.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Failure_2.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Failure_2.wav", "format": "WAV", "sizeBytes": 209392, "playable": true}, {"name": "c181_02_EVENT_Great_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Great_1.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Great_1.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Great_1.wav", "format": "WAV", "sizeBytes": 329386, "playable": true}, {"name": "c181_02_EVENT_Great_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Great_2.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Great_2.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Great_2.wav", "format": "WAV", "sizeBytes": 198826, "playable": true}, {"name": "c181_02_EVENT_Max_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Max_1.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Max_1.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Max_1.wav", "format": "WAV", "sizeBytes": 203380, "playable": true}, {"name": "c181_02_EVENT_Max_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Max_2.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Max_2.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Max_2.wav", "format": "WAV", "sizeBytes": 118258, "playable": true}, {"name": "c181_02_EVENT_Pattern_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Pattern_1.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Pattern_1.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Pattern_1.wav", "format": "WAV", "sizeBytes": 41594, "playable": true}, {"name": "c181_02_EVENT_Pattern_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Pattern_2.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Pattern_2.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Pattern_2.wav", "format": "WAV", "sizeBytes": 68372, "playable": true}, {"name": "c181_02_EVENT_Success_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Success_1.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Success_1.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Success_1.wav", "format": "WAV", "sizeBytes": 115478, "playable": true}, {"name": "c181_02_EVENT_Success_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Success_2.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Success_2.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Success_2.wav", "format": "WAV", "sizeBytes": 161380, "playable": true}, {"name": "c181_02_EVENT_Success_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_02_EVENT_Success_3.wav", "url": "assets/audio/ja/c181/c181_02_EVENT_Success_3.wav", "relPath": "assets/audio/ja/c181/c181_02_EVENT_Success_3.wav", "format": "WAV", "sizeBytes": 210922, "playable": true}, {"name": "c181_Attractive_Up_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Attractive_Up_1.wav", "url": "assets/audio/ja/c181/c181_Attractive_Up_1.wav", "relPath": "assets/audio/ja/c181/c181_Attractive_Up_1.wav", "format": "WAV", "sizeBytes": 608314, "playable": true}, {"name": "c181_Attractive_Up_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Attractive_Up_2.wav", "url": "assets/audio/ja/c181/c181_Attractive_Up_2.wav", "relPath": "assets/audio/ja/c181/c181_Attractive_Up_2.wav", "format": "WAV", "sizeBytes": 463102, "playable": true}, {"name": "c181_Attractive_Up_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Attractive_Up_3.wav", "url": "assets/audio/ja/c181/c181_Attractive_Up_3.wav", "relPath": "assets/audio/ja/c181/c181_Attractive_Up_3.wav", "format": "WAV", "sizeBytes": 787762, "playable": true}, {"name": "c181_Battle_Enter_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Battle_Enter_1.wav", "url": "assets/audio/ja/c181/c181_Battle_Enter_1.wav", "relPath": "assets/audio/ja/c181/c181_Battle_Enter_1.wav", "format": "WAV", "sizeBytes": 244616, "playable": true}, {"name": "c181_Battle_Ready_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Battle_Ready_1.wav", "url": "assets/audio/ja/c181/c181_Battle_Ready_1.wav", "relPath": "assets/audio/ja/c181/c181_Battle_Ready_1.wav", "format": "WAV", "sizeBytes": 175980, "playable": true}, {"name": "c181_Battle_Ready_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Battle_Ready_2.wav", "url": "assets/audio/ja/c181/c181_Battle_Ready_2.wav", "relPath": "assets/audio/ja/c181/c181_Battle_Ready_2.wav", "format": "WAV", "sizeBytes": 376432, "playable": true}, {"name": "c181_Battle_Ready_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Battle_Ready_3.wav", "url": "assets/audio/ja/c181/c181_Battle_Ready_3.wav", "relPath": "assets/audio/ja/c181/c181_Battle_Ready_3.wav", "format": "WAV", "sizeBytes": 266680, "playable": true}, {"name": "c181_Damage_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Damage_1.wav", "url": "assets/audio/ja/c181/c181_Damage_1.wav", "relPath": "assets/audio/ja/c181/c181_Damage_1.wav", "format": "WAV", "sizeBytes": 77328, "playable": true}, {"name": "c181_Damage_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Damage_2.wav", "url": "assets/audio/ja/c181/c181_Damage_2.wav", "relPath": "assets/audio/ja/c181/c181_Damage_2.wav", "format": "WAV", "sizeBytes": 75386, "playable": true}, {"name": "c181_Damage_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Damage_3.wav", "url": "assets/audio/ja/c181/c181_Damage_3.wav", "relPath": "assets/audio/ja/c181/c181_Damage_3.wav", "format": "WAV", "sizeBytes": 106126, "playable": true}, {"name": "c181_Die_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Die_1.wav", "url": "assets/audio/ja/c181/c181_Die_1.wav", "relPath": "assets/audio/ja/c181/c181_Die_1.wav", "format": "WAV", "sizeBytes": 371276, "playable": true}, {"name": "c181_Field_Go_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Field_Go_1.wav", "url": "assets/audio/ja/c181/c181_Field_Go_1.wav", "relPath": "assets/audio/ja/c181/c181_Field_Go_1.wav", "format": "WAV", "sizeBytes": 183160, "playable": true}, {"name": "c181_Field_Touch_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Field_Touch_1.wav", "url": "assets/audio/ja/c181/c181_Field_Touch_1.wav", "relPath": "assets/audio/ja/c181/c181_Field_Touch_1.wav", "format": "WAV", "sizeBytes": 172250, "playable": true}, {"name": "c181_FullBurst_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_FullBurst_1.wav", "url": "assets/audio/ja/c181/c181_FullBurst_1.wav", "relPath": "assets/audio/ja/c181/c181_FullBurst_1.wav", "format": "WAV", "sizeBytes": 369574, "playable": true}, {"name": "c181_Gacha_Get_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Gacha_Get_1.wav", "url": "assets/audio/ja/c181/c181_Gacha_Get_1.wav", "relPath": "assets/audio/ja/c181/c181_Gacha_Get_1.wav", "format": "WAV", "sizeBytes": 767176, "playable": true}, {"name": "c181_Gift_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Gift_1.wav", "url": "assets/audio/ja/c181/c181_Gift_1.wav", "relPath": "assets/audio/ja/c181/c181_Gift_1.wav", "format": "WAV", "sizeBytes": 444618, "playable": true}, {"name": "c181_Gift_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Gift_2.wav", "url": "assets/audio/ja/c181/c181_Gift_2.wav", "relPath": "assets/audio/ja/c181/c181_Gift_2.wav", "format": "WAV", "sizeBytes": 380512, "playable": true}, {"name": "c181_Gift_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Gift_3.wav", "url": "assets/audio/ja/c181/c181_Gift_3.wav", "relPath": "assets/audio/ja/c181/c181_Gift_3.wav", "format": "WAV", "sizeBytes": 510740, "playable": true}, {"name": "c181_Kill_Monster_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Kill_Monster_1.wav", "url": "assets/audio/ja/c181/c181_Kill_Monster_1.wav", "relPath": "assets/audio/ja/c181/c181_Kill_Monster_1.wav", "format": "WAV", "sizeBytes": 201278, "playable": true}, {"name": "c181_Kill_Monster_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Kill_Monster_2.wav", "url": "assets/audio/ja/c181/c181_Kill_Monster_2.wav", "relPath": "assets/audio/ja/c181/c181_Kill_Monster_2.wav", "format": "WAV", "sizeBytes": 135282, "playable": true}, {"name": "c181_Kill_Monster_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Kill_Monster_3.wav", "url": "assets/audio/ja/c181/c181_Kill_Monster_3.wav", "relPath": "assets/audio/ja/c181/c181_Kill_Monster_3.wav", "format": "WAV", "sizeBytes": 130340, "playable": true}, {"name": "c181_Lobby_Stay_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Lobby_Stay_1.wav", "url": "assets/audio/ja/c181/c181_Lobby_Stay_1.wav", "relPath": "assets/audio/ja/c181/c181_Lobby_Stay_1.wav", "format": "WAV", "sizeBytes": 552906, "playable": true}, {"name": "c181_Lobby_Stay_Love_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Lobby_Stay_Love_1.wav", "url": "assets/audio/ja/c181/c181_Lobby_Stay_Love_1.wav", "relPath": "assets/audio/ja/c181/c181_Lobby_Stay_Love_1.wav", "format": "WAV", "sizeBytes": 834642, "playable": true}, {"name": "c181_Lobby_Touch_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Lobby_Touch_1.wav", "url": "assets/audio/ja/c181/c181_Lobby_Touch_1.wav", "relPath": "assets/audio/ja/c181/c181_Lobby_Touch_1.wav", "format": "WAV", "sizeBytes": 387646, "playable": true}, {"name": "c181_Lobby_Touch_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Lobby_Touch_2.wav", "url": "assets/audio/ja/c181/c181_Lobby_Touch_2.wav", "relPath": "assets/audio/ja/c181/c181_Lobby_Touch_2.wav", "format": "WAV", "sizeBytes": 420754, "playable": true}, {"name": "c181_Lobby_Touch_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Lobby_Touch_3.wav", "url": "assets/audio/ja/c181/c181_Lobby_Touch_3.wav", "relPath": "assets/audio/ja/c181/c181_Lobby_Touch_3.wav", "format": "WAV", "sizeBytes": 671760, "playable": true}, {"name": "c181_Lobby_Touch_Love_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Lobby_Touch_Love_1.wav", "url": "assets/audio/ja/c181/c181_Lobby_Touch_Love_1.wav", "relPath": "assets/audio/ja/c181/c181_Lobby_Touch_Love_1.wav", "format": "WAV", "sizeBytes": 838614, "playable": true}, {"name": "c181_Lobby_Touch_Love_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Lobby_Touch_Love_2.wav", "url": "assets/audio/ja/c181/c181_Lobby_Touch_Love_2.wav", "relPath": "assets/audio/ja/c181/c181_Lobby_Touch_Love_2.wav", "format": "WAV", "sizeBytes": 1206210, "playable": true}, {"name": "c181_Lobby_Touch_Love_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Lobby_Touch_Love_3.wav", "url": "assets/audio/ja/c181/c181_Lobby_Touch_Love_3.wav", "relPath": "assets/audio/ja/c181/c181_Lobby_Touch_Love_3.wav", "format": "WAV", "sizeBytes": 910154, "playable": true}, {"name": "c181_Outpost_Touch_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Outpost_Touch_1.wav", "url": "assets/audio/ja/c181/c181_Outpost_Touch_1.wav", "relPath": "assets/audio/ja/c181/c181_Outpost_Touch_1.wav", "format": "WAV", "sizeBytes": 614562, "playable": true}, {"name": "c181_Outpost_Touch_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Outpost_Touch_2.wav", "url": "assets/audio/ja/c181/c181_Outpost_Touch_2.wav", "relPath": "assets/audio/ja/c181/c181_Outpost_Touch_2.wav", "format": "WAV", "sizeBytes": 368548, "playable": true}, {"name": "c181_Outpost_Touch_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Outpost_Touch_3.wav", "url": "assets/audio/ja/c181/c181_Outpost_Touch_3.wav", "relPath": "assets/audio/ja/c181/c181_Outpost_Touch_3.wav", "format": "WAV", "sizeBytes": 390120, "playable": true}, {"name": "c181_Party_Deploy_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Party_Deploy_1.wav", "url": "assets/audio/ja/c181/c181_Party_Deploy_1.wav", "relPath": "assets/audio/ja/c181/c181_Party_Deploy_1.wav", "format": "WAV", "sizeBytes": 480710, "playable": true}, {"name": "c181_Reinforce_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Reinforce_1.wav", "url": "assets/audio/ja/c181/c181_Reinforce_1.wav", "relPath": "assets/audio/ja/c181/c181_Reinforce_1.wav", "format": "WAV", "sizeBytes": 408154, "playable": true}, {"name": "c181_Reinforce_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Reinforce_2.wav", "url": "assets/audio/ja/c181/c181_Reinforce_2.wav", "relPath": "assets/audio/ja/c181/c181_Reinforce_2.wav", "format": "WAV", "sizeBytes": 452778, "playable": true}, {"name": "c181_Reinforce_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Reinforce_3.wav", "url": "assets/audio/ja/c181/c181_Reinforce_3.wav", "relPath": "assets/audio/ja/c181/c181_Reinforce_3.wav", "format": "WAV", "sizeBytes": 297262, "playable": true}, {"name": "c181_Reload_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Reload_1.wav", "url": "assets/audio/ja/c181/c181_Reload_1.wav", "relPath": "assets/audio/ja/c181/c181_Reload_1.wav", "format": "WAV", "sizeBytes": 129368, "playable": true}, {"name": "c181_Reload_2.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Reload_2.wav", "url": "assets/audio/ja/c181/c181_Reload_2.wav", "relPath": "assets/audio/ja/c181/c181_Reload_2.wav", "format": "WAV", "sizeBytes": 348278, "playable": true}, {"name": "c181_Reload_3.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Reload_3.wav", "url": "assets/audio/ja/c181/c181_Reload_3.wav", "relPath": "assets/audio/ja/c181/c181_Reload_3.wav", "format": "WAV", "sizeBytes": 356528, "playable": true}, {"name": "c181_Ult_Skill_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Ult_Skill_1.wav", "url": "assets/audio/ja/c181/c181_Ult_Skill_1.wav", "relPath": "assets/audio/ja/c181/c181_Ult_Skill_1.wav", "format": "WAV", "sizeBytes": 337840, "playable": true}, {"name": "c181_Ult_Skill_Ready_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Ult_Skill_Ready_1.wav", "url": "assets/audio/ja/c181/c181_Ult_Skill_Ready_1.wav", "relPath": "assets/audio/ja/c181/c181_Ult_Skill_Ready_1.wav", "format": "WAV", "sizeBytes": 123600, "playable": true}, {"name": "c181_Win_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_Win_1.wav", "url": "assets/audio/ja/c181/c181_Win_1.wav", "relPath": "assets/audio/ja/c181/c181_Win_1.wav", "format": "WAV", "sizeBytes": 543520, "playable": true}, {"name": "c181_titlecall_1.wav", "group": "Base Maiden (c181) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c181/c181_titlecall_1.wav", "url": "assets/audio/ja/c181/c181_titlecall_1.wav", "relPath": "assets/audio/ja/c181/c181_titlecall_1.wav", "format": "WAV", "sizeBytes": 255150, "playable": true}, {"name": "c183_Attractive_Up_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Attractive_Up_1.wav", "url": "assets/audio/ja/c183/c183_Attractive_Up_1.wav", "relPath": "assets/audio/ja/c183/c183_Attractive_Up_1.wav", "format": "WAV", "sizeBytes": 615404, "playable": true}, {"name": "c183_Attractive_Up_2.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Attractive_Up_2.wav", "url": "assets/audio/ja/c183/c183_Attractive_Up_2.wav", "relPath": "assets/audio/ja/c183/c183_Attractive_Up_2.wav", "format": "WAV", "sizeBytes": 384940, "playable": true}, {"name": "c183_Attractive_Up_3.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Attractive_Up_3.wav", "url": "assets/audio/ja/c183/c183_Attractive_Up_3.wav", "relPath": "assets/audio/ja/c183/c183_Attractive_Up_3.wav", "format": "WAV", "sizeBytes": 780876, "playable": true}, {"name": "c183_Battle_Enter_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Battle_Enter_1.wav", "url": "assets/audio/ja/c183/c183_Battle_Enter_1.wav", "relPath": "assets/audio/ja/c183/c183_Battle_Enter_1.wav", "format": "WAV", "sizeBytes": 269420, "playable": true}, {"name": "c183_Battle_Ready_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Battle_Ready_1.wav", "url": "assets/audio/ja/c183/c183_Battle_Ready_1.wav", "relPath": "assets/audio/ja/c183/c183_Battle_Ready_1.wav", "format": "WAV", "sizeBytes": 167148, "playable": true}, {"name": "c183_Battle_Ready_2.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Battle_Ready_2.wav", "url": "assets/audio/ja/c183/c183_Battle_Ready_2.wav", "relPath": "assets/audio/ja/c183/c183_Battle_Ready_2.wav", "format": "WAV", "sizeBytes": 211564, "playable": true}, {"name": "c183_Battle_Ready_3.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Battle_Ready_3.wav", "url": "assets/audio/ja/c183/c183_Battle_Ready_3.wav", "relPath": "assets/audio/ja/c183/c183_Battle_Ready_3.wav", "format": "WAV", "sizeBytes": 250092, "playable": true}, {"name": "c183_Damage_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Damage_1.wav", "url": "assets/audio/ja/c183/c183_Damage_1.wav", "relPath": "assets/audio/ja/c183/c183_Damage_1.wav", "format": "WAV", "sizeBytes": 52204, "playable": true}, {"name": "c183_Damage_2.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Damage_2.wav", "url": "assets/audio/ja/c183/c183_Damage_2.wav", "relPath": "assets/audio/ja/c183/c183_Damage_2.wav", "format": "WAV", "sizeBytes": 51308, "playable": true}, {"name": "c183_Damage_3.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Damage_3.wav", "url": "assets/audio/ja/c183/c183_Damage_3.wav", "relPath": "assets/audio/ja/c183/c183_Damage_3.wav", "format": "WAV", "sizeBytes": 125820, "playable": true}, {"name": "c183_Die_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Die_1.wav", "url": "assets/audio/ja/c183/c183_Die_1.wav", "relPath": "assets/audio/ja/c183/c183_Die_1.wav", "format": "WAV", "sizeBytes": 513964, "playable": true}, {"name": "c183_EVENT_Damage_01.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_EVENT_Damage_01.wav", "url": "assets/audio/ja/c183/c183_EVENT_Damage_01.wav", "relPath": "assets/audio/ja/c183/c183_EVENT_Damage_01.wav", "format": "WAV", "sizeBytes": 60770, "playable": true}, {"name": "c183_EVENT_Damage_02.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_EVENT_Damage_02.wav", "url": "assets/audio/ja/c183/c183_EVENT_Damage_02.wav", "relPath": "assets/audio/ja/c183/c183_EVENT_Damage_02.wav", "format": "WAV", "sizeBytes": 69880, "playable": true}, {"name": "c183_EVENT_End.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_EVENT_End.wav", "url": "assets/audio/ja/c183/c183_EVENT_End.wav", "relPath": "assets/audio/ja/c183/c183_EVENT_End.wav", "format": "WAV", "sizeBytes": 366172, "playable": true}, {"name": "c183_EVENT_EndNew.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_EVENT_EndNew.wav", "url": "assets/audio/ja/c183/c183_EVENT_EndNew.wav", "relPath": "assets/audio/ja/c183/c183_EVENT_EndNew.wav", "format": "WAV", "sizeBytes": 389002, "playable": true}, {"name": "c183_EVENT_Enter_01.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_EVENT_Enter_01.wav", "url": "assets/audio/ja/c183/c183_EVENT_Enter_01.wav", "relPath": "assets/audio/ja/c183/c183_EVENT_Enter_01.wav", "format": "WAV", "sizeBytes": 254988, "playable": true}, {"name": "c183_EVENT_Enter_02.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_EVENT_Enter_02.wav", "url": "assets/audio/ja/c183/c183_EVENT_Enter_02.wav", "relPath": "assets/audio/ja/c183/c183_EVENT_Enter_02.wav", "format": "WAV", "sizeBytes": 204766, "playable": true}, {"name": "c183_EVENT_GameOver.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_EVENT_GameOver.wav", "url": "assets/audio/ja/c183/c183_EVENT_GameOver.wav", "relPath": "assets/audio/ja/c183/c183_EVENT_GameOver.wav", "format": "WAV", "sizeBytes": 410352, "playable": true}, {"name": "c183_EVENT_Move_01.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_EVENT_Move_01.wav", "url": "assets/audio/ja/c183/c183_EVENT_Move_01.wav", "relPath": "assets/audio/ja/c183/c183_EVENT_Move_01.wav", "format": "WAV", "sizeBytes": 48490, "playable": true}, {"name": "c183_EVENT_Move_02.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_EVENT_Move_02.wav", "url": "assets/audio/ja/c183/c183_EVENT_Move_02.wav", "relPath": "assets/audio/ja/c183/c183_EVENT_Move_02.wav", "format": "WAV", "sizeBytes": 33188, "playable": true}, {"name": "c183_EVENT_Skill.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_EVENT_Skill.wav", "url": "assets/audio/ja/c183/c183_EVENT_Skill.wav", "relPath": "assets/audio/ja/c183/c183_EVENT_Skill.wav", "format": "WAV", "sizeBytes": 69112, "playable": true}, {"name": "c183_Field_Go_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Field_Go_1.wav", "url": "assets/audio/ja/c183/c183_Field_Go_1.wav", "relPath": "assets/audio/ja/c183/c183_Field_Go_1.wav", "format": "WAV", "sizeBytes": 216556, "playable": true}, {"name": "c183_Field_Touch_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Field_Touch_1.wav", "url": "assets/audio/ja/c183/c183_Field_Touch_1.wav", "relPath": "assets/audio/ja/c183/c183_Field_Touch_1.wav", "format": "WAV", "sizeBytes": 238252, "playable": true}, {"name": "c183_FullBurst_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_FullBurst_1.wav", "url": "assets/audio/ja/c183/c183_FullBurst_1.wav", "relPath": "assets/audio/ja/c183/c183_FullBurst_1.wav", "format": "WAV", "sizeBytes": 221420, "playable": true}, {"name": "c183_Gacha_Get_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Gacha_Get_1.wav", "url": "assets/audio/ja/c183/c183_Gacha_Get_1.wav", "relPath": "assets/audio/ja/c183/c183_Gacha_Get_1.wav", "format": "WAV", "sizeBytes": 1002284, "playable": true}, {"name": "c183_Gift_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Gift_1.wav", "url": "assets/audio/ja/c183/c183_Gift_1.wav", "relPath": "assets/audio/ja/c183/c183_Gift_1.wav", "format": "WAV", "sizeBytes": 422188, "playable": true}, {"name": "c183_Gift_2.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Gift_2.wav", "url": "assets/audio/ja/c183/c183_Gift_2.wav", "relPath": "assets/audio/ja/c183/c183_Gift_2.wav", "format": "WAV", "sizeBytes": 906700, "playable": true}, {"name": "c183_Gift_3.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Gift_3.wav", "url": "assets/audio/ja/c183/c183_Gift_3.wav", "relPath": "assets/audio/ja/c183/c183_Gift_3.wav", "format": "WAV", "sizeBytes": 416300, "playable": true}, {"name": "c183_Kill_Monster_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Kill_Monster_1.wav", "url": "assets/audio/ja/c183/c183_Kill_Monster_1.wav", "relPath": "assets/audio/ja/c183/c183_Kill_Monster_1.wav", "format": "WAV", "sizeBytes": 149068, "playable": true}, {"name": "c183_Kill_Monster_2.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Kill_Monster_2.wav", "url": "assets/audio/ja/c183/c183_Kill_Monster_2.wav", "relPath": "assets/audio/ja/c183/c183_Kill_Monster_2.wav", "format": "WAV", "sizeBytes": 139372, "playable": true}, {"name": "c183_Kill_Monster_3.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Kill_Monster_3.wav", "url": "assets/audio/ja/c183/c183_Kill_Monster_3.wav", "relPath": "assets/audio/ja/c183/c183_Kill_Monster_3.wav", "format": "WAV", "sizeBytes": 223404, "playable": true}, {"name": "c183_Lobby_Stay_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Lobby_Stay_1.wav", "url": "assets/audio/ja/c183/c183_Lobby_Stay_1.wav", "relPath": "assets/audio/ja/c183/c183_Lobby_Stay_1.wav", "format": "WAV", "sizeBytes": 382508, "playable": true}, {"name": "c183_Lobby_Stay_Love_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Lobby_Stay_Love_1.wav", "url": "assets/audio/ja/c183/c183_Lobby_Stay_Love_1.wav", "relPath": "assets/audio/ja/c183/c183_Lobby_Stay_Love_1.wav", "format": "WAV", "sizeBytes": 228140, "playable": true}, {"name": "c183_Lobby_Touch_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Lobby_Touch_1.wav", "url": "assets/audio/ja/c183/c183_Lobby_Touch_1.wav", "relPath": "assets/audio/ja/c183/c183_Lobby_Touch_1.wav", "format": "WAV", "sizeBytes": 253228, "playable": true}, {"name": "c183_Lobby_Touch_2.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Lobby_Touch_2.wav", "url": "assets/audio/ja/c183/c183_Lobby_Touch_2.wav", "relPath": "assets/audio/ja/c183/c183_Lobby_Touch_2.wav", "format": "WAV", "sizeBytes": 530220, "playable": true}, {"name": "c183_Lobby_Touch_3.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Lobby_Touch_3.wav", "url": "assets/audio/ja/c183/c183_Lobby_Touch_3.wav", "relPath": "assets/audio/ja/c183/c183_Lobby_Touch_3.wav", "format": "WAV", "sizeBytes": 796428, "playable": true}, {"name": "c183_Lobby_Touch_Love_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Lobby_Touch_Love_1.wav", "url": "assets/audio/ja/c183/c183_Lobby_Touch_Love_1.wav", "relPath": "assets/audio/ja/c183/c183_Lobby_Touch_Love_1.wav", "format": "WAV", "sizeBytes": 280748, "playable": true}, {"name": "c183_Lobby_Touch_Love_2.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Lobby_Touch_Love_2.wav", "url": "assets/audio/ja/c183/c183_Lobby_Touch_Love_2.wav", "relPath": "assets/audio/ja/c183/c183_Lobby_Touch_Love_2.wav", "format": "WAV", "sizeBytes": 624428, "playable": true}, {"name": "c183_Lobby_Touch_Love_3.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Lobby_Touch_Love_3.wav", "url": "assets/audio/ja/c183/c183_Lobby_Touch_Love_3.wav", "relPath": "assets/audio/ja/c183/c183_Lobby_Touch_Love_3.wav", "format": "WAV", "sizeBytes": 515532, "playable": true}, {"name": "c183_Outpost_Touch_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Outpost_Touch_1.wav", "url": "assets/audio/ja/c183/c183_Outpost_Touch_1.wav", "relPath": "assets/audio/ja/c183/c183_Outpost_Touch_1.wav", "format": "WAV", "sizeBytes": 350316, "playable": true}, {"name": "c183_Outpost_Touch_2.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Outpost_Touch_2.wav", "url": "assets/audio/ja/c183/c183_Outpost_Touch_2.wav", "relPath": "assets/audio/ja/c183/c183_Outpost_Touch_2.wav", "format": "WAV", "sizeBytes": 472332, "playable": true}, {"name": "c183_Outpost_Touch_3.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Outpost_Touch_3.wav", "url": "assets/audio/ja/c183/c183_Outpost_Touch_3.wav", "relPath": "assets/audio/ja/c183/c183_Outpost_Touch_3.wav", "format": "WAV", "sizeBytes": 754348, "playable": true}, {"name": "c183_Party_Deploy_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Party_Deploy_1.wav", "url": "assets/audio/ja/c183/c183_Party_Deploy_1.wav", "relPath": "assets/audio/ja/c183/c183_Party_Deploy_1.wav", "format": "WAV", "sizeBytes": 347820, "playable": true}, {"name": "c183_Reinforce_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Reinforce_1.wav", "url": "assets/audio/ja/c183/c183_Reinforce_1.wav", "relPath": "assets/audio/ja/c183/c183_Reinforce_1.wav", "format": "WAV", "sizeBytes": 206060, "playable": true}, {"name": "c183_Reinforce_2.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Reinforce_2.wav", "url": "assets/audio/ja/c183/c183_Reinforce_2.wav", "relPath": "assets/audio/ja/c183/c183_Reinforce_2.wav", "format": "WAV", "sizeBytes": 419212, "playable": true}, {"name": "c183_Reinforce_3.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Reinforce_3.wav", "url": "assets/audio/ja/c183/c183_Reinforce_3.wav", "relPath": "assets/audio/ja/c183/c183_Reinforce_3.wav", "format": "WAV", "sizeBytes": 613484, "playable": true}, {"name": "c183_Reload_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Reload_1.wav", "url": "assets/audio/ja/c183/c183_Reload_1.wav", "relPath": "assets/audio/ja/c183/c183_Reload_1.wav", "format": "WAV", "sizeBytes": 154860, "playable": true}, {"name": "c183_Reload_2.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Reload_2.wav", "url": "assets/audio/ja/c183/c183_Reload_2.wav", "relPath": "assets/audio/ja/c183/c183_Reload_2.wav", "format": "WAV", "sizeBytes": 154476, "playable": true}, {"name": "c183_Reload_3.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Reload_3.wav", "url": "assets/audio/ja/c183/c183_Reload_3.wav", "relPath": "assets/audio/ja/c183/c183_Reload_3.wav", "format": "WAV", "sizeBytes": 163500, "playable": true}, {"name": "c183_Ult_Skill_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Ult_Skill_1.wav", "url": "assets/audio/ja/c183/c183_Ult_Skill_1.wav", "relPath": "assets/audio/ja/c183/c183_Ult_Skill_1.wav", "format": "WAV", "sizeBytes": 360620, "playable": true}, {"name": "c183_Ult_Skill_Ready_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Ult_Skill_Ready_1.wav", "url": "assets/audio/ja/c183/c183_Ult_Skill_Ready_1.wav", "relPath": "assets/audio/ja/c183/c183_Ult_Skill_Ready_1.wav", "format": "WAV", "sizeBytes": 182124, "playable": true}, {"name": "c183_Win_1.wav", "group": "Ice Rose (c183) JA Voice (Horie Yui)", "playableUrl": "assets/audio/ja/c183/c183_Win_1.wav", "url": "assets/audio/ja/c183/c183_Win_1.wav", "relPath": "assets/audio/ja/c183/c183_Win_1.wav", "format": "WAV", "sizeBytes": 396332, "playable": true}, {"name": "C032_00_favoriteitem_1.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/C032_00_favoriteitem_1.wav", "url": "assets/audio/sfx/c032/C032_00_favoriteitem_1.wav", "relPath": "assets/audio/sfx/c032/C032_00_favoriteitem_1.wav", "format": "WAV", "sizeBytes": 108742, "playable": true}, {"name": "C032_00_favoriteitem_2.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/C032_00_favoriteitem_2.wav", "url": "assets/audio/sfx/c032/C032_00_favoriteitem_2.wav", "relPath": "assets/audio/sfx/c032/C032_00_favoriteitem_2.wav", "format": "WAV", "sizeBytes": 189870, "playable": true}, {"name": "C032_00_favoriteitem_3.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/C032_00_favoriteitem_3.wav", "url": "assets/audio/sfx/c032/C032_00_favoriteitem_3.wav", "relPath": "assets/audio/sfx/c032/C032_00_favoriteitem_3.wav", "format": "WAV", "sizeBytes": 126920, "playable": true}, {"name": "c032_00_action_1.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/c032_00_action_1.wav", "url": "assets/audio/sfx/c032/c032_00_action_1.wav", "relPath": "assets/audio/sfx/c032/c032_00_action_1.wav", "format": "WAV", "sizeBytes": 38630, "playable": true}, {"name": "c032_00_action_2.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/c032_00_action_2.wav", "url": "assets/audio/sfx/c032/c032_00_action_2.wav", "relPath": "assets/audio/sfx/c032/c032_00_action_2.wav", "format": "WAV", "sizeBytes": 33118, "playable": true}, {"name": "c032_01_action_1.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/c032_01_action_1.wav", "url": "assets/audio/sfx/c032/c032_01_action_1.wav", "relPath": "assets/audio/sfx/c032/c032_01_action_1.wav", "format": "WAV", "sizeBytes": 134658, "playable": true}, {"name": "c032_01_action_2.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/c032_01_action_2.wav", "url": "assets/audio/sfx/c032/c032_01_action_2.wav", "relPath": "assets/audio/sfx/c032/c032_01_action_2.wav", "format": "WAV", "sizeBytes": 39464, "playable": true}, {"name": "c032_01_action_3.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/c032_01_action_3.wav", "url": "assets/audio/sfx/c032/c032_01_action_3.wav", "relPath": "assets/audio/sfx/c032/c032_01_action_3.wav", "format": "WAV", "sizeBytes": 82344, "playable": true}, {"name": "c032_01_action_4.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/c032_01_action_4.wav", "url": "assets/audio/sfx/c032/c032_01_action_4.wav", "relPath": "assets/audio/sfx/c032/c032_01_action_4.wav", "format": "WAV", "sizeBytes": 5172, "playable": true}, {"name": "c032_01_expression_1_1.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/c032_01_expression_1_1.wav", "url": "assets/audio/sfx/c032/c032_01_expression_1_1.wav", "relPath": "assets/audio/sfx/c032/c032_01_expression_1_1.wav", "format": "WAV", "sizeBytes": 134658, "playable": true}, {"name": "c032_reload_1.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/c032_reload_1.wav", "url": "assets/audio/sfx/c032/c032_reload_1.wav", "relPath": "assets/audio/sfx/c032/c032_reload_1.wav", "format": "WAV", "sizeBytes": 11024, "playable": true}, {"name": "c032_reload_2.wav", "group": "Combat & Action SFX (Miranda c032)", "playableUrl": "assets/audio/sfx/c032/c032_reload_2.wav", "url": "assets/audio/sfx/c032/c032_reload_2.wav", "relPath": "assets/audio/sfx/c032/c032_reload_2.wav", "format": "WAV", "sizeBytes": 8048, "playable": true}, {"name": "c183_00_action_1.wav", "group": "Combat Sound FX (Maiden c183)", "playableUrl": "assets/audio/sfx/c183/c183_00_action_1.wav", "url": "assets/audio/sfx/c183/c183_00_action_1.wav", "relPath": "assets/audio/sfx/c183/c183_00_action_1.wav", "format": "WAV", "sizeBytes": 40616, "playable": true}, {"name": "c183_00_action_2.wav", "group": "Combat Sound FX (Maiden c183)", "playableUrl": "assets/audio/sfx/c183/c183_00_action_2.wav", "url": "assets/audio/sfx/c183/c183_00_action_2.wav", "relPath": "assets/audio/sfx/c183/c183_00_action_2.wav", "format": "WAV", "sizeBytes": 186146, "playable": true}, {"name": "c183_00_action_3.wav", "group": "Combat Sound FX (Maiden c183)", "playableUrl": "assets/audio/sfx/c183/c183_00_action_3.wav", "url": "assets/audio/sfx/c183/c183_00_action_3.wav", "relPath": "assets/audio/sfx/c183/c183_00_action_3.wav", "format": "WAV", "sizeBytes": 143256, "playable": true}, {"name": "c183_00_action_4.wav", "group": "Combat Sound FX (Maiden c183)", "playableUrl": "assets/audio/sfx/c183/c183_00_action_4.wav", "url": "assets/audio/sfx/c183/c183_00_action_4.wav", "relPath": "assets/audio/sfx/c183/c183_00_action_4.wav", "format": "WAV", "sizeBytes": 71616, "playable": true}, {"name": "c183_reload_1.wav", "group": "Combat Sound FX (Maiden c183)", "playableUrl": "assets/audio/sfx/c183/c183_reload_1.wav", "url": "assets/audio/sfx/c183/c183_reload_1.wav", "relPath": "assets/audio/sfx/c183/c183_reload_1.wav", "format": "WAV", "sizeBytes": 100162, "playable": true}, {"name": "c183_reload_2.wav", "group": "Combat Sound FX (Maiden c183)", "playableUrl": "assets/audio/sfx/c183/c183_reload_2.wav", "url": "assets/audio/sfx/c183/c183_reload_2.wav", "relPath": "assets/audio/sfx/c183/c183_reload_2.wav", "format": "WAV", "sizeBytes": 68012, "playable": true}, {"name": "c183_reload_3.wav", "group": "Combat Sound FX (Maiden c183)", "playableUrl": "assets/audio/sfx/c183/c183_reload_3.wav", "url": "assets/audio/sfx/c183/c183_reload_3.wav", "relPath": "assets/audio/sfx/c183/c183_reload_3.wav", "format": "WAV", "sizeBytes": 77660, "playable": true}], "animations": [{"name": "c032_00_aim_end.anim", "sizeBytes": 28328, "relPath": "assets/animations/c032/c032_00_aim_end.anim"}, {"name": "c032_00_aim_idle.anim", "sizeBytes": 48564, "relPath": "assets/animations/c032/c032_00_aim_idle.anim"}, {"name": "c032_00_aim_start.anim", "sizeBytes": 25752, "relPath": "assets/animations/c032/c032_00_aim_start.anim"}, {"name": "c032_00_cover_idle.anim", "sizeBytes": 42008, "relPath": "assets/animations/c032/c032_00_cover_idle.anim"}, {"name": "c032_00_cover_reload.anim", "sizeBytes": 93712, "relPath": "assets/animations/c032/c032_00_cover_reload.anim"}, {"name": "c032_00_cover_shot.anim", "sizeBytes": 34012, "relPath": "assets/animations/c032/c032_00_cover_shot.anim"}, {"name": "c032_00_death.anim", "sizeBytes": 94292, "relPath": "assets/animations/c032/c032_00_death.anim"}, {"name": "c032_00_idle.anim", "sizeBytes": 45960, "relPath": "assets/animations/c032/c032_00_idle.anim"}, {"name": "c032_00_run.anim", "sizeBytes": 33008, "relPath": "assets/animations/c032/c032_00_run.anim"}, {"name": "c032_00_shot.anim", "sizeBytes": 34004, "relPath": "assets/animations/c032/c032_00_shot.anim"}, {"name": "c032_00_stun.anim", "sizeBytes": 57728, "relPath": "assets/animations/c032/c032_00_stun.anim"}, {"name": "c032_00_talk_1.anim", "sizeBytes": 131976, "relPath": "assets/animations/c032/c032_00_talk_1.anim"}, {"name": "c032_00_talk_2.anim", "sizeBytes": 110280, "relPath": "assets/animations/c032/c032_00_talk_2.anim"}, {"name": "c032_00_talk_idle.anim", "sizeBytes": 67016, "relPath": "assets/animations/c032/c032_00_talk_idle.anim"}, {"name": "c032_00_walk.anim", "sizeBytes": 42088, "relPath": "assets/animations/c032/c032_00_walk.anim"}, {"name": "c032_01_aim_end.anim", "sizeBytes": 41988, "relPath": "assets/animations/c032/c032_01_aim_end.anim"}, {"name": "c032_01_aim_idle.anim", "sizeBytes": 72220, "relPath": "assets/animations/c032/c032_01_aim_idle.anim"}, {"name": "c032_01_aim_start.anim", "sizeBytes": 39920, "relPath": "assets/animations/c032/c032_01_aim_start.anim"}, {"name": "c032_01_cover_idle.anim", "sizeBytes": 73056, "relPath": "assets/animations/c032/c032_01_cover_idle.anim"}, {"name": "c032_01_cover_reload.anim", "sizeBytes": 125120, "relPath": "assets/animations/c032/c032_01_cover_reload.anim"}, {"name": "c032_01_cover_shot.anim", "sizeBytes": 40972, "relPath": "assets/animations/c032/c032_01_cover_shot.anim"}, {"name": "c032_01_death.anim", "sizeBytes": 111156, "relPath": "assets/animations/c032/c032_01_death.anim"}, {"name": "c032_01_idle.anim", "sizeBytes": 75368, "relPath": "assets/animations/c032/c032_01_idle.anim"}, {"name": "c032_01_run.anim", "sizeBytes": 42092, "relPath": "assets/animations/c032/c032_01_run.anim"}, {"name": "c032_01_shot.anim", "sizeBytes": 41204, "relPath": "assets/animations/c032/c032_01_shot.anim"}, {"name": "c032_01_stun.anim", "sizeBytes": 66980, "relPath": "assets/animations/c032/c032_01_stun.anim"}, {"name": "c032_01_talk_1.anim", "sizeBytes": 204204, "relPath": "assets/animations/c032/c032_01_talk_1.anim"}, {"name": "c032_01_talk_2.anim", "sizeBytes": 173620, "relPath": "assets/animations/c032/c032_01_talk_2.anim"}, {"name": "c032_01_talk_idle.anim", "sizeBytes": 93844, "relPath": "assets/animations/c032/c032_01_talk_idle.anim"}, {"name": "c032_01_walk.anim", "sizeBytes": 54780, "relPath": "assets/animations/c032/c032_01_walk.anim"}, {"name": "c181_00_aim_end.anim", "sizeBytes": 32620, "relPath": "assets/animations/c181/c181_00_aim_end.anim"}, {"name": "c181_00_aim_idle.anim", "sizeBytes": 54396, "relPath": "assets/animations/c181/c181_00_aim_idle.anim"}, {"name": "c181_00_aim_start.anim", "sizeBytes": 35188, "relPath": "assets/animations/c181/c181_00_aim_start.anim"}, {"name": "c181_00_cover_idle.anim", "sizeBytes": 61312, "relPath": "assets/animations/c181/c181_00_cover_idle.anim"}, {"name": "c181_00_cover_reload.anim", "sizeBytes": 96940, "relPath": "assets/animations/c181/c181_00_cover_reload.anim"}, {"name": "c181_00_cover_shot.anim", "sizeBytes": 34984, "relPath": "assets/animations/c181/c181_00_cover_shot.anim"}, {"name": "c181_00_death.anim", "sizeBytes": 78456, "relPath": "assets/animations/c181/c181_00_death.anim"}, {"name": "c181_00_idle.anim", "sizeBytes": 47444, "relPath": "assets/animations/c181/c181_00_idle.anim"}, {"name": "c181_00_run.anim", "sizeBytes": 38792, "relPath": "assets/animations/c181/c181_00_run.anim"}, {"name": "c181_00_shot.anim", "sizeBytes": 36656, "relPath": "assets/animations/c181/c181_00_shot.anim"}, {"name": "c181_00_stun.anim", "sizeBytes": 52932, "relPath": "assets/animations/c181/c181_00_stun.anim"}, {"name": "c181_00_talk_1.anim", "sizeBytes": 180096, "relPath": "assets/animations/c181/c181_00_talk_1.anim"}, {"name": "c181_00_talk_2.anim", "sizeBytes": 143268, "relPath": "assets/animations/c181/c181_00_talk_2.anim"}, {"name": "c181_00_talk_idle.anim", "sizeBytes": 84356, "relPath": "assets/animations/c181/c181_00_talk_idle.anim"}, {"name": "c181_00_walk.anim", "sizeBytes": 49028, "relPath": "assets/animations/c181/c181_00_walk.anim"}, {"name": "c181_01_aim_end.anim", "sizeBytes": 36016, "relPath": "assets/animations/c181/c181_01_aim_end.anim"}, {"name": "c181_01_aim_idle.anim", "sizeBytes": 60164, "relPath": "assets/animations/c181/c181_01_aim_idle.anim"}, {"name": "c181_01_aim_start.anim", "sizeBytes": 35820, "relPath": "assets/animations/c181/c181_01_aim_start.anim"}, {"name": "c181_01_cover_idle.anim", "sizeBytes": 63264, "relPath": "assets/animations/c181/c181_01_cover_idle.anim"}, {"name": "c181_01_cover_reload.anim", "sizeBytes": 101340, "relPath": "assets/animations/c181/c181_01_cover_reload.anim"}, {"name": "c181_01_cover_shot.anim", "sizeBytes": 36484, "relPath": "assets/animations/c181/c181_01_cover_shot.anim"}, {"name": "c181_01_death.anim", "sizeBytes": 98276, "relPath": "assets/animations/c181/c181_01_death.anim"}, {"name": "c181_01_idle.anim", "sizeBytes": 66140, "relPath": "assets/animations/c181/c181_01_idle.anim"}, {"name": "c181_01_run.anim", "sizeBytes": 38188, "relPath": "assets/animations/c181/c181_01_run.anim"}, {"name": "c181_01_shot.anim", "sizeBytes": 36476, "relPath": "assets/animations/c181/c181_01_shot.anim"}, {"name": "c181_01_stun.anim", "sizeBytes": 60960, "relPath": "assets/animations/c181/c181_01_stun.anim"}, {"name": "c181_01_talk_1.anim", "sizeBytes": 190888, "relPath": "assets/animations/c181/c181_01_talk_1.anim"}, {"name": "c181_01_talk_2.anim", "sizeBytes": 153952, "relPath": "assets/animations/c181/c181_01_talk_2.anim"}, {"name": "c181_01_talk_idle.anim", "sizeBytes": 87052, "relPath": "assets/animations/c181/c181_01_talk_idle.anim"}, {"name": "c181_01_walk.anim", "sizeBytes": 49768, "relPath": "assets/animations/c181/c181_01_walk.anim"}, {"name": "c181_02_aim_end.anim", "sizeBytes": 29284, "relPath": "assets/animations/c181/c181_02_aim_end.anim"}, {"name": "c181_02_aim_idle.anim", "sizeBytes": 51152, "relPath": "assets/animations/c181/c181_02_aim_idle.anim"}, {"name": "c181_02_aim_start.anim", "sizeBytes": 30944, "relPath": "assets/animations/c181/c181_02_aim_start.anim"}, {"name": "c181_02_cover_idle.anim", "sizeBytes": 50728, "relPath": "assets/animations/c181/c181_02_cover_idle.anim"}, {"name": "c181_02_cover_reload.anim", "sizeBytes": 82792, "relPath": "assets/animations/c181/c181_02_cover_reload.anim"}, {"name": "c181_02_cover_shot.anim", "sizeBytes": 30616, "relPath": "assets/animations/c181/c181_02_cover_shot.anim"}, {"name": "c181_02_death.anim", "sizeBytes": 76404, "relPath": "assets/animations/c181/c181_02_death.anim"}, {"name": "c181_02_idle.anim", "sizeBytes": 75048, "relPath": "assets/animations/c181/c181_02_idle.anim"}, {"name": "c181_02_run.anim", "sizeBytes": 31324, "relPath": "assets/animations/c181/c181_02_run.anim"}, {"name": "c181_02_shot.anim", "sizeBytes": 30736, "relPath": "assets/animations/c181/c181_02_shot.anim"}, {"name": "c181_02_stun.anim", "sizeBytes": 55224, "relPath": "assets/animations/c181/c181_02_stun.anim"}, {"name": "c181_02_talk_1.anim", "sizeBytes": 160096, "relPath": "assets/animations/c181/c181_02_talk_1.anim"}, {"name": "c181_02_talk_2.anim", "sizeBytes": 141824, "relPath": "assets/animations/c181/c181_02_talk_2.anim"}, {"name": "c181_02_talk_idle.anim", "sizeBytes": 72100, "relPath": "assets/animations/c181/c181_02_talk_idle.anim"}, {"name": "c181_02_walk.anim", "sizeBytes": 45944, "relPath": "assets/animations/c181/c181_02_walk.anim"}, {"name": "c183_00_aim_end.anim", "sizeBytes": 35316, "relPath": "assets/animations/c183/c183_00_aim_end.anim"}, {"name": "c183_00_aim_idle.anim", "sizeBytes": 58160, "relPath": "assets/animations/c183/c183_00_aim_idle.anim"}, {"name": "c183_00_aim_start.anim", "sizeBytes": 34120, "relPath": "assets/animations/c183/c183_00_aim_start.anim"}, {"name": "c183_00_broom_idle.anim", "sizeBytes": 304128, "relPath": "assets/animations/c183/c183_00_broom_idle.anim"}, {"name": "c183_00_cover_idle.anim", "sizeBytes": 57012, "relPath": "assets/animations/c183/c183_00_cover_idle.anim"}, {"name": "c183_00_cover_reload.anim", "sizeBytes": 118900, "relPath": "assets/animations/c183/c183_00_cover_reload.anim"}, {"name": "c183_00_cover_shot.anim", "sizeBytes": 36044, "relPath": "assets/animations/c183/c183_00_cover_shot.anim"}, {"name": "c183_00_death.anim", "sizeBytes": 86632, "relPath": "assets/animations/c183/c183_00_death.anim"}, {"name": "c183_00_idle.anim", "sizeBytes": 116784, "relPath": "assets/animations/c183/c183_00_idle.anim"}, {"name": "c183_00_run.anim", "sizeBytes": 35788, "relPath": "assets/animations/c183/c183_00_run.anim"}, {"name": "c183_00_shot.anim", "sizeBytes": 36100, "relPath": "assets/animations/c183/c183_00_shot.anim"}, {"name": "c183_00_stun.anim", "sizeBytes": 57852, "relPath": "assets/animations/c183/c183_00_stun.anim"}, {"name": "c183_00_talk_1.anim", "sizeBytes": 179664, "relPath": "assets/animations/c183/c183_00_talk_1.anim"}, {"name": "c183_00_talk_2.anim", "sizeBytes": 145480, "relPath": "assets/animations/c183/c183_00_talk_2.anim"}, {"name": "c183_00_talk_idle.anim", "sizeBytes": 75184, "relPath": "assets/animations/c183/c183_00_talk_idle.anim"}, {"name": "c183_00_walk.anim", "sizeBytes": 48868, "relPath": "assets/animations/c183/c183_00_walk.anim"}]};
+
+    /* Theme Management */
+    let currentTheme = 'dark';
+    try { currentTheme = localStorage.getItem('rea-gallery-theme') || 'dark'; } catch(e) {}
+
+    function applyTheme() {
+      const isDark = currentTheme === 'dark' || (currentTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+      ['auto', 'light', 'dark'].forEach(t => {
+        const btn = document.getElementById('theme-' + t);
+        if (btn) btn.classList.toggle('active', currentTheme === t);
+      });
+    }
+
+    function setTheme(val) {
+      currentTheme = val;
+      try { localStorage.setItem('rea-gallery-theme', val); } catch(e) {}
+      applyTheme();
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+      if (currentTheme === 'auto') applyTheme();
+    });
+    applyTheme();
+
+    /* Utilities */
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function formatBytes(bytes) {
+      if (!bytes || bytes < 1024) return (bytes || 0) + ' B';
+      if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+      return (bytes / (1024 * 1024)).toFixed(2) + ' MB';
+    }
+
+    function copyToClipboard(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const orig = btn.innerText;
+        btn.innerText = 'Copied!';
+        setTimeout(() => { btn.innerText = orig; }, 1400);
+      });
+    }
+
+    function resolveAssetUrl(u) {
+      if (!u || typeof u !== 'string') return '';
+      if (u.startsWith('http://') || u.startsWith('https://') || u.startsWith('data:') || u.startsWith('blob:')) {
+        return u;
+      }
+      return u.replace(/^\/+/, '');
+    }
+
+    /* State */
+    let activeTab = 'visual';
+    let selectedCategory = 'All';
+    let searchQuery = '';
+    let currentModalPath = '';
+
+    /* Initialization */
+    function init() {
+      // Favicon auto-fallback
+      const favEl = document.getElementById('gallery-favicon');
+      if (favEl) {
+        if (PAYLOAD.faviconUrl) {
+          favEl.href = resolveAssetUrl(PAYLOAD.faviconUrl);
+        } else if (!favEl.href || favEl.href.includes('assets/textures/c181/si_c181_00_s.png')) {
+          const visuals = PAYLOAD.visualAssets || [];
+          const candidate = visuals.find(v => /avatar|icon|portrait|thumb/i.test(v.name)) || visuals[0];
+          if (candidate) favEl.href = resolveAssetUrl(candidate.url);
+        }
+      }
+
+      // Repository link handling
+      const repoUrl = (PAYLOAD && PAYLOAD.repoUrl) || 'https://github.com/4163/nikke-hocchan-assets';
+      const repoEl = document.getElementById('repo-link');
+      const hasRepo = Boolean(repoUrl && typeof repoUrl === 'string' && repoUrl.startsWith('http'));
+
+      if (repoEl) {
+        if (hasRepo) repoEl.href = repoUrl;
+        repoEl.style.display = hasRepo ? 'inline-flex' : 'none';
+      }
+
+      // 0. Render Notices & Audit Notes
+      const noticesContainer = document.getElementById('notices-container');
+      const notices = PAYLOAD.notices || [];
+      if (notices.length > 0) {
+        noticesContainer.style.display = 'flex';
+        noticesContainer.innerHTML = notices.map(n => {
+          const type = n.type || 'info';
+          let badgeClass = 'badge-primary';
+          if (type === 'warning') badgeClass = 'badge-warning';
+          else if (type === 'success') badgeClass = 'badge-success';
+          else if (type === 'info') badgeClass = 'badge-info';
+          return `
+            <div class="notice-card ${type}">
+              <div class="notice-header">
+                <span class="badge ${badgeClass}">${n.badge || 'Audit Notice'}</span>
+                ${n.title || ''}
+              </div>
+              <div class="notice-message">${n.message}</div>
+            </div>
+          `;
+        }).join('');
+      } else {
+        noticesContainer.style.display = 'none';
+      }
+
+      // 1. Render Stats
+      const stats = document.getElementById('stats-container');
+      const sum = PAYLOAD.summary || {};
+      stats.innerHTML = `
+        <div class="stat-chip">Visual: <span>${sum.visualCount || (PAYLOAD.visualAssets || []).length}</span></div>
+        <div class="stat-chip">Models: <span>${sum.modelCount || (PAYLOAD.models || []).length}</span></div>
+        <div class="stat-chip">Audio: <span>${sum.audioCount || (PAYLOAD.audio || []).length}</span></div>
+        <div class="stat-chip">Animations: <span>${sum.animationCount || (PAYLOAD.animations || []).length}</span></div>
+        <div class="stat-chip">Total: <span>${sum.totalFiles || 0}</span></div>
+      `;
+
+      // 2. Render Navigation Tabs
+      const tabsBar = document.getElementById('tabs-bar');
+      const tabs = [
+        { id: 'visual', label: `Visual Gallery (${(PAYLOAD.visualAssets || []).length})` },
+        { id: 'models', label: `3D Models (${(PAYLOAD.models || []).length})` },
+        { id: 'audio', label: `Audio (${(PAYLOAD.audio || []).length})` },
+        { id: 'animations', label: `Animations (${(PAYLOAD.animations || []).length})` }
+      ];
+      tabsBar.innerHTML = tabs.map(t => `
+        <button class="tab-btn ${t.id === activeTab ? 'active' : ''}" onclick="switchTab('${t.id}')">${t.label}</button>
+      `).join('');
+
+      // 3. Render Visual Categories
+      buildCategoryFilters();
+      renderVisual();
+    }
+
+    function buildCategoryFilters() {
+      const container = document.getElementById('category-filters');
+      const assets = PAYLOAD.visualAssets || [];
+      const cats = {};
+      assets.forEach(a => {
+        const c = a.category || 'General';
+        cats[c] = (cats[c] || 0) + 1;
+      });
+
+      const buttons = [`<button class="filter-pill ${selectedCategory === 'All' ? 'active' : ''}" onclick="setCategory('All')">All (${assets.length})</button>`];
+      Object.keys(cats).sort().forEach(cat => {
+        buttons.push(`<button class="filter-pill ${selectedCategory === cat ? 'active' : ''}" onclick="setCategory('${cat}')">${cat} (${cats[cat]})</button>`);
+      });
+      container.innerHTML = buttons.join('');
+    }
+
+    function setCategory(cat) {
+      selectedCategory = cat;
+      buildCategoryFilters();
+      renderVisual();
+    }
+
+    function handleSearch(q) {
+      searchQuery = q.toLowerCase();
+      renderVisual();
+    }
+
+    function switchTab(id) {
+      activeTab = id;
+      document.querySelectorAll('.tab-btn').forEach((btn, i) => {
+        const tabIds = ['visual', 'models', 'audio', 'animations'];
+        btn.classList.toggle('active', tabIds[i] === id);
+      });
+      document.querySelectorAll('.tab-pane').forEach(p => p.style.display = 'none');
+      const target = document.getElementById('tab-' + id);
+      if (target) target.style.display = 'block';
+
+      if (id === 'models') renderModels();
+      if (id === 'audio') renderAudio();
+      if (id === 'animations') renderAnimations();
+    }
+
+    /* Renderers */
+    function renderVisual() {
+      const grid = document.getElementById('visual-grid');
+      const assets = (PAYLOAD.visualAssets || []).filter(item => {
+        const matchesCat = (selectedCategory === 'All' || item.category === selectedCategory);
+        const matchesQuery = item.name.toLowerCase().includes(searchQuery);
+        return matchesCat && matchesQuery;
+      });
+
+      grid.innerHTML = assets.map(item => `
+        <div class="card" onclick="openModal('${escapeHtml(item.name)}', resolveAssetUrl('${item.url}'), '${item.relPath}', '${item.width}x${item.height}', ${item.sizeBytes}, resolveAssetUrl('${item.videoUrl || ""}'))">
+          <div class="card-thumb">
+            <img src="${resolveAssetUrl(item.url)}" alt="${escapeHtml(item.name)}" loading="lazy">
+            ${item.videoUrl ? '<div class="badge-video"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"/></svg>VIDEO</div>' : ''}
+          </div>
+          <div class="card-content">
+            <div class="badges-row">
+              <span class="badge badge-primary">${item.category || 'Visual'}</span>
+              <span class="badge badge-meta">${item.width}&times;${item.height}</span>
+            </div>
+            <div class="card-title" title="${item.name}">${item.name}</div>
+            <div class="card-footer">
+              <span>${formatBytes(item.sizeBytes)}</span>
+              <button class="btn-action" onclick="event.stopPropagation(); copyToClipboard('${item.relPath}', this)">Copy Path</button>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderModels(q = '') {
+      const tbody = document.getElementById('models-body');
+      const list = (PAYLOAD.models || []).filter(m => m.name.toLowerCase().includes(q.toLowerCase()));
+      tbody.innerHTML = list.map(m => `
+        <tr>
+          <td><strong>${m.name}</strong></td>
+          <td><span class="badge badge-primary">${m.format}</span></td>
+          <td>${formatBytes(m.sizeBytes)}</td>
+          <td><code>${m.relPath}</code></td>
+        </tr>
+      `).join('');
+    }
+
+    const LUCIDE = {
+      play: '<svg class="lucide lucide-play" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="6 3 20 12 6 21 6 3"/></svg>',
+      pause: '<svg class="lucide lucide-pause" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="4" height="16" x="6" y="4" rx="1"/><rect width="4" height="16" x="14" y="4" rx="1"/></svg>',
+      loader: '<svg class="lucide lucide-loader-2 lucide-spin" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>',
+      error: '<svg class="lucide lucide-alert-circle" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>'
+    };
+
+    function renderAudio(q = '') {
+      const tbody = document.getElementById('audio-body');
+      const list = (PAYLOAD.audio || []).filter(a => a.name.toLowerCase().includes(q.toLowerCase()) || (a.group && a.group.toLowerCase().includes(q.toLowerCase())));
+      tbody.innerHTML = list.slice(0, 150).map((a) => {
+        const streamUrl = a.playableUrl || a.url || a.relPath;
+        const isPlayable = a.playable !== false;
+        const trackKey = a.relPath;
+        const encKey = encodeURIComponent(trackKey);
+        const encUrl = encodeURIComponent(streamUrl);
+        const isPlaying = activeTrackKey === trackKey && !!activeSource;
+        const isLoading = activeTrackKey === trackKey && !activeSource;
+        const btnClass = isPlaying ? 'btn-play is-playing' : (isLoading ? 'btn-play is-loading' : 'btn-play');
+        const btnContent = isPlaying
+          ? `${LUCIDE.pause}<span>Pause</span>`
+          : (isLoading ? `${LUCIDE.loader}<span>Loading</span>` : `${LUCIDE.play}<span>Play</span>`);
+
+        return `
+          <tr>
+            <td><strong>${escapeHtml(a.name)}</strong></td>
+            <td><span class="badge badge-meta">${escapeHtml(a.group || 'Audio')}</span></td>
+            <td>${formatBytes(a.sizeBytes)}</td>
+            <td class="col-playback">
+              ${isPlayable ? `<button class="${btnClass}" data-track="${encKey}" onclick="toggleAudio('${encUrl}', '${encKey}')">${btnContent}</button>` : `<span class="badge badge-meta">Proprietary</span>`}
+            </td>
+            <td><code>${escapeHtml(a.relPath)}</code></td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    /* WebAssembly vgmstream Decoder Bridge for Game Audio (.wem, .fsb, .hca, etc.) */
+    const VGMSTREAM_WORKER_CODE = `
+"use strict";
+var wasmDir = "https://vgmstream.org/web/";
+var wasmUri = name => wasmDir + name;
+var stdoutBuffer = "", stderrBuffer = "";
+var Module = {
+  preRun: () => {
+    FS.init(undefined, c => { if (c !== null) stdoutBuffer += String.fromCharCode(c); },
+                       c => { if (c !== null) stderrBuffer += String.fromCharCode(c); });
+  },
+  noInitialRun: true,
+  locateFile: name => wasmUri(name)
+};
+
+function writeFile(name, data) {
+  var s = FS.open(name, "w+");
+  FS.write(s, data, 0, data.length, 0);
+  FS.close(s);
+}
+function readFile(name) {
+  try {
+    var f = FS.open(name, "r");
+    var d = new Uint8Array(f.node.usedBytes);
+    FS.read(f, d, 0, f.node.usedBytes, 0);
+    FS.close(f);
+    return d;
+  } catch(e) { return null; }
+}
+function deleteFile(name) { try { FS.unlink(name); } catch(e) {} }
+
+async function convertFile(data, inputFilename) {
+  var outputFilename = "/" + Math.random().toString(36).substring(2) + ".wav";
+  writeFile(inputFilename, data);
+  stdoutBuffer = ""; stderrBuffer = "";
+  try {
+    callMain(["-I", "-o", outputFilename, "-i", inputFilename]);
+  } catch(e) {
+    deleteFile(inputFilename);
+    deleteFile(outputFilename);
+    throw new Error("vgmstream failed: " + (stderrBuffer.trim() || e.message));
+  }
+  deleteFile(inputFilename);
+  var wavdata = readFile(outputFilename);
+  deleteFile(outputFilename);
+  if (!wavdata) throw new Error("vgmstream: No output wav produced");
+  return wavdata.buffer;
+}
+
+async function loadCli() {
+  try {
+    var res = await fetch(wasmDir + "vgmstream-cli.js");
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    var cliJs = await res.text();
+    eval.bind()(cliJs);
+    await new Promise((resolve, reject) => {
+      Module["onRuntimeInitialized"] = resolve;
+      Module["onAbort"] = reject;
+    });
+    postMessage({ subject: "ready" });
+  } catch(err) {
+    postMessage({ subject: "error", error: err.message });
+  }
+}
+
+addEventListener("message", async (e) => {
+  var d = e.data;
+  if (d.subject === "convertFile") {
+    try {
+      var buf = await convertFile(d.data, d.filename);
+      postMessage({ symbol: d.symbol, subject: "convertFile", buffer: buf }, [buf]);
+    } catch(err) {
+      postMessage({ symbol: d.symbol, subject: "convertFile", error: err.message });
+    }
+  }
+});
+loadCli();
+`;
+
+    let vgmstreamWorker = null;
+    let vgmstreamReadyPromise = null;
+
+    function getVgmstreamWorker() {
+      if (!vgmstreamWorker) {
+        const blob = new Blob([VGMSTREAM_WORKER_CODE], { type: 'application/javascript' });
+        const blobUrl = URL.createObjectURL(blob);
+        vgmstreamWorker = new Worker(blobUrl);
+        vgmstreamReadyPromise = new Promise((resolve, reject) => {
+          const onMsg = (e) => {
+            if (e.data.subject === 'ready') {
+              vgmstreamWorker.removeEventListener('message', onMsg);
+              resolve(vgmstreamWorker);
+            } else if (e.data.subject === 'error') {
+              vgmstreamWorker.removeEventListener('message', onMsg);
+              reject(new Error('Failed to initialize vgmstream wasm: ' + e.data.error));
+            }
+          };
+          vgmstreamWorker.addEventListener('message', onMsg);
+        });
+      }
+      return vgmstreamReadyPromise;
+    }
+
+    function decodeWithWasm(uint8Data, filename) {
+      return new Promise(async (resolve, reject) => {
+        try {
+          const worker = await getVgmstreamWorker();
+          const symbol = Math.random().toString(36).substring(2);
+          const onMsg = (e) => {
+            if (e.data.symbol === symbol) {
+              worker.removeEventListener('message', onMsg);
+              if (e.data.error) {
+                reject(new Error(e.data.error));
+              } else {
+                resolve(e.data.buffer);
+              }
+            }
+          };
+          worker.addEventListener('message', onMsg);
+          worker.postMessage({
+            symbol,
+            subject: 'convertFile',
+            data: uint8Data,
+            filename: filename
+          }, [uint8Data.buffer]);
+        } catch (err) {
+          reject(err);
+        }
+      });
+    }
+
+    /* Safe Audio Engine (Mutual exclusion, quiet gain staging, brickwall limiter) */
+    let audioCtx = null;
+    let activeSource = null;
+    let activeTrackKey = null;
+    let currentPlayToken = 0;
+    let activeAbortController = null;
+
+    function getAudioContext() {
+      if (!audioCtx) {
+        const AC = window.AudioContext || window.webkitAudioContext;
+        audioCtx = new AC();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+      return audioCtx;
+    }
+
+    function updateTrackButtons() {
+      document.querySelectorAll('.btn-play[data-track]').forEach(btn => {
+        const key = decodeURIComponent(btn.getAttribute('data-track'));
+        if (key === activeTrackKey) {
+          if (activeSource) {
+            btn.className = 'btn-play is-playing';
+            btn.innerHTML = `${LUCIDE.pause}<span>Pause</span>`;
+          } else {
+            btn.className = 'btn-play is-loading';
+            btn.innerHTML = `${LUCIDE.loader}<span>Loading</span>`;
+          }
+        } else {
+          btn.className = 'btn-play';
+          btn.innerHTML = `${LUCIDE.play}<span>Play</span>`;
+        }
+      });
+    }
+
+    function measureBuffer(buffer) {
+      let peak = 0;
+      let sumSq = 0;
+      let totalSamples = 0;
+      for (let c = 0; c < buffer.numberOfChannels; c++) {
+        const data = buffer.getChannelData(c);
+        totalSamples += data.length;
+        for (let i = 0; i < data.length; i++) {
+          const abs = Math.abs(data[i]);
+          if (abs > peak) peak = abs;
+          sumSq += data[i] * data[i];
+        }
+      }
+      const rms = Math.sqrt(sumSq / totalSamples);
+      const peakDb = peak > 0 ? 20 * Math.log10(peak) : -100;
+      const rmsDb = rms > 0 ? 20 * Math.log10(rms) : -100;
+      return { peakDb, rmsDb };
+    }
+
+    async function toggleAudio(encodedUrl, encodedKey) {
+      const url = decodeURIComponent(encodedUrl);
+      const trackKey = decodeURIComponent(encodedKey);
+
+      if (activeTrackKey === trackKey) {
+        stopAudio();
+        return;
+      }
+
+      stopAudio();
+      const token = ++currentPlayToken;
+      activeTrackKey = trackKey;
+      activeAbortController = new AbortController();
+      updateTrackButtons();
+
+      try {
+        const ctx = getAudioContext();
+        const resp = await fetch(url, { signal: activeAbortController.signal });
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const arrayBuf = await resp.arrayBuffer();
+
+        if (token !== currentPlayToken) return;
+
+        let audioBuf;
+        const lowerUrl = url.toLowerCase().split('?')[0];
+        const isProprietary = lowerUrl.endsWith('.wem') || lowerUrl.endsWith('.fsb') || lowerUrl.endsWith('.hca') || lowerUrl.endsWith('.adx');
+        if (isProprietary) {
+          const wavBuffer = await decodeWithWasm(new Uint8Array(arrayBuf), lowerUrl.split('/').pop());
+          if (token !== currentPlayToken) return;
+          audioBuf = await ctx.decodeAudioData(wavBuffer);
+        } else {
+          audioBuf = await ctx.decodeAudioData(arrayBuf);
+        }
+        if (token !== currentPlayToken) return;
+
+        if (activeSource) {
+          try { activeSource.stop(); } catch(e) {}
+          try { activeSource.disconnect(); } catch(e) {}
+          activeSource = null;
+        }
+
+        const { peakDb, rmsDb } = measureBuffer(audioBuf);
+
+        // Subdued comfortable listening level (-34 dBFS RMS target, -22 dBFS peak ceiling)
+        const targetRms = -34.0;
+        const peakCeiling = -22.0;
+        let safeGain = Math.pow(10, (targetRms - rmsDb) / 20);
+        if (peakDb + 20 * Math.log10(safeGain) > peakCeiling) {
+          safeGain = Math.pow(10, (peakCeiling - peakDb) / 20);
+        }
+        // Limit maximum gain multiplier so it never amplifies loud or quiet tracks
+        safeGain = Math.min(0.12, Math.max(0.005, safeGain));
+
+        const src = ctx.createBufferSource();
+        src.buffer = audioBuf;
+
+        const gainNode = ctx.createGain();
+        gainNode.gain.setValueAtTime(safeGain, ctx.currentTime);
+
+        const limiter = ctx.createDynamicsCompressor();
+        limiter.threshold.setValueAtTime(peakCeiling, ctx.currentTime);
+        limiter.knee.setValueAtTime(0.0, ctx.currentTime);
+        limiter.ratio.setValueAtTime(20.0, ctx.currentTime);
+        limiter.attack.setValueAtTime(0.002, ctx.currentTime);
+        limiter.release.setValueAtTime(0.05, ctx.currentTime);
+
+        src.connect(gainNode);
+        gainNode.connect(limiter);
+        limiter.connect(ctx.destination);
+
+        activeSource = src;
+        updateTrackButtons();
+
+        src.onended = () => {
+          if (token === currentPlayToken) {
+            stopAudio();
+          }
+        };
+
+        src.start();
+      } catch (err) {
+        if (err.name === 'AbortError' || token !== currentPlayToken) {
+          return;
+        }
+        console.error('Audio load error:', err);
+        if (token === currentPlayToken) {
+          stopAudio();
+          document.querySelectorAll(`.btn-play[data-track="${encodeURIComponent(trackKey)}"]`).forEach(btn => {
+            btn.className = 'btn-play is-error';
+            btn.innerHTML = `${LUCIDE.error}<span>Error</span>`;
+          });
+        }
+      }
+    }
+
+    function stopAudio() {
+      currentPlayToken++;
+      if (activeAbortController) {
+        try { activeAbortController.abort(); } catch(e) {}
+        activeAbortController = null;
+      }
+      if (activeSource) {
+        try { activeSource.stop(); } catch(e) {}
+        try { activeSource.disconnect(); } catch(e) {}
+        activeSource = null;
+      }
+      activeTrackKey = null;
+      updateTrackButtons();
+
+      document.querySelectorAll('audio').forEach(a => {
+        try { a.pause(); } catch(e) {}
+      });
+    }
+
+    document.addEventListener('play', (e) => {
+      if (e.target && e.target.tagName === 'AUDIO') {
+        stopAudio();
+      }
+    }, true);
+
+    function renderAnimations(q = '') {
+      const tbody = document.getElementById('animations-body');
+      const list = (PAYLOAD.animations || []).filter(an => an.name.toLowerCase().includes(q.toLowerCase()));
+      tbody.innerHTML = list.slice(0, 150).map(an => `
+        <tr>
+          <td><strong>${an.name}</strong></td>
+          <td>${formatBytes(an.sizeBytes)}</td>
+          <td><code>${an.relPath}</code></td>
+        </tr>
+      `).join('');
+    }
+
+    /* Modal Lightbox */
+    function openModal(name, url, relPath, dims, bytes, videoUrl = '') {
+      currentModalPath = relPath;
+      document.getElementById('modal-title').innerText = name;
+      const imgEl = document.getElementById('modal-img');
+      const vidEl = document.getElementById('modal-video');
+      const targetVideo = resolveAssetUrl(videoUrl);
+      if (targetVideo && vidEl) {
+        imgEl.style.display = 'none';
+        vidEl.style.display = 'block';
+        vidEl.src = targetVideo;
+        vidEl.play().catch(() => {});
+      } else {
+        if (vidEl) {
+          vidEl.pause();
+          vidEl.style.display = 'none';
+          vidEl.src = '';
+        }
+        imgEl.style.display = 'block';
+        imgEl.src = resolveAssetUrl(url);
+      }
+      document.getElementById('modal-info').innerHTML = `Dimensions: <strong>${dims}</strong> &middot; Size: <strong>${formatBytes(bytes)}</strong> &middot; Path: <code>${relPath}</code>`;
+      document.getElementById('modal-box').classList.add('is-open');
+    }
+
+    function closeModal(e) {
+      const vidEl = document.getElementById('modal-video');
+      if (vidEl) {
+        vidEl.pause();
+        vidEl.src = '';
+      }
+      document.getElementById('modal-box').classList.remove('is-open');
+    }
+
+    function copyModalPath() {
+      const btn = document.getElementById('modal-copy-btn');
+      copyToClipboard(currentModalPath, btn);
+    }
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    init();
+  </script>
+</body>
+</html>

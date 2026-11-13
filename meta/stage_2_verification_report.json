@@ -1,0 +1,142 @@
+{
+  "project": "nikke-maiden-miranda",
+  "entity": "Maiden (メイデン) & Miranda (ミランダ)",
+  "stage": "Stage 2: Target-mirrored extraction",
+  "total_extracted_files_on_disk": 452,
+  "maiden_files_count": 313,
+  "miranda_files_count": 139,
+  "consolidated_breakdown": {
+    "sd_3d_models_and_weapons": 37,
+    "sd_action_animations": 91,
+    "spine_standing_models": 18,
+    "spine_combat_models": 36,
+    "spine_favorite_item_puppets": 3,
+    "spine_favorite_item_interactive_scene": 13,
+    "full_character_cards": 6,
+    "event_background_cards": 2,
+    "field_npc_and_minigame": 5,
+    "japanese_voicelines": 151,
+    "combat_and_action_sfx": 19,
+    "skill_vfx_particles": 24,
+    "burst_cutscenes_and_portraits": 23,
+    "dialogue_tables_and_vaults": 24
+  },
+  "maiden_breakdown": {
+    "sd_3d_models_and_weapons": 25,
+    "sd_action_animations": 61,
+    "spine_standing_models": 12,
+    "spine_combat_models": 24,
+    "full_character_cards": 4,
+    "event_background_cards": 2,
+    "field_npc_and_minigame": 5,
+    "japanese_voicelines": 112,
+    "combat_sfx": 7,
+    "skill_vfx_particles": 24,
+    "burst_cutscenes_and_portraits": 14,
+    "dialogue_tables_and_vaults": 23
+  },
+  "miranda_breakdown": {
+    "sd_3d_models_and_weapons": 12,
+    "sd_action_animations": 30,
+    "spine_standing_models": 6,
+    "spine_combat_models": 12,
+    "spine_favorite_item_puppets": 3,
+    "spine_favorite_item_interactive_scene": 13,
+    "full_character_cards": 2,
+    "ui_icons_portraits": 6,
+    "burst_cutscenes": 3,
+    "japanese_voicelines": 39,
+    "combat_and_action_sfx": 12,
+    "dialogue_vault": 1
+  },
+  "divergences": [
+    {
+      "category": "Environment & Scenario Background (HD)",
+      "mapped_count": 43,
+      "status": "on_demand_streaming_asset",
+      "root_cause": "Historical event scenario backgrounds are served dynamically via on-demand CDN streams (HostCoreLoadURL) and are pruned from base offline client patch archives.",
+      "action": "Cataloged in specs/on-demand-cdns.md with divergence notice cards in gallery."
+    },
+    {
+      "category": "Remote Story Dialogue Audio (JA)",
+      "mapped_count": 12,
+      "status": "on_demand_streaming_asset",
+      "root_cause": "Historical narrative dialogue tracks where Maiden participates are delivered dynamically as on-demand .nab streams (IsLocal = 0) via HostSoundLoadURL.",
+      "action": "Cataloged with container hashes and recovery methodology in specs/on-demand-cdns.md."
+    },
+    {
+      "category": "High-Affinity Japanese Voice Audio (Miranda)",
+      "mapped_count": 4,
+      "status": "on_demand_streaming_asset",
+      "root_cause": "High-affinity voice tracks in 50aa2059...nab delivered dynamically via on-demand CDN audio streams (IsLocal = 0).",
+      "action": "Cataloged in specs/on-demand-cdns.md with divergence notice cards in gallery."
+    },
+    {
+      "category": "Miranda Costume 1 SD Diffuse Texture",
+      "mapped_count": 1,
+      "status": "on_demand_streaming_asset",
+      "root_cause": "c032_01 SD chibi texture resides in on-demand streaming .resS container under HostDatapackLoadURL.",
+      "action": "Cataloged in specs/on-demand-cdns.md."
+    },
+    {
+      "category": "Favorite Item System (Maiden)",
+      "mapped_count": 0,
+      "status": "absent_in_game_build",
+      "root_cause": "Maiden has not received a Favorite Item in Goddess of Victory: NIKKE as of client Build 578825. Miranda has an active Favorite Item system.",
+      "action": "Verified negative boundary."
+    },
+    {
+      "category": "Diorama Bundles",
+      "mapped_count": 0,
+      "status": "absent_in_game_build",
+      "root_cause": "Diorama bundles do not exist as asset structures in the NIKKE client.",
+      "action": "Verified negative boundary."
+    },
+    {
+      "category": "Brid (c070) Disambiguation",
+      "mapped_count": 0,
+      "status": "strictly_excluded",
+      "root_cause": "Disambiguated as an AZX squad character voiced by Ishizuka Sayori, not Horie Yui.",
+      "action": "Enforced hard exclusion filter."
+    },
+    {
+      "category": "Co-Voiced Characters (Other)",
+      "mapped_count": 0,
+      "status": "strictly_excluded",
+      "root_cause": "All characters voiced by Horie Yui outside Maiden and Miranda are omitted per user scope specification.",
+      "action": "Enforced hard exclusion filter."
+    },
+    {
+      "category": "Non-Japanese Voice Audio (English / Korean)",
+      "mapped_count": 10,
+      "status": "strictly_excluded",
+      "root_cause": "Voice scope is strictly Horie Yui (Japanese). English (Megan Shipman, Jackie Lastra) and Korean (Kim Ha-ru, Min-ah) tracks are documented out of scope.",
+      "action": "Documented in specs/mapping.md and excluded from extraction."
+    },
+    {
+      "category": "Event Collection Album Photos",
+      "mapped_count": 0,
+      "status": "strictly_excluded",
+      "root_cause": "Collection album illustrations (Coral Island Adventure) are designated out of scope per user specification.",
+      "action": "Enforced hard exclusion filter."
+    }
+  ],
+  "parity_verification": {
+    "all_local_mapped_classes_represented": true,
+    "maiden_complete": true,
+    "miranda_complete": true,
+    "spine_standing_models_count": 18,
+    "spine_combat_models_count": 36,
+    "spine_favorite_item_puppets_count": 3,
+    "spine_favorite_item_scene_assets_count": 13,
+    "sd_3d_models_and_weapons_count": 37,
+    "sd_action_animations_count": 91,
+    "full_character_cards_count": 6,
+    "burst_cutscenes_and_portraits_count": 23,
+    "japanese_voicelines_count": 151,
+    "combat_and_action_sfx_count": 19,
+    "dialogue_tables_and_vaults_count": 24,
+    "gallery_status": "online",
+    "gallery_url": "http://localhost:8088/gallery/index.html"
+  }
+}
