@@ -1,6 +1,6 @@
 {
-  "pipeline_stage": "Stage 4: Presentation and visualization specification",
-  "stage_status": "Stage 4 presentation and visualization specification completed. specs/visualization-spec.md generated. Awaiting final user sign-off.",
+  "pipeline_stage": "Contribute Output: Published to Community Catalog",
+  "stage_status": "Published to public repository 4163/nikke-hocchan-assets, deployed to GitHub Pages (https://4163.github.io/nikke-hocchan-assets), and indexed in upstream catalog PR 4163/i-asset-extraction#3.",
   "scope_specification": {
     "target": "Maiden and Miranda",
     "japanese_name": "\u30e1\u30a4\u30c7\u30f3 / \u30df\u30e9\u30f3\u30c0",
@@ -99,7 +99,22 @@
     "repository_name": "nikke-hocchan-assets",
     "repository_url": "https://github.com/4163/nikke-hocchan-assets",
     "pages_url": "https://4163.github.io/nikke-hocchan-assets",
-    "upstream_catalog": "https://github.com/4163/i-asset-extraction"
+    "upstream_catalog": "https://github.com/4163/i-asset-extraction",
+    "topics": [
+      "asset-extraction",
+      "coding-agents",
+      "datamining",
+      "game-assets",
+      "goddess-of-victory-nikke",
+      "horie-yui",
+      "live2d",
+      "maiden",
+      "miranda",
+      "nikke",
+      "reverse-engineering",
+      "spine",
+      "unity"
+    ]
   },
   "extraction_metrics": {
     "total_extracted_files": 456,
