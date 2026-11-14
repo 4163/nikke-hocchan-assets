@@ -1,3 +1,4 @@
+import argparse
 import os
 import sys
 import json
@@ -11,17 +12,25 @@ from UnityPy.files import BundleFile, File
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-WORKSPACE = r"E:\REA\workspace\nikke-maiden"
-ASSETS_DIR = os.path.join(WORKSPACE, "assets")
-DP_IDX = r"D:\Games\NIKKE\Unity\com_proximabeta_NIKKE\com.shiftup.patch\dp\chunk\store.cdb.idx"
-DP_CDB = r"D:\Games\NIKKE\Unity\com_proximabeta_NIKKE\com.shiftup.patch\dp\chunk\store.cdb"
-CORE_IDX = r"D:\Games\NIKKE\Unity\com_proximabeta_NIKKE\com.shiftup.patch\core\chunk\store.cdb.idx"
-CORE_CDB = r"D:\Games\NIKKE\Unity\com_proximabeta_NIKKE\com.shiftup.patch\core\chunk\store.cdb"
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ASSETS_DIR = os.path.join(REPO_ROOT, "assets")
+PATCH_DIR = r"D:\Games\NIKKE\Unity\com_proximabeta_NIKKE\com.shiftup.patch"
+DP_IDX = os.path.join(PATCH_DIR, "dp", "chunk", "store.cdb.idx")
+DP_CDB = os.path.join(PATCH_DIR, "dp", "chunk", "store.cdb")
+CORE_IDX = os.path.join(PATCH_DIR, "core", "chunk", "store.cdb.idx")
+CORE_CDB = os.path.join(PATCH_DIR, "core", "chunk", "store.cdb")
 
 SAUS_JA_DIR = os.path.expandvars(r"%USERPROFILE%\AppData\LocalLow\com_proximabeta\NIKKE\saus\ja")
 LSS_DIR = r"E:\Games\NIKKE\NIKKE\game\NIKKE_Data\StreamingAssets\lss"
 
 dctx = zstd.ZstdDecompressor()
+
+def get_chunk(idx_path, cdb_path, chunk_id):
+    with open(idx_path, "rb") as fi, open(cdb_path, "rb") as fc:
+        fi.seek(28 + chunk_id * 28)
+        off, clen, _ = struct.unpack("<QI16s", fi.read(28))
+        fc.seek(off)
+        return dctx.decompress(fc.read(clen))
 
 def read_bundle_range(idx_path, cdb_path, start_chunk, max_chunks=80):
     accum = bytearray()
@@ -42,11 +51,6 @@ def read_bundle_range(idx_path, cdb_path, start_chunk, max_chunks=80):
             if curr > start_chunk + max_chunks:
                 break
     return bytes(accum), curr - 1
-
-def save_texture(obj_data, out_path):
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    img = obj_data.image
-    img.save(out_path)
 
 def extract_spine_bundle(start_chunk, out_dir, model_name):
     os.makedirs(out_dir, exist_ok=True)
@@ -90,16 +94,6 @@ def extract_favoriteitem_scene(start_chunk, out_dir):
             with open(p, "wb") as f:
                 f.write(script_bytes)
             saved_count += 1
-        elif obj.type.name == "Texture2D":
-            try:
-                d = obj.read()
-                name = getattr(d, 'm_Name', getattr(d, 'name', ''))
-                if name:
-                    p = os.path.join(out_dir, f"{name}.png")
-                    d.image.save(p)
-                    saved_count += 1
-            except Exception as e:
-                print(f"  Warning: skipping texture in FavoriteItemScene due to: {e}")
         elif obj.type.name == "Mesh":
             d = obj.read()
             name = getattr(d, 'm_Name', getattr(d, 'name', ''))
@@ -108,6 +102,57 @@ def extract_favoriteitem_scene(start_chunk, out_dir):
                 with open(p, "w", encoding="utf-8") as f:
                     f.write(d.export())
                 saved_count += 1
+
+    # Stitch out-of-order chunks for the FavoriteItemScene .resS stream
+    accum = bytearray()
+    for c in range(70672, 70688):
+        accum.extend(get_chunk(DP_IDX, DP_CDB, c))
+    accum.extend(get_chunk(DP_IDX, DP_CDB, 70666))
+    accum.extend(get_chunk(DP_IDX, DP_CDB, 70688))
+    accum.extend(get_chunk(DP_IDX, DP_CDB, 70668))
+    for c in range(70689, 70742):
+        accum.extend(get_chunk(DP_IDX, DP_CDB, c))
+
+    reader = EndianBinaryReader(bytes(accum))
+    sig = reader.read_string_to_null()
+    ver = reader.read_u_int()
+    p_ver = reader.read_string_to_null()
+    e_ver = reader.read_string_to_null()
+    bf = BundleFile.__new__(BundleFile)
+    File.__init__(bf, parent=None, name="FavoriteItemScene_c032_00.bundle")
+    bf.signature = sig
+    bf.version = ver
+    bf.version_player = p_ver
+    bf.version_engine = e_ver
+
+    m_DirectoryInfo, blocksReader = bf.read_fs(reader)
+    node1 = m_DirectoryInfo[1]
+    blocksReader.Position = node1.offset
+    resS = blocksReader.read(node1.size)
+
+    decoders = {
+        "bc7": texture2ddecoder.decode_bc7,
+        "dxt5": texture2ddecoder.decode_bc3,
+        "dxt1": texture2ddecoder.decode_bc1,
+    }
+    targets = [
+        ("fx_c032_FavoriteItemScene_uv.png", 0, 8192, 128, 128, "dxt1"),
+        ("fx_gra_02.png", 8192, 65536, 256, 256, "bc7"),
+        ("FavoriteItem_bg_solid.png", 73728, 4096, 64, 64, "bc7"),
+        ("fx_jh_pattern_01_color.png", 77824, 65536, 256, 256, "dxt5"),
+        ("fx_pattern_03_blur.png", 143360, 65536, 256, 256, "bc7"),
+        ("fx_npc_c5010_summer_item_gun_atlas_dis.png", 208896, 16384, 128, 128, "bc7"),
+        ("fx_c032_FavoriteItemScene_uv1.png", 230768, 16384, 128, 128, "dxt5"),
+        ("fx_nimph_light_01.png", 247152, 262144, 512, 512, "bc7"),
+        ("fx_c032_FavoriteItemScene_atlas.png", 574832, 262144, 512, 512, "bc7"),
+        ("FavoriteItemScene_c032_00.png", 836976, 4194304, 2048, 2048, "bc7"),
+    ]
+    for fn, off, sz, w, h, fmt in targets:
+        rgba = decoders[fmt](resS[off : off + sz], w, h)
+        img = Image.frombytes("RGBA", (w, h), rgba, "raw", "RGBA").transpose(Image.FLIP_TOP_BOTTOM)
+        img.save(os.path.join(out_dir, fn))
+        saved_count += 1
+
     print(f"  Saved {saved_count} FavoriteItemScene assets to {out_dir}")
 
 def extract_sd_models(start_chunk, out_dir, model_name):
@@ -354,8 +399,26 @@ def extract_dialogue_vault(out_file):
         json.dump(records, f, indent=2, ensure_ascii=False)
     print(f"  Extracted {len(records)} localized dialogue entries into {out_file}")
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Extract Miranda (c032) assets from NIKKE local game files.")
+    parser.add_argument("--assets-dir", default=ASSETS_DIR, help="Output assets directory (default: <repo>/assets)")
+    parser.add_argument("--patch-dir", default=PATCH_DIR, help="NIKKE com.shiftup.patch directory")
+    parser.add_argument("--saus-dir", default=SAUS_JA_DIR, help="NIKKE saus/ja audio directory")
+    parser.add_argument("--lss-dir", default=LSS_DIR, help="NIKKE StreamingAssets/lss directory")
+    return parser.parse_args()
+
 def main():
-    print("=== STARTING MIRANDA ASSET EXTRACTION (STAGE 2) ===")
+    global ASSETS_DIR, DP_IDX, DP_CDB, CORE_IDX, CORE_CDB, SAUS_JA_DIR, LSS_DIR
+    args = parse_args()
+    ASSETS_DIR = args.assets_dir
+    DP_IDX = os.path.join(args.patch_dir, "dp", "chunk", "store.cdb.idx")
+    DP_CDB = os.path.join(args.patch_dir, "dp", "chunk", "store.cdb")
+    CORE_IDX = os.path.join(args.patch_dir, "core", "chunk", "store.cdb.idx")
+    CORE_CDB = os.path.join(args.patch_dir, "core", "chunk", "store.cdb")
+    SAUS_JA_DIR = args.saus_dir
+    LSS_DIR = args.lss_dir
+
+    print("=== STARTING MIRANDA ASSET EXTRACTION ===")
 
     # 1. Spine Standing Puppets
     extract_spine_bundle(229195, os.path.join(ASSETS_DIR, "spine/standing/c032/00"), "c032_00")
