@@ -44,7 +44,7 @@ Full technical blueprints, material bindings, and camera parameters are document
 | Tool | Role | Repository / Reference |
 |---|---|---|
 | REA | Reverse engineering framework, MCP server, archive inspection, and pipeline automation | [morluto/rea](https://github.com/morluto/rea) |
-| Custom extraction tooling | Proprietary container decompression, Spine export, and gallery generation | [tools/](tools/) |
+| Custom extraction script | Proprietary container decompression and Miranda (`c032`) asset export | [tools/extract_miranda.py](tools/extract_miranda.py) |
 | UnityPy | Python Unity AssetBundle deserialization library | [K0lb3/UnityPy](https://github.com/K0lb3/UnityPy) |
 | FFmpeg | Audio stream transcoding and video poster frame generation | [FFmpeg](https://ffmpeg.org/) |
 | yt-dlp | Clean community video capture acquisition | [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
